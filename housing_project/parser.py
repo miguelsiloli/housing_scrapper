@@ -1,0 +1,236 @@
+import pandas as pd
+import regex as re
+import os
+import dask
+import dask.dataframe as dd
+from dask.diagnostics import ProgressBar
+from datetime import datetime
+from typing import List, Generator, Dict, Optional
+from data_validation import schema
+import numpy as np
+
+async def read_html_files_async(directory_path):
+    """
+    Asynchronously read all HTML files from a specified directory.
+    
+    Args:
+    directory_path (str): Path to the directory containing HTML files.
+
+    Returns:
+    List[str]: A list of paths to HTML files.
+    """
+    return [os.path.join(directory_path, f) for f in os.listdir(directory_path) if f.endswith('.html')]
+
+
+def chunk_files(file_list: List[str], chunk_size: int) -> Generator[List[str], None, None]:
+    """
+    Generate consecutive chunks of files from a list, with each chunk containing a maximum number of files.
+    
+    Args:
+    file_list (List[str]): The list of file paths.
+    chunk_size (int): The maximum number of files per chunk.
+
+    Returns:
+    Generator[List[str], None, None]: A generator yielding chunks of file paths.
+    """
+    for i in range(0, len(file_list), chunk_size):
+        yield file_list[i:i + chunk_size]
+
+from lxml import html
+
+def parse_html_files_to_dataframe(file_path: str) -> pd.DataFrame:
+    """
+    Parse multiple HTML files into a pandas DataFrame.
+    
+    Args:
+    file_paths (List[str]): List of paths to HTML files.
+
+    Returns:
+    pd.DataFrame: A DataFrame containing data extracted from HTML files.
+    """
+    listings = []
+
+    # Read and parse each HTML file
+    with open(file_path, 'r', encoding='utf-8') as file:
+        parsed_html = html.parse(file)
+
+    # Extract articles that represent real estate listings
+    articles = parsed_html.xpath('//article[contains(@class, "item") or contains(@class, "extended-item")]')
+    for article in articles:
+        listing_info = extract_listing_info(article)
+        listings.append(listing_info)
+
+    # Create a DataFrame from all collected listings
+    df = pd.DataFrame(listings)
+    if not df.empty:
+        df = process_dataframe(df)
+    return df
+
+def find_city(article):
+    
+    # Use XPath to find the specific <span> element with the desired attributes and extract its text
+    target_spans = article.xpath("//span[@role='button' and @class='breadcrumb-navigation-current-level arrow-down' and @itemprop='name']/text()")
+
+    # Check if the target span was found and return its text, otherwise return a default message
+    return target_spans[0] if target_spans else "Element not found"
+
+def extract_listing_info(article: html.HtmlElement) -> Dict[str, Optional[str]]:
+    """
+    Extract relevant information from an HTML article element and organize it into a dictionary.
+    
+    Args:
+    article (html.HtmlElement): The HTML element representing an article.
+
+    Returns:
+    Dict[str, Optional[str]]: A dictionary containing extracted information such as title, link, and description.
+    """
+    
+    # Extracts data from an article and returns a dictionary of listing info
+    # careful with paths, might change between runs need to evaluate this
+    title = article.xpath('.//a[@class="item-link "]/@title')[0] if article.xpath('.//a[@class="item-link "]/@title') else np.NaN
+    return {
+        'title': title,
+        'link': 'https://www.idealista.pt' + (article.xpath('.//a[@class="item-link "]/@href')[0] if article.xpath('.//a[@class="item-link "]/@href') else np.NaN),
+        'description': article.xpath('.//div[@class="item-description description"]/p[@class="ellipsis"]//text()')[0].strip() if article.xpath('.//div[@class="item-description description"]/p[@class="ellipsis"]//text()') else np.NaN,
+        'garage': "True" if article.xpath('.//span[@class="item-parking"]') else "False",
+        'price': extract_price(article.xpath('.//span[@class="item-price h2-simulated"]/text()')),
+        'additional_details': article.xpath('.//span[@class="item-detail"]/text()'),
+        'home_type': title.split()[0] if title and title != np.NaN else np.NaN,
+        'city': find_city(article)
+    }
+
+def extract_price(price_texts: List[str]) -> Optional[int]:
+    """
+    Extract and convert the price text into an integer.
+    
+    Args:
+    price_texts (List[str]): List of price text entries.
+
+    Returns:
+    Optional[int]: The price converted into an integer, or None if not available.
+    """
+    if price_texts:
+        numeric_price = re.findall(r'\d+', price_texts[0].replace('.', ''))
+        return int(numeric_price[0]) if numeric_price else None
+    return None
+
+def extract_last_substring(input_string):
+    # Split the string by comma
+    parts = input_string.split(',')
+    # Return the last part, strip() to remove any leading/trailing whitespace
+    return parts[-1].strip()
+
+def process_dataframe(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Process the DataFrame to format and clean the data appropriately.
+    
+    Args:
+    df (pd.DataFrame): The DataFrame to be processed.
+
+    Returns:
+    pd.DataFrame: The processed DataFrame.
+    """
+    df['home_size'] = df['additional_details'].apply(lambda x: x[0] if x else None)
+    df['home_area'] = df['additional_details'].apply(lambda x: int(re.search(r'\d+', x[1]).group()) if len(x) >= 2 else None)
+    df['floor'] = df['additional_details'].apply(lambda x: x[2] if len(x) >= 3 and 'andar' in x[2] else None)
+    df['elevator'] = df['floor'].apply(lambda x: 'com elevador' in str(x) if x else False)
+    df['floor'] = df['floor'].apply(lambda x: int(re.search(r'\d+', str(x)).group()) if x else 0)
+    df['price_per_sqr_meter'] = df['price'] / df['home_area']
+    df['date'] = datetime.now().strftime('%d-%m-%Y')
+    df['neighborhood'] = df['title'].str.rsplit(',', n = 1).str[-1].str.strip()
+    df.drop(columns=['additional_details'], 
+            inplace=True)
+    df.fillna({'elevator': False, 'floor': 0}, 
+              inplace=True)
+
+    return df
+
+def process_data(parsing_function: callable, source_directory_path: str = "./raw/idealista", chunk_size: int = 25) -> None:
+    """
+    Process HTML files into a DataFrame and save it as a Parquet file.
+    
+    Args:
+    parsing_function (callable): The function to use for parsing individual HTML files.
+    directory_path (str): Path to the directory containing HTML files.
+    chunk_size (int): Number of files to process at a time.
+    """
+    # html_files = read_html_files_async(source_directory_path)
+    html_files = [os.path.join(source_directory_path, f) for f in os.listdir(source_directory_path) if f.endswith('.html')]
+
+    # Create chunks of HTML files
+    file_chunks = list(chunk_files(html_files, chunk_size))
+
+    # Use Dask to parse HTML files in batches
+    delayed_dataframes = [dask.delayed(process_html_files)(parsing_function, chunk) for chunk in file_chunks]
+    with ProgressBar():
+        computed_dataframes = dask.compute(*delayed_dataframes, 
+                                            scheduler='processes')
+
+    # Filter out None results from batches
+    filtered_dataframes = [df for df in computed_dataframes if df is not None]
+
+    # Concatenate dataframes efficiently
+    if filtered_dataframes:
+        final_df = pd.concat(filtered_dataframes, 
+                             axis=0, 
+                             ignore_index=True)
+        current_date = datetime.now().strftime('%d-%m-%Y')
+        filename = f'house_price_data_{current_date}.parquet'
+        # making sure data types match
+        # final_df = assert_dataframe_datatypes(final_df)
+
+        # dropping duplicates if there are any
+        final_df.drop_duplicates(subset=["link", "date"], 
+                                 inplace = True)
+
+        # validate dataframe
+        print(final_df)
+        # final_df = schema.validate(final_df)
+
+        final_df.to_parquet(filename, 
+                            index=False, 
+                            engine='pyarrow')
+        print(f"Data saved as Parquet successfully in file: {filename}")
+
+def assert_dataframe_datatypes(df):
+    # Convert data types
+    df['title'] = df['title'].astype('string')  # Using Pandas' new StringDtype
+    df['link'] = df['link'].astype('string')
+    df['description'] = df['description'].astype('string')
+    df['garage'] = df['garage'].astype('bool')
+    df['price'] = df['price'].astype(np.int32)  # Use np.int32 if the price range is within the 32-bit integer range
+    df['home_size'] = df['home_size'].astype('string')  
+    df['home_area'] = df['home_area'].astype(np.int32)
+    df['floor'] = df['floor'].astype(np.int32)
+    df['elevator'] = df['elevator'].astype('bool')
+    df['price_per_sqr_meter'] = df['price_per_sqr_meter'].astype(np.float32) 
+    df['date'] = pd.to_datetime(df['date'], format='%d-%m-%Y')  
+
+    # Validate the new data types
+    return(df)
+        
+def process_html_files(parsing_function: callable, files: List[str]) -> Optional[pd.DataFrame]:
+    """
+    Process a batch of HTML files using the specified parsing function and return a combined DataFrame.
+    
+    Args:
+    parsing_function (callable): Function to parse individual HTML files.
+    files (List[str]): List of file paths.
+
+    Returns:
+    Optional[pd.DataFrame]: A DataFrame combined from processed files, or None if no data was processed.
+    """
+    dataframes = []
+    for file in files:
+        df = parsing_function(file)
+        if df is not None and not df.empty:
+            dataframes.append(df)
+    if dataframes:
+        return pd.concat(dataframes, axis=0, ignore_index=True)
+    
+    return None
+
+
+if __name__ == "__main__":
+    process_data(parsing_function = parse_html_files_to_dataframe, 
+                 source_directory_path = "./raw/idealista")
