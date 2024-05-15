@@ -8,6 +8,10 @@ from datetime import datetime
 from typing import List, Generator, Dict, Optional
 from data_validation import schema
 import numpy as np
+import boto3
+from io import BytesIO
+import os
+from pathlib import Path
 
 async def read_html_files_async(directory_path):
     """
@@ -62,6 +66,10 @@ def parse_html_files_to_dataframe(file_path: str) -> pd.DataFrame:
 
     # Create a DataFrame from all collected listings
     df = pd.DataFrame(listings)
+
+    # adding date based on file metadata
+    df['date'] = convert_timestamp_to_date(os.stat(file_path).st_ctime)
+
     if not df.empty:
         df = process_dataframe(df)
     return df
@@ -136,7 +144,6 @@ def process_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     df['elevator'] = df['floor'].apply(lambda x: 'com elevador' in str(x) if x else False)
     df['floor'] = df['floor'].apply(lambda x: int(re.search(r'\d+', str(x)).group()) if x else 0)
     df['price_per_sqr_meter'] = df['price'] / df['home_area']
-    df['date'] = datetime.now().strftime('%d-%m-%Y')
     df['neighborhood'] = df['title'].str.rsplit(',', n = 1).str[-1].str.strip()
     df.drop(columns=['additional_details'], 
             inplace=True)
@@ -145,7 +152,7 @@ def process_dataframe(df: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
-def process_data(parsing_function: callable, source_directory_path: str = "./raw/idealista", chunk_size: int = 25) -> None:
+def main_function(parsing_function: callable, s3_object:  object, source_directory_path: str = "./raw/idealista", chunk_size: int = 25) -> None:
     """
     Process HTML files into a DataFrame and save it as a Parquet file.
     
@@ -174,23 +181,60 @@ def process_data(parsing_function: callable, source_directory_path: str = "./raw
         final_df = pd.concat(filtered_dataframes, 
                              axis=0, 
                              ignore_index=True)
-        current_date = datetime.now().strftime('%d-%m-%Y')
-        filename = f'house_price_data_{current_date}.parquet'
+        current_date = final_df["date"].iloc[0]
+        folder = "housing_prices/"
+        filename = f'{folder}house_price_data_{current_date}.parquet'
+
         # making sure data types match
-        # final_df = assert_dataframe_datatypes(final_df)
+        final_df = assert_dataframe_datatypes(final_df)
 
         # dropping duplicates if there are any
-        final_df.drop_duplicates(subset=["link", "date"], 
-                                 inplace = True)
+        # final_df.drop_duplicates(subset=["link", "date"], 
+        #                          inplace = True)
 
         # validate dataframe
-        print(final_df)
-        # final_df = schema.validate(final_df)
+        final_df = schema.validate(final_df)
 
-        final_df.to_parquet(filename, 
-                            index=False, 
-                            engine='pyarrow')
-        print(f"Data saved as Parquet successfully in file: {filename}")
+        # maybe it would be easier to pass args as list/dict
+        # bucket name cannot contain underscores
+        upload_df_to_s3_as_parquet(df = final_df,
+                                   bucket = "miguelsiloli-projects-s3",
+                                   file_name = filename,
+                                   s3_client = s3_object)
+        
+def convert_timestamp_to_date(timestamp):
+    # Convert timestamp to datetime
+    date_object = datetime.fromtimestamp(timestamp)
+    # Format datetime as 'dd-mm-yyyy'
+    formatted_date = date_object.strftime('%d-%m-%Y')
+    return formatted_date
+
+def upload_df_to_s3_as_parquet(df, bucket, file_name, s3_client):
+    """
+    Uploads a DataFrame to an S3 bucket as a Parquet file.
+
+    Parameters:
+    df (pd.DataFrame): DataFrame to upload.
+    bucket (str): S3 bucket name.
+    s3_client: s3 object
+    """
+    # Convert DataFrame to Parquet using BytesIO as an intermediate buffer
+    buffer = BytesIO()
+    df.to_parquet(buffer, index=False, engine='pyarrow')
+
+    # Reset buffer position to the start
+    buffer.seek(0)
+
+    # im assuming the bucket already exists
+
+    # Upload the Parquet file
+    s3_client.upload_fileobj(
+        buffer,
+        bucket,
+        file_name,
+        ExtraArgs={'ContentType': 'application/octet-stream'}
+    )
+    print(f"File uploaded successfully to s3://{bucket}/{file_name}")
 
 def assert_dataframe_datatypes(df):
     # Convert data types
@@ -232,5 +276,12 @@ def process_html_files(parsing_function: callable, files: List[str]) -> Optional
 
 
 if __name__ == "__main__":
-    process_data(parsing_function = parse_html_files_to_dataframe, 
-                 source_directory_path = "./raw/idealista")
+    s3 = boto3.client('s3',
+            aws_access_key_id='AKIAUZ4J7MONLAWOGAF2',
+            aws_secret_access_key='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',
+            region_name='eu-north-1')
+    
+    main_function(parsing_function = parse_html_files_to_dataframe, 
+                  s3_object= s3,
+                  source_directory_path = "./raw/idealista")
+    

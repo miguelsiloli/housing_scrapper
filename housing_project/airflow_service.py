@@ -1,7 +1,12 @@
 from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
-from scraper_base import scraper_factory  # Assume this is where scraper_factory is define
+from scraper_base import scraper_factory 
+from parser import main_function, parse_html_files_to_dataframe
+import boto3
+import shutil
+import os
+
 
 idealista_urls = [
     "https://www.idealista.pt/arrendar-casas/aveiro/",
@@ -25,6 +30,26 @@ def scrape_idealista(urls, directory_path):
     idealista_scraper = scraper_factory('idealista')
     idealista_scraper.scrape(urls= urls, 
                              directory_path= directory_path)
+    
+def delete_folder(folder_path):
+    """
+    Deletes the specified folder and all its contents.
+
+    Parameters:
+    folder_path (str): The path to the folder to be deleted.
+    """
+    # Check if the folder exists
+    if os.path.exists(folder_path):
+        # Remove the folder and all its contents
+        shutil.rmtree(folder_path)
+        print(f"Folder '{folder_path}' has been deleted.")
+    else:
+        print(f"Folder '{folder_path}' does not exist.")
+
+s3 = boto3.client('s3',
+        aws_access_key_id='AKIAUZ4J7MONLAWOGAF2',
+        aws_secret_access_key='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',
+        region_name='eu-north-1')
 
 # Define default arguments for the DAG
 default_args = {
@@ -55,3 +80,21 @@ scrape_task = PythonOperator(
                'directory_path': 'raw/idealista'},
     dag=dag
 )
+
+parse_task = PythonOperator(
+    task_id='parse_idealista',
+    python_callable=main_function,
+    op_kwargs={'parsing_function': parse_html_files_to_dataframe, 
+               's3_object': s3,
+               'source_directory_path': "./raw/idealista"},
+    dag=dag
+)
+
+delete_task = PythonOperator(
+    task_id='delete_idealista',
+    python_callable= delete_folder,
+    op_kwargs={'folder_path': "./raw/idealista"},
+    dag=dag
+)
+
+scrape_task >> parse_task >> delete_task
