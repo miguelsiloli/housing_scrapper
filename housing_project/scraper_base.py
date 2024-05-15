@@ -256,9 +256,10 @@ imovirtual_urls = [
     "https://www.imovirtual.com/pt/resultados/arrendar/apartamento/braga/braga"
 ]
 
-# Create an instance of the scraper
-idealista_scraper = scraper_factory('idealista')
-idealista_scraper.scrape(urls=idealista_urls,
-                         directory_path = 'raw/idealista')
-#imovirtual_scraper = scraper_factory('imovirtual')
-#imovirtual_scraper.scrape(base_urls= imovirtual_urls)
+if __name__ == "__main__":
+    # Create an instance of the scraper
+    idealista_scraper = scraper_factory('idealista')
+    idealista_scraper.scrape(urls=idealista_urls,
+                            directory_path = 'raw/idealista')
+    #imovirtual_scraper = scraper_factory('imovirtual')
+    #imovirtual_scraper.scrape(base_urls= imovirtual_urls)
