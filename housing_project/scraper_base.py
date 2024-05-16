@@ -38,6 +38,7 @@ from bs4 import BeautifulSoup
 from typing import List
 from tqdm import tqdm
 import numpy as np
+from seleniumbase import Driver
 
 class WebScraper(ABC):
     def __init__(self):
@@ -68,7 +69,7 @@ class IdealistaScraper(WebScraper):
         self.options.add_argument(f"--window-size={custom_width},{custom_height}")
         # self.options.add_argument('--ignore-certificate-errors')
         # self.options.add_argument("--headless")
-        self.driver = uc.Chrome(use_subprocess=True, options= self.options)
+        self.driver = Driver(uc=True, incognito=True)
 
     def scrape(self, urls: List[str], directory_path: str = "raw/idealista") -> None:
         """Scrape data from a list of URLs using Selenium WebDriver."""
