@@ -91,9 +91,9 @@ class IdealistaScraper(WebScraper):
 
                     current_page_url = f"{base_url}pagina-{page}"
                     self.driver.get(current_page_url)
-                    self.save_data(self.driver.page_source, current_page_url)
+                    self.save_data(self.driver.page_source, current_page_url, directory_path)
 
-                sleep(np.abs(random.normalvariate(40, 10)))
+                sleep(np.abs(random.normalvariate(20, 5)))
         finally:
             if self.driver:
                 self.driver.quit()
@@ -153,18 +153,18 @@ class ImovirtualScraper(WebScraper):
 
                 for page in range(2, self.total_pages + 1):
                     print(f"Fetching {page} of {self.total_pages}\n URL: {base_url}")
-                    sleep(np.abs(random.normalvariate(10, 2)))  # Delay to avoid being blocked by the server
+                    sleep(np.abs(random.normalvariate(5, 2)))  # Delay to avoid being blocked by the server
 
                     # additional sleep every 5 pages
                     if page % 5 == 0:
                         print(f"Extra sleep at page {page}.")
-                        sleep(np.abs(random.normalvariate(10, 2)))
+                        sleep(np.abs(random.normalvariate(5, 2)))
 
                     current_page_url = f"{base_url}pagina-{page}"
                     self.driver.get(current_page_url)
                     self.save_data(self.driver.page_source, current_page_url)
 
-                sleep(np.abs(random.normalvariate(30, 10)))
+                sleep(np.abs(random.normalvariate(10, 4)))
         finally:
             if self.driver:
                 self.driver.quit()
