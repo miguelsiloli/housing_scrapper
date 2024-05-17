@@ -1,0 +1,245 @@
+{
+    "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/mapa": {
+        "/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/batalha-poveiros/mapa": [],
+        "/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/praca-da-republica/mapa": [],
+        "/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/bairro-das-artes/mapa": [],
+        "/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/cedofeita/mapa": [],
+        "/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/trindade/mapa": [],
+        "/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/bolhao-santa-catarina/mapa": [],
+        "/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/aliados-clerigos-carlos-alberto/mapa": []
+    },
+    "https://www.idealista.pt/arrendar-casas/porto/bonfim/mapa": {
+        "/arrendar-casas/bonfim/campo-24-de-agosto/mapa": [],
+        "/arrendar-casas/bonfim/santos-pousada/mapa": [],
+        "/arrendar-casas/bonfim/fernao-magalhaes-joaquim-urbano/mapa": [],
+        "/arrendar-casas/bonfim/heroismo-nova-sintra-soares-dos-reis/mapa": [],
+        "/arrendar-casas/bonfim/fontainhas-duques/mapa": [],
+        "/arrendar-casas/bonfim/praca-do-marques-lima/mapa": [],
+        "/arrendar-casas/bonfim/igreja-do-bonfim-lomba/mapa": [],
+        "/arrendar-casas/bonfim/esmae-doze-casas/mapa": [],
+        "/arrendar-casas/bonfim/antas-praca-velasquez/mapa": []
+    },
+    "https://www.idealista.pt/arrendar-casas/matosinhos/matosinhos-e-leca-da-palmeira/mapa": {
+        "/arrendar-casas/matosinhos-e-leca-da-palmeira/matosinhos-sul-marginal/mapa": [],
+        "/arrendar-casas/matosinhos-e-leca-da-palmeira/monte-espinho-zona-industrial/mapa": [],
+        "/arrendar-casas/matosinhos-e-leca-da-palmeira/parque-de-real-agua-viva/mapa": [],
+        "/arrendar-casas/matosinhos-e-leca-da-palmeira/amorosa-exponor-quinta-da-conceicao/mapa": [],
+        "/arrendar-casas/matosinhos-e-leca-da-palmeira/centro-historico-de-leca/mapa": [],
+        "/arrendar-casas/matosinhos-e-leca-da-palmeira/centro-de-matosinhos/mapa": [],
+        "/arrendar-casas/matosinhos-e-leca-da-palmeira/zona-historica-de-matosinhos/mapa": [],
+        "/arrendar-casas/matosinhos-e-leca-da-palmeira/boa-nova-cohaemato-sardoal/mapa": []
+    },
+    "https://www.idealista.pt/arrendar-casas/porto/paranhos/mapa": {
+        "/arrendar-casas/paranhos/sao-joao-polo-universitario-asprela/mapa": [],
+        "/arrendar-casas/paranhos/salgueiros/mapa": [],
+        "/arrendar-casas/paranhos/monte-dos-burgos-carvalhido/mapa": [],
+        "/arrendar-casas/paranhos/areosa-fernao-de-magalhaes/mapa": [],
+        "/arrendar-casas/paranhos/combatentes-costa-cabral/mapa": [],
+        "/arrendar-casas/paranhos/arca-d-agua-campo-lindo-vale-formoso/mapa": [],
+        "/arrendar-casas/paranhos/amial/mapa": [],
+        "/arrendar-casas/paranhos/covelo-monte-de-sao-joao/mapa": []
+    },
+    "https://www.idealista.pt/arrendar-casas/porto/lordelo-do-ouro-e-massarelos/mapa": {
+        "/arrendar-casas/lordelo-do-ouro-e-massarelos/fluvial/mapa": [],
+        "/arrendar-casas/lordelo-do-ouro-e-massarelos/palacio-de-cristal-galiza-vilar/mapa": [],
+        "/arrendar-casas/lordelo-do-ouro-e-massarelos/bessa-leite/mapa": [],
+        "/arrendar-casas/lordelo-do-ouro-e-massarelos/cais-das-pedras/mapa": [],
+        "/arrendar-casas/lordelo-do-ouro-e-massarelos/agramonte-bom-sucesso-guerra-junqueiro/mapa": [],
+        "/arrendar-casas/lordelo-do-ouro-e-massarelos/serralves/mapa": [],
+        "/arrendar-casas/lordelo-do-ouro-e-massarelos/campo-alegre/mapa": [],
+        "/arrendar-casas/lordelo-do-ouro-e-massarelos/arrabida/mapa": [],
+        "/arrendar-casas/lordelo-do-ouro-e-massarelos/ouro-condominhas/mapa": []
+    },
+    "https://www.idealista.pt/arrendar-casas/matosinhos/mapa": {
+        "/arrendar-casas/matosinhos/sao-mamede-de-infesta-e-senhora-da-hora/mapa": [
+            "https://www.idealista.pt/arrendar-casas/sao-mamede-de-infesta-e-senhora-da-hora/sao-joao-asprela-telheiro/mapa",
+            "https://www.idealista.pt/arrendar-casas/sao-mamede-de-infesta-e-senhora-da-hora/monte-de-burgos-padrao-da-legua/mapa",
+            "https://www.idealista.pt/arrendar-casas/sao-mamede-de-infesta-e-senhora-da-hora/quinta-seca-azenha-de-cima/mapa",
+            "https://www.idealista.pt/arrendar-casas/sao-mamede-de-infesta-e-senhora-da-hora/montes-caulinos/mapa",
+            "https://www.idealista.pt/arrendar-casas/sao-mamede-de-infesta-e-senhora-da-hora/sete-bicas/mapa",
+            "https://www.idealista.pt/arrendar-casas/sao-mamede-de-infesta-e-senhora-da-hora/centro-de-senhora-da-hora/mapa",
+            "https://www.idealista.pt/arrendar-casas/sao-mamede-de-infesta-e-senhora-da-hora/barranha-vasco-da-gama/mapa",
+            "https://www.idealista.pt/arrendar-casas/sao-mamede-de-infesta-e-senhora-da-hora/centro-de-sao-mamede-de-infesta-laranjeiras/mapa",
+            "https://www.idealista.pt/arrendar-casas/sao-mamede-de-infesta-e-senhora-da-hora/pedra-verde/mapa"
+        ],
+        "/arrendar-casas/matosinhos-e-leca-da-palmeira/matosinhos-sul-marginal/mapa": [],
+        "/arrendar-casas/sao-mamede-de-infesta-e-senhora-da-hora/sao-joao-asprela-telheiro/mapa": [],
+        "/arrendar-casas/sao-mamede-de-infesta-e-senhora-da-hora/monte-de-burgos-padrao-da-legua/mapa": [],
+        "/arrendar-casas/matosinhos/custoias-leca-do-balio-guifoes/mapa": [
+            "https://www.idealista.pt/arrendar-casas/custoias-leca-do-balio-guifoes/leca-do-balio/mapa",
+            "https://www.idealista.pt/arrendar-casas/custoias-leca-do-balio-guifoes/padrao-da-legua-av-xanana-gusmao/mapa",
+            "https://www.idealista.pt/arrendar-casas/custoias-leca-do-balio-guifoes/custoias/mapa"
+        ],
+        "/arrendar-casas/matosinhos-e-leca-da-palmeira/amorosa-exponor-quinta-da-conceicao/mapa": [],
+        "/arrendar-casas/matosinhos-e-leca-da-palmeira/centro-de-matosinhos/mapa": [],
+        "/arrendar-casas/matosinhos-e-leca-da-palmeira/zona-historica-de-matosinhos/mapa": [],
+        "/arrendar-casas/matosinhos-e-leca-da-palmeira/boa-nova-cohaemato-sardoal/mapa": [],
+        "/arrendar-casas/matosinhos/matosinhos-e-leca-da-palmeira/mapa": [
+            "https://www.idealista.pt/arrendar-casas/matosinhos-e-leca-da-palmeira/matosinhos-sul-marginal/mapa",
+            "https://www.idealista.pt/arrendar-casas/matosinhos-e-leca-da-palmeira/boa-nova-cohaemato-sardoal/mapa",
+            "https://www.idealista.pt/arrendar-casas/matosinhos-e-leca-da-palmeira/amorosa-exponor-quinta-da-conceicao/mapa",
+            "https://www.idealista.pt/arrendar-casas/matosinhos-e-leca-da-palmeira/centro-de-matosinhos/mapa",
+            "https://www.idealista.pt/arrendar-casas/matosinhos-e-leca-da-palmeira/zona-historica-de-matosinhos/mapa",
+            "https://www.idealista.pt/arrendar-casas/matosinhos-e-leca-da-palmeira/parque-de-real-agua-viva/mapa",
+            "https://www.idealista.pt/arrendar-casas/matosinhos-e-leca-da-palmeira/centro-historico-de-leca/mapa",
+            "https://www.idealista.pt/arrendar-casas/matosinhos-e-leca-da-palmeira/monte-espinho-zona-industrial/mapa"
+        ]
+    },
+    "https://www.idealista.pt/arrendar-casas/vila-nova-de-gaia/mapa": {
+        "/arrendar-casas/vila-nova-de-gaia/santa-marinha-e-sao-pedro-da-afurada/mapa": [
+            "https://www.idealista.pt/arrendar-casas/santa-marinha-e-sao-pedro-da-afurada/centro-historico/mapa",
+            "https://www.idealista.pt/arrendar-casas/santa-marinha-e-sao-pedro-da-afurada/afurada-arrabida-cavaco/mapa",
+            "https://www.idealista.pt/arrendar-casas/santa-marinha-e-sao-pedro-da-afurada/coimbroes/mapa",
+            "https://www.idealista.pt/arrendar-casas/santa-marinha-e-sao-pedro-da-afurada/candal-regadas/mapa",
+            "https://www.idealista.pt/arrendar-casas/santa-marinha-e-sao-pedro-da-afurada/general-torres/mapa",
+            "https://www.idealista.pt/arrendar-casas/santa-marinha-e-sao-pedro-da-afurada/barrosa-devesas-telheira-do-meio/mapa"
+        ],
+        "/arrendar-casas/vila-nova-de-gaia/mafamude-e-vilar-do-paraiso/mapa": [
+            "https://www.idealista.pt/arrendar-casas/mafamude-e-vilar-do-paraiso/soares-dos-reis-rasa-de-cima/mapa",
+            "https://www.idealista.pt/arrendar-casas/mafamude-e-vilar-do-paraiso/camara-de-gaia-aviadores-quinta-das-pedras/mapa",
+            "https://www.idealista.pt/arrendar-casas/mafamude-e-vilar-do-paraiso/liceu-paco-do-rei/mapa",
+            "https://www.idealista.pt/arrendar-casas/mafamude-e-vilar-do-paraiso/santo-ovidio-cedro-monte-da-virgem/mapa",
+            "https://www.idealista.pt/arrendar-casas/mafamude-e-vilar-do-paraiso/laborim-rechousa-alto-das-torres/mapa",
+            "https://www.idealista.pt/arrendar-casas/mafamude-e-vilar-do-paraiso/vilar-do-paraiso-junqueira-sao-caetano/mapa"
+        ],
+        "/arrendar-casas/santa-marinha-e-sao-pedro-da-afurada/centro-historico/mapa": [],
+        "/arrendar-casas/vila-nova-de-gaia/canidelo/mapa": [
+            "https://www.idealista.pt/arrendar-casas/canidelo/lavadores/mapa",
+            "https://www.idealista.pt/arrendar-casas/canidelo/salgueiros/mapa",
+            "https://www.idealista.pt/arrendar-casas/canidelo/sampaio-alumiara-verdinho/mapa",
+            "https://www.idealista.pt/arrendar-casas/canidelo/paniceiro-viso-meiral/mapa"
+        ],
+        "/arrendar-casas/vila-nova-de-gaia/gulpilhares-e-valadares/mapa": [
+            "https://www.idealista.pt/arrendar-casas/gulpilhares-e-valadares/praia-de-francelos-praia-de-miramar/mapa",
+            "https://www.idealista.pt/arrendar-casas/gulpilhares-e-valadares/gulpilhares/mapa",
+            "https://www.idealista.pt/arrendar-casas/gulpilhares-e-valadares/praia-de-valadares/mapa",
+            "https://www.idealista.pt/arrendar-casas/gulpilhares-e-valadares/francelos/mapa",
+            "https://www.idealista.pt/arrendar-casas/gulpilhares-e-valadares/crastro-vila-cha/mapa"
+        ],
+        "/arrendar-casas/vila-nova-de-gaia/madalena/mapa": [
+            "https://www.idealista.pt/arrendar-casas/madalena/praia/mapa",
+            "https://www.idealista.pt/arrendar-casas/madalena/maninho-baviera/mapa",
+            "https://www.idealista.pt/arrendar-casas/madalena/centro/mapa"
+        ],
+        "/arrendar-casas/canidelo/lavadores/mapa": [],
+        "/arrendar-casas/mafamude-e-vilar-do-paraiso/liceu-paco-do-rei/mapa": [],
+        "/arrendar-casas/mafamude-e-vilar-do-paraiso/camara-de-gaia-aviadores-quinta-das-pedras/mapa": [],
+        "/arrendar-casas/mafamude-e-vilar-do-paraiso/soares-dos-reis-rasa-de-cima/mapa": []
+    },
+    "https://www.idealista.pt/arrendar-casas/porto/mapa": {
+        "/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/centro-historico/mapa": [
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/centro-historico/vitoria-clerigos/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/centro-historico/rua-das-flores-mouzinho/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/centro-historico/ferreira-borges-comercio-do-porto/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/centro-historico/sao-bento-cimo-de-vila/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/centro-historico/se/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/centro-historico/ribeira/mapa"
+        ],
+        "/arrendar-casas/porto/bonfim/mapa": [
+            "https://www.idealista.pt/arrendar-casas/bonfim/campo-24-de-agosto/mapa",
+            "https://www.idealista.pt/arrendar-casas/bonfim/esmae-doze-casas/mapa",
+            "https://www.idealista.pt/arrendar-casas/bonfim/fontainhas-duques/mapa",
+            "https://www.idealista.pt/arrendar-casas/bonfim/fernao-magalhaes-joaquim-urbano/mapa",
+            "https://www.idealista.pt/arrendar-casas/bonfim/antas-praca-velasquez/mapa",
+            "https://www.idealista.pt/arrendar-casas/bonfim/heroismo-nova-sintra-soares-dos-reis/mapa",
+            "https://www.idealista.pt/arrendar-casas/bonfim/igreja-do-bonfim-lomba/mapa",
+            "https://www.idealista.pt/arrendar-casas/bonfim/praca-do-marques-lima/mapa",
+            "https://www.idealista.pt/arrendar-casas/bonfim/santos-pousada/mapa"
+        ],
+        "/arrendar-casas/porto/paranhos/mapa": [
+            "https://www.idealista.pt/arrendar-casas/paranhos/sao-joao-polo-universitario-asprela/mapa",
+            "https://www.idealista.pt/arrendar-casas/paranhos/covelo-monte-de-sao-joao/mapa",
+            "https://www.idealista.pt/arrendar-casas/paranhos/areosa-fernao-de-magalhaes/mapa",
+            "https://www.idealista.pt/arrendar-casas/paranhos/arca-d-agua-campo-lindo-vale-formoso/mapa",
+            "https://www.idealista.pt/arrendar-casas/paranhos/monte-dos-burgos-carvalhido/mapa",
+            "https://www.idealista.pt/arrendar-casas/paranhos/salgueiros/mapa",
+            "https://www.idealista.pt/arrendar-casas/paranhos/amial/mapa",
+            "https://www.idealista.pt/arrendar-casas/paranhos/combatentes-costa-cabral/mapa"
+        ],
+        "/arrendar-casas/porto/lordelo-do-ouro-e-massarelos/mapa": [
+            "https://www.idealista.pt/arrendar-casas/lordelo-do-ouro-e-massarelos/palacio-de-cristal-galiza-vilar/mapa",
+            "https://www.idealista.pt/arrendar-casas/lordelo-do-ouro-e-massarelos/bessa-leite/mapa",
+            "https://www.idealista.pt/arrendar-casas/lordelo-do-ouro-e-massarelos/agramonte-bom-sucesso-guerra-junqueiro/mapa",
+            "https://www.idealista.pt/arrendar-casas/lordelo-do-ouro-e-massarelos/serralves/mapa",
+            "https://www.idealista.pt/arrendar-casas/lordelo-do-ouro-e-massarelos/campo-alegre/mapa",
+            "https://www.idealista.pt/arrendar-casas/lordelo-do-ouro-e-massarelos/cais-das-pedras/mapa",
+            "https://www.idealista.pt/arrendar-casas/lordelo-do-ouro-e-massarelos/fluvial/mapa",
+            "https://www.idealista.pt/arrendar-casas/lordelo-do-ouro-e-massarelos/ouro-condominhas/mapa",
+            "https://www.idealista.pt/arrendar-casas/lordelo-do-ouro-e-massarelos/arrabida/mapa"
+        ],
+        "/arrendar-casas/porto/aldoar-foz-do-douro-nevogilde/mapa": [
+            "https://www.idealista.pt/arrendar-casas/aldoar-foz-do-douro-nevogilde/foz/mapa",
+            "https://www.idealista.pt/arrendar-casas/aldoar-foz-do-douro-nevogilde/foz-velha/mapa",
+            "https://www.idealista.pt/arrendar-casas/aldoar-foz-do-douro-nevogilde/pinhais-da-foz/mapa",
+            "https://www.idealista.pt/arrendar-casas/aldoar-foz-do-douro-nevogilde/aviz-cristo-rei/mapa",
+            "https://www.idealista.pt/arrendar-casas/aldoar-foz-do-douro-nevogilde/cooperativa-dos-arquitectos-fonte-da-moura-pedra-verde/mapa",
+            "https://www.idealista.pt/arrendar-casas/aldoar-foz-do-douro-nevogilde/parque-da-cidade-vilarinha-antonio-aroso/mapa"
+        ],
+        "/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/mapa": [
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/bolhao-santa-catarina/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/praca-da-republica/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/aliados-clerigos-carlos-alberto/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/batalha-poveiros/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/cedofeita/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/trindade/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/bairro-das-artes/mapa"
+        ],
+        "/arrendar-casas/porto/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/mapa": [
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/marques-faria-guimaraes/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/bolhao-santa-catarina/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/centro-historico/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/boavista/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/praca-da-republica/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/aliados-clerigos-carlos-alberto/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/batalha-poveiros/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/cedofeita/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/boavista/casa-da-musica/mapa"
+        ],
+        "/arrendar-casas/porto/ramalde/mapa": [
+            "https://www.idealista.pt/arrendar-casas/ramalde/bessa-foco/mapa",
+            "https://www.idealista.pt/arrendar-casas/ramalde/francos-casa-da-musica-pedro-hispano/mapa",
+            "https://www.idealista.pt/arrendar-casas/ramalde/pinheiro-manso/mapa",
+            "https://www.idealista.pt/arrendar-casas/ramalde/prelada-monte-dos-burgos/mapa",
+            "https://www.idealista.pt/arrendar-casas/ramalde/centro-de-ramalde-pereiro/mapa",
+            "https://www.idealista.pt/arrendar-casas/ramalde/-viso-zona-industrial/mapa",
+            "https://www.idealista.pt/arrendar-casas/ramalde/fonte-da-moura-vilarinha/mapa"
+        ],
+        "/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/marques-faria-guimaraes/mapa": [],
+        "/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/bolhao-santa-catarina/mapa": []
+    },
+    "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/marques-faria-guimaraes/mapa": {},
+    "https://www.idealista.pt/arrendar-casas/porto/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/mapa": {
+        "/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/centro-historico/mapa": [
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/centro-historico/vitoria-clerigos/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/centro-historico/rua-das-flores-mouzinho/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/centro-historico/ferreira-borges-comercio-do-porto/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/centro-historico/sao-bento-cimo-de-vila/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/centro-historico/se/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/centro-historico/ribeira/mapa"
+        ],
+        "/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/batalha-poveiros/mapa": [],
+        "/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/praca-da-republica/mapa": [],
+        "/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/cedofeita/mapa": [],
+        "/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/aliados-clerigos-carlos-alberto/mapa": [],
+        "/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/mapa": [
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/bolhao-santa-catarina/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/praca-da-republica/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/aliados-clerigos-carlos-alberto/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/batalha-poveiros/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/cedofeita/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/trindade/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/bairro-das-artes/mapa"
+        ],
+        "/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/marques-faria-guimaraes/mapa": [],
+        "/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/bolhao-santa-catarina/mapa": [],
+        "/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/boavista/casa-da-musica/mapa": [],
+        "/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/boavista/mapa": [
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/boavista/casa-da-musica/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/boavista/carolina-michaelis/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/boavista/julio-dinis-hospital-militar/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/boavista/ramalda-alta/mapa",
+            "https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/boavista/avenida-de-franca/mapa"
+        ]
+    }
+}

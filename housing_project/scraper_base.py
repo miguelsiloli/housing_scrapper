@@ -66,7 +66,7 @@ class IdealistaScraper(WebScraper):
         # Configure options specific to Idealista
         custom_width = 360
         custom_height = 360
-        self.options.add_argument(f"--window-size={custom_width},{custom_height}")
+        # self.options.add_argument(f"--window-size={custom_width},{custom_height}")
         # self.options.add_argument('--ignore-certificate-errors')
         # self.options.add_argument("--headless")
         self.driver = Driver(uc=True, incognito=True)
@@ -138,10 +138,9 @@ class ImovirtualScraper(WebScraper):
         # Configure options specific to Idealista
         custom_width = 360
         custom_height = 360
-        self.options.add_argument(f"--window-size={custom_width},{custom_height}")
         # self.options.add_argument('--ignore-certificate-errors')
         # self.options.add_argument("--headless")
-        self.driver = uc.Chrome(use_subprocess=True, options= self.options)
+        self.driver = Driver(uc=True, incognito=True)
 
     def scrape(self, urls: List[str], directory_path: str = "imovirtual") -> None:
         """Scrape data from a list of URLs using Selenium WebDriver."""
@@ -227,11 +226,6 @@ def scraper_factory(source: str) -> WebScraper:
         raise ValueError(f"source {source} is not supported. Please pass a valid source.")
 
 # Starting URLs for scraping
-idealista_urls = [
-    "https://www.idealista.pt/arrendar-casas/porto/",
-    "https://www.idealista.pt/arrendar-casas/lisboa/",
-    "https://www.idealista.pt/arrendar-casas/braga/",
-]
 
 idealista_urls = [
     "https://www.idealista.pt/arrendar-casas/aveiro/",
