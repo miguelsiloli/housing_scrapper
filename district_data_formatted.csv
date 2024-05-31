@@ -1,0 +1,542 @@
+,district,municipality,parish,neighborhood,neighborhood_link
+0,,aveiro,gloria e vera cruz,zona historica beira mar,https://www.idealista.pt/arrendar-casas/gloria-e-vera-cruz/zona-historica-beira-mar
+1,,aveiro,gloria e vera cruz,estacao avenida,https://www.idealista.pt/arrendar-casas/gloria-e-vera-cruz/estacao-avenida
+2,,aveiro,gloria e vera cruz,bairro do liceu 5 bicas,https://www.idealista.pt/arrendar-casas/gloria-e-vera-cruz/bairro-do-liceu-5-bicas
+3,,aveiro,gloria e vera cruz,forca,https://www.idealista.pt/arrendar-casas/gloria-e-vera-cruz/forca
+4,,aveiro,gloria e vera cruz,sa barrocas,https://www.idealista.pt/arrendar-casas/gloria-e-vera-cruz/sa-barrocas
+5,,aveiro,gloria e vera cruz,universidade mario sacramento santiago,https://www.idealista.pt/arrendar-casas/gloria-e-vera-cruz/universidade-mario-sacramento-santiago
+6,,aveiro,gloria e vera cruz,baixa de santo antonio alboi,https://www.idealista.pt/arrendar-casas/gloria-e-vera-cruz/baixa-de-santo-antonio-alboi
+7,,aveiro,gloria e vera cruz,vilar,https://www.idealista.pt/arrendar-casas/gloria-e-vera-cruz/vilar
+8,,ovar,ovar sao joao arada sao vicente de pereira jusa,furadouro,https://www.idealista.pt/arrendar-casas/ovar-sao-joao-arada-sao-vicente-de-pereira-jusa/furadouro
+9,,ovar,ovar sao joao arada sao vicente de pereira jusa,centro de ovar,https://www.idealista.pt/arrendar-casas/ovar-sao-joao-arada-sao-vicente-de-pereira-jusa/centro-de-ovar
+10,,oliveira de azemeis,oliveira de azemeis santiago da riba ul ul macinhata da seixa madail,centro de oliveira de azemeis,https://www.idealista.pt/arrendar-casas/oliveira-de-azemeis-santiago-da-riba-ul-ul-macinhata-da-seixa-madail/centro-de-oliveira-de-azemeis
+11,,oliveira de azemeis,oliveira de azemeis santiago da riba ul ul macinhata da seixa madail,santiago da riba ul,https://www.idealista.pt/arrendar-casas/oliveira-de-azemeis-santiago-da-riba-ul-ul-macinhata-da-seixa-madail/santiago-da-riba-ul
+12,,esposende,apulia e fao,praia de ofir,https://www.idealista.pt/arrendar-casas/apulia-e-fao/praia-de-ofir
+13,,esposende,apulia e fao,fao,https://www.idealista.pt/arrendar-casas/apulia-e-fao/fao
+14,,esposende,apulia e fao,apulia,https://www.idealista.pt/arrendar-casas/apulia-e-fao/apulia
+15,,esposende,apulia e fao,praia da ramalha,https://www.idealista.pt/arrendar-casas/apulia-e-fao/praia-da-ramalha
+16,,vila nova de famalicao,vila nova de famalicao e calendario,centro,https://www.idealista.pt/arrendar-casas/vila-nova-de-famalicao-e-calendario/centro
+17,,vila nova de famalicao,vila nova de famalicao e calendario,calendario,https://www.idealista.pt/arrendar-casas/vila-nova-de-famalicao-e-calendario/calendario
+18,,coimbra,cidade de coimbra,baixa,https://www.idealista.pt/arrendar-casas/cidade-de-coimbra/baixa
+19,,coimbra,cidade de coimbra,alta praca da republica,https://www.idealista.pt/arrendar-casas/cidade-de-coimbra/alta-praca-da-republica
+20,,coimbra,cidade de coimbra,penedo da saudade,https://www.idealista.pt/arrendar-casas/cidade-de-coimbra/penedo-da-saudade
+21,,coimbra,cidade de coimbra,terracos do rio,https://www.idealista.pt/arrendar-casas/cidade-de-coimbra/terracos-do-rio
+22,,coimbra,santo antonio dos olivais,celas,https://www.idealista.pt/arrendar-casas/santo-antonio-dos-olivais/celas
+23,,coimbra,santo antonio dos olivais,solum,https://www.idealista.pt/arrendar-casas/santo-antonio-dos-olivais/solum
+24,,coimbra,santo antonio dos olivais,bairro norton de matos,https://www.idealista.pt/arrendar-casas/santo-antonio-dos-olivais/bairro-norton-de-matos
+25,,coimbra,santo antonio dos olivais,olivais,https://www.idealista.pt/arrendar-casas/santo-antonio-dos-olivais/olivais
+26,,coimbra,santo antonio dos olivais,alto de s joao portela pinhal de marrocos,https://www.idealista.pt/arrendar-casas/santo-antonio-dos-olivais/alto-de-s-joao-portela-pinhal-de-marrocos
+27,,coimbra,santo antonio dos olivais,quinta dos jeronimos,https://www.idealista.pt/arrendar-casas/santo-antonio-dos-olivais/quinta-dos-jeronimos
+28,,coimbra,santo antonio dos olivais,chao do bispo,https://www.idealista.pt/arrendar-casas/santo-antonio-dos-olivais/chao-do-bispo
+29,,coimbra,santo antonio dos olivais,vale das flores,https://www.idealista.pt/arrendar-casas/santo-antonio-dos-olivais/vale-das-flores
+30,,coimbra,santo antonio dos olivais,casa branca,https://www.idealista.pt/arrendar-casas/santo-antonio-dos-olivais/casa-branca
+31,,coimbra,santo antonio dos olivais,quinta da maia,https://www.idealista.pt/arrendar-casas/santo-antonio-dos-olivais/quinta-da-maia
+32,,figueira da foz,buarcos e sao juliao,cidade da figueira da foz,https://www.idealista.pt/arrendar-casas/buarcos-e-sao-juliao/cidade-da-figueira-da-foz
+33,,figueira da foz,buarcos e sao juliao,bairro novo sotto mayor,https://www.idealista.pt/arrendar-casas/buarcos-e-sao-juliao/cidade-da-figueira-da-foz/bairro-novo-sotto-mayor
+34,,figueira da foz,buarcos e sao juliao,centro,https://www.idealista.pt/arrendar-casas/buarcos-e-sao-juliao/cidade-da-figueira-da-foz/centro
+35,,figueira da foz,buarcos e sao juliao,praia de buarcos,https://www.idealista.pt/arrendar-casas/buarcos-e-sao-juliao/praia-de-buarcos
+36,,figueira da foz,buarcos e sao juliao,abadias,https://www.idealista.pt/arrendar-casas/buarcos-e-sao-juliao/cidade-da-figueira-da-foz/abadias
+37,,figueira da foz,buarcos e sao juliao,monte alto senhora da encarnacao fonte nova,https://www.idealista.pt/arrendar-casas/buarcos-e-sao-juliao/monte-alto-senhora-da-encarnacao-fonte-nova
+38,,figueira da foz,buarcos e sao juliao,vais serra da boa viagem,https://www.idealista.pt/arrendar-casas/buarcos-e-sao-juliao/vais-serra-da-boa-viagem
+39,,figueira da foz,buarcos e sao juliao,estacao varzea,https://www.idealista.pt/arrendar-casas/buarcos-e-sao-juliao/cidade-da-figueira-da-foz/estacao-varzea
+40,,figueira da foz,buarcos e sao juliao,tamargueira,https://www.idealista.pt/arrendar-casas/buarcos-e-sao-juliao/tamargueira
+41,,figueira da foz,cidade da figueira da foz,bairro novo sotto mayor,https://www.idealista.pt/arrendar-casas/buarcos-e-sao-juliao/cidade-da-figueira-da-foz/bairro-novo-sotto-mayor
+42,,figueira da foz,cidade da figueira da foz,centro,https://www.idealista.pt/arrendar-casas/buarcos-e-sao-juliao/cidade-da-figueira-da-foz/centro
+43,,figueira da foz,cidade da figueira da foz,abadias,https://www.idealista.pt/arrendar-casas/buarcos-e-sao-juliao/cidade-da-figueira-da-foz/abadias
+44,,figueira da foz,cidade da figueira da foz,estacao varzea,https://www.idealista.pt/arrendar-casas/buarcos-e-sao-juliao/cidade-da-figueira-da-foz/estacao-varzea
+45,,buarcos e sao juliao,cidade da figueira da foz,bairro novo sotto mayor,https://www.idealista.pt/arrendar-casas/buarcos-e-sao-juliao/cidade-da-figueira-da-foz/bairro-novo-sotto-mayor
+46,,buarcos e sao juliao,cidade da figueira da foz,centro,https://www.idealista.pt/arrendar-casas/buarcos-e-sao-juliao/cidade-da-figueira-da-foz/centro
+47,,buarcos e sao juliao,cidade da figueira da foz,abadias,https://www.idealista.pt/arrendar-casas/buarcos-e-sao-juliao/cidade-da-figueira-da-foz/abadias
+48,,buarcos e sao juliao,cidade da figueira da foz,estacao varzea,https://www.idealista.pt/arrendar-casas/buarcos-e-sao-juliao/cidade-da-figueira-da-foz/estacao-varzea
+49,,loule,quarteira,vilamoura,https://www.idealista.pt/arrendar-casas/quarteira/vilamoura
+50,,loule,quarteira,quarteira,https://www.idealista.pt/arrendar-casas/quarteira/quarteira
+51,,loule,quarteira,marina de vilamoura,https://www.idealista.pt/arrendar-casas/quarteira/vilamoura/marina-de-vilamoura
+52,,loule,quarteira,canais do golfe sector 5,https://www.idealista.pt/arrendar-casas/quarteira/vilamoura/canais-do-golfe-sector-5
+53,,loule,quarteira,tenis clube do lago,https://www.idealista.pt/arrendar-casas/quarteira/vilamoura/tenis-clube-do-lago
+54,,loule,quarteira,praia de quarteira,https://www.idealista.pt/arrendar-casas/quarteira/quarteira/praia-de-quarteira
+55,,loule,quarteira,victoria monte laguna,https://www.idealista.pt/arrendar-casas/quarteira/vilamoura/victoria-monte-laguna
+56,,loule,quarteira,barca do lago eden planalto,https://www.idealista.pt/arrendar-casas/quarteira/vilamoura/barca-do-lago-eden-planalto
+57,,loule,quarteira,pinhal da marina,https://www.idealista.pt/arrendar-casas/quarteira/vilamoura/pinhal-da-marina
+58,,loule,quarteira,pinhal velho terracos do pinhal encosta das oliveiras,https://www.idealista.pt/arrendar-casas/quarteira/vilamoura/pinhal-velho-terracos-do-pinhal-encosta-das-oliveiras
+59,,loule,vilamoura,marina de vilamoura,https://www.idealista.pt/arrendar-casas/quarteira/vilamoura/marina-de-vilamoura
+60,,loule,vilamoura,canais do golfe sector 5,https://www.idealista.pt/arrendar-casas/quarteira/vilamoura/canais-do-golfe-sector-5
+61,,loule,vilamoura,tenis clube do lago,https://www.idealista.pt/arrendar-casas/quarteira/vilamoura/tenis-clube-do-lago
+62,,loule,vilamoura,victoria monte laguna,https://www.idealista.pt/arrendar-casas/quarteira/vilamoura/victoria-monte-laguna
+63,,loule,vilamoura,barca do lago eden planalto,https://www.idealista.pt/arrendar-casas/quarteira/vilamoura/barca-do-lago-eden-planalto
+64,,loule,vilamoura,pinhal da marina,https://www.idealista.pt/arrendar-casas/quarteira/vilamoura/pinhal-da-marina
+65,,loule,vilamoura,pinhal velho terracos do pinhal encosta das oliveiras,https://www.idealista.pt/arrendar-casas/quarteira/vilamoura/pinhal-velho-terracos-do-pinhal-encosta-das-oliveiras
+66,,loule,vilamoura,aldeia do golf alto do golf,https://www.idealista.pt/arrendar-casas/quarteira/vilamoura/aldeia-do-golf-alto-do-golf
+67,,loule,vilamoura,old village,https://www.idealista.pt/arrendar-casas/quarteira/vilamoura/old-village
+68,,loule,vilamoura,hilton rua do brasil,https://www.idealista.pt/arrendar-casas/quarteira/vilamoura/hilton-rua-do-brasil
+69,,loule,almancil,vale do lobo,https://www.idealista.pt/arrendar-casas/almancil/vale-do-lobo
+70,,loule,almancil,quinta do lago pinheiros altos,https://www.idealista.pt/arrendar-casas/almancil/quinta-do-lago-pinheiros-altos
+71,,loule,almancil,the village fonte algarve quinta verde,https://www.idealista.pt/arrendar-casas/almancil/the-village-fonte-algarve-quinta-verde
+72,,loule,almancil,vale formoso vale d eguas,https://www.idealista.pt/arrendar-casas/almancil/vale-formoso-vale-d-eguas
+73,,loule,almancil,centro,https://www.idealista.pt/arrendar-casas/almancil/centro
+74,,loule,almancil,sao lourenco sao joao da venda,https://www.idealista.pt/arrendar-casas/almancil/sao-lourenco-sao-joao-da-venda
+75,,loule,almancil,vale do garrao varandas do lago quinta da salinas,https://www.idealista.pt/arrendar-casas/almancil/vale-do-garrao-varandas-do-lago-quinta-da-salinas
+76,,loule,quarteira,praia de quarteira,https://www.idealista.pt/arrendar-casas/quarteira/quarteira/praia-de-quarteira
+77,,loule,quarteira,centro quarteira velha,https://www.idealista.pt/arrendar-casas/quarteira/quarteira/centro-quarteira-velha
+78,,loule,quarteira,zona nascente,https://www.idealista.pt/arrendar-casas/quarteira/quarteira/zona-nascente
+79,,loule,quarteira,quinta do romao,https://www.idealista.pt/arrendar-casas/quarteira/quarteira/quinta-do-romao
+80,,loule,quarteira,forte novo abelheira,https://www.idealista.pt/arrendar-casas/quarteira/quarteira/forte-novo-abelheira
+81,,loule,quarteira,zona norte,https://www.idealista.pt/arrendar-casas/quarteira/quarteira/zona-norte
+82,,quarteira,vilamoura,marina de vilamoura,https://www.idealista.pt/arrendar-casas/quarteira/vilamoura/marina-de-vilamoura
+83,,quarteira,vilamoura,canais do golfe sector 5,https://www.idealista.pt/arrendar-casas/quarteira/vilamoura/canais-do-golfe-sector-5
+84,,quarteira,vilamoura,tenis clube do lago,https://www.idealista.pt/arrendar-casas/quarteira/vilamoura/tenis-clube-do-lago
+85,,quarteira,vilamoura,victoria monte laguna,https://www.idealista.pt/arrendar-casas/quarteira/vilamoura/victoria-monte-laguna
+86,,quarteira,vilamoura,barca do lago eden planalto,https://www.idealista.pt/arrendar-casas/quarteira/vilamoura/barca-do-lago-eden-planalto
+87,,quarteira,vilamoura,pinhal da marina,https://www.idealista.pt/arrendar-casas/quarteira/vilamoura/pinhal-da-marina
+88,,quarteira,vilamoura,pinhal velho terracos do pinhal encosta das oliveiras,https://www.idealista.pt/arrendar-casas/quarteira/vilamoura/pinhal-velho-terracos-do-pinhal-encosta-das-oliveiras
+89,,quarteira,vilamoura,aldeia do golf alto do golf,https://www.idealista.pt/arrendar-casas/quarteira/vilamoura/aldeia-do-golf-alto-do-golf
+90,,quarteira,vilamoura,old village,https://www.idealista.pt/arrendar-casas/quarteira/vilamoura/old-village
+91,,quarteira,vilamoura,hilton rua do brasil,https://www.idealista.pt/arrendar-casas/quarteira/vilamoura/hilton-rua-do-brasil
+92,,quarteira,quarteira,praia de quarteira,https://www.idealista.pt/arrendar-casas/quarteira/quarteira/praia-de-quarteira
+93,,quarteira,quarteira,centro quarteira velha,https://www.idealista.pt/arrendar-casas/quarteira/quarteira/centro-quarteira-velha
+94,,quarteira,quarteira,zona nascente,https://www.idealista.pt/arrendar-casas/quarteira/quarteira/zona-nascente
+95,,quarteira,quarteira,quinta do romao,https://www.idealista.pt/arrendar-casas/quarteira/quarteira/quinta-do-romao
+96,,quarteira,quarteira,forte novo abelheira,https://www.idealista.pt/arrendar-casas/quarteira/quarteira/forte-novo-abelheira
+97,,quarteira,quarteira,zona norte,https://www.idealista.pt/arrendar-casas/quarteira/quarteira/zona-norte
+98,,tavira,tavira,pegada mato santo espirito vale carangueijo,https://www.idealista.pt/arrendar-casas/tavira/pegada-mato-santo-espirito-vale-carangueijo
+99,,tavira,tavira,centro historico,https://www.idealista.pt/arrendar-casas/tavira/centro-historico
+100,,tavira,tavira,colina de asseca quinta de perogil sao pedro,https://www.idealista.pt/arrendar-casas/tavira/colina-de-asseca-quinta-de-perogil-sao-pedro
+101,,tavira,tavira,santa margarida bernardinheiro,https://www.idealista.pt/arrendar-casas/tavira/santa-margarida-bernardinheiro
+102,,tavira,tavira,porta nova,https://www.idealista.pt/arrendar-casas/tavira/porta-nova
+103,,tavira,tavira,quinta da foz escolas,https://www.idealista.pt/arrendar-casas/tavira/quinta-da-foz-escolas
+104,,tavira,tavira,serra,https://www.idealista.pt/arrendar-casas/tavira/serra
+105,,portimao,portimao,praia da rocha,https://www.idealista.pt/arrendar-casas/portimao/praia-da-rocha
+106,,portimao,portimao,portimao cidade,https://www.idealista.pt/arrendar-casas/portimao/portimao-cidade
+107,,portimao,portimao,tres castelos,https://www.idealista.pt/arrendar-casas/portimao/tres-castelos
+108,,portimao,portimao,amparo alto do quintao,https://www.idealista.pt/arrendar-casas/portimao/portimao-cidade/amparo-alto-do-quintao
+109,,portimao,portimao,encosta da marina,https://www.idealista.pt/arrendar-casas/portimao/encosta-da-marina
+110,,portimao,portimao,tres bicos bemposta,https://www.idealista.pt/arrendar-casas/portimao/portimao-cidade/tres-bicos-bemposta
+111,,portimao,portimao,vale de lagar quinta das oliveiras pedra mourinha,https://www.idealista.pt/arrendar-casas/portimao/portimao-cidade/vale-de-lagar-quinta-das-oliveiras-pedra-mourinha
+112,,portimao,portimao,vale franca barranco do rodrigo,https://www.idealista.pt/arrendar-casas/portimao/vale-franca-barranco-do-rodrigo
+113,,portimao,portimao,zona ribeirinha,https://www.idealista.pt/arrendar-casas/portimao/portimao-cidade/zona-ribeirinha
+114,,portimao,portimao,aldeia do carrasco boavista vale da arrancada,https://www.idealista.pt/arrendar-casas/portimao/aldeia-do-carrasco-boavista-vale-da-arrancada
+115,,portimao,portimao cidade,amparo alto do quintao,https://www.idealista.pt/arrendar-casas/portimao/portimao-cidade/amparo-alto-do-quintao
+116,,portimao,portimao cidade,tres bicos bemposta,https://www.idealista.pt/arrendar-casas/portimao/portimao-cidade/tres-bicos-bemposta
+117,,portimao,portimao cidade,vale de lagar quinta das oliveiras pedra mourinha,https://www.idealista.pt/arrendar-casas/portimao/portimao-cidade/vale-de-lagar-quinta-das-oliveiras-pedra-mourinha
+118,,portimao,portimao cidade,zona ribeirinha,https://www.idealista.pt/arrendar-casas/portimao/portimao-cidade/zona-ribeirinha
+119,,portimao,portimao cidade,portimao,https://www.idealista.pt/arrendar-casas/portimao/portimao-cidade/portimao
+120,,portimao,alvor,alagoas pedregais,https://www.idealista.pt/arrendar-casas/alvor/alagoas-pedregais
+121,,portimao,alvor,centro,https://www.idealista.pt/arrendar-casas/alvor/centro
+122,,portimao,alvor,dourada ma partilha,https://www.idealista.pt/arrendar-casas/alvor/dourada-ma-partilha
+123,,portimao,alvor,ladeira de nora vale da zorra,https://www.idealista.pt/arrendar-casas/alvor/ladeira-de-nora-vale-da-zorra
+124,,portimao,alvor,marachique amoreira delgadas,https://www.idealista.pt/arrendar-casas/alvor/marachique-amoreira-delgadas
+125,,portimao,alvor,montes de alvor,https://www.idealista.pt/arrendar-casas/alvor/montes-de-alvor
+126,,portimao,alvor,torralta prainha,https://www.idealista.pt/arrendar-casas/alvor/torralta-prainha
+127,,portimao,portimao cidade,amparo alto do quintao,https://www.idealista.pt/arrendar-casas/portimao/portimao-cidade/amparo-alto-do-quintao
+128,,portimao,portimao cidade,tres bicos bemposta,https://www.idealista.pt/arrendar-casas/portimao/portimao-cidade/tres-bicos-bemposta
+129,,portimao,portimao cidade,vale de lagar quinta das oliveiras pedra mourinha,https://www.idealista.pt/arrendar-casas/portimao/portimao-cidade/vale-de-lagar-quinta-das-oliveiras-pedra-mourinha
+130,,portimao,portimao cidade,zona ribeirinha,https://www.idealista.pt/arrendar-casas/portimao/portimao-cidade/zona-ribeirinha
+131,,portimao,portimao cidade,portimao,https://www.idealista.pt/arrendar-casas/portimao/portimao-cidade/portimao
+132,,faro,faro,centro,https://www.idealista.pt/arrendar-casas/faro/centro
+133,,faro,faro,horta das figuras lejana senhora da saude,https://www.idealista.pt/arrendar-casas/faro/horta-das-figuras-lejana-senhora-da-saude
+134,,faro,faro,penha vale da amoreira,https://www.idealista.pt/arrendar-casas/faro/penha-vale-da-amoreira
+135,,faro,faro,alto rodes,https://www.idealista.pt/arrendar-casas/faro/alto-rodes
+136,,faro,faro,alto de santo antonio bom joao joao de deus,https://www.idealista.pt/arrendar-casas/faro/alto-de-santo-antonio-bom-joao-joao-de-deus
+137,,faro,faro,areal gordo rio seco ilha da culatra,https://www.idealista.pt/arrendar-casas/faro/areal-gordo-rio-seco-ilha-da-culatra
+138,,faro,faro,arneiro braciais patacao,https://www.idealista.pt/arrendar-casas/faro/arneiro-braciais-patacao
+139,,albufeira,albufeira e olhos de agua,albufeira,https://www.idealista.pt/arrendar-casas/albufeira-e-olhos-de-agua/albufeira
+140,,albufeira,albufeira e olhos de agua,olhos de agua,https://www.idealista.pt/arrendar-casas/albufeira-e-olhos-de-agua/olhos-de-agua
+141,,albufeira,albufeira e olhos de agua,sesmarias cerro de aguia patio,https://www.idealista.pt/arrendar-casas/albufeira-e-olhos-de-agua/sesmarias-cerro-de-aguia-patio
+142,,albufeira,albufeira e olhos de agua,praia da oura areias de s joao,https://www.idealista.pt/arrendar-casas/albufeira-e-olhos-de-agua/albufeira/praia-da-oura-areias-de-s-joao
+143,,albufeira,albufeira e olhos de agua,centro da cidade,https://www.idealista.pt/arrendar-casas/albufeira-e-olhos-de-agua/albufeira/centro-da-cidade
+144,,albufeira,albufeira e olhos de agua,montechoro,https://www.idealista.pt/arrendar-casas/albufeira-e-olhos-de-agua/albufeira/montechoro
+145,,albufeira,albufeira e olhos de agua,quinta da palmeira,https://www.idealista.pt/arrendar-casas/albufeira-e-olhos-de-agua/albufeira/quinta-da-palmeira
+146,,albufeira,albufeira e olhos de agua,santa eulalia,https://www.idealista.pt/arrendar-casas/albufeira-e-olhos-de-agua/albufeira/santa-eulalia
+147,,albufeira,albufeira e olhos de agua,vale pedras,https://www.idealista.pt/arrendar-casas/albufeira-e-olhos-de-agua/albufeira/vale-pedras
+148,,albufeira,albufeira e olhos de agua,branqueira brejos,https://www.idealista.pt/arrendar-casas/albufeira-e-olhos-de-agua/albufeira/branqueira-brejos
+149,,albufeira,albufeira,praia da oura areias de s joao,https://www.idealista.pt/arrendar-casas/albufeira-e-olhos-de-agua/albufeira/praia-da-oura-areias-de-s-joao
+150,,albufeira,albufeira,centro da cidade,https://www.idealista.pt/arrendar-casas/albufeira-e-olhos-de-agua/albufeira/centro-da-cidade
+151,,albufeira,albufeira,montechoro,https://www.idealista.pt/arrendar-casas/albufeira-e-olhos-de-agua/albufeira/montechoro
+152,,albufeira,albufeira,quinta da palmeira,https://www.idealista.pt/arrendar-casas/albufeira-e-olhos-de-agua/albufeira/quinta-da-palmeira
+153,,albufeira,albufeira,santa eulalia,https://www.idealista.pt/arrendar-casas/albufeira-e-olhos-de-agua/albufeira/santa-eulalia
+154,,albufeira,albufeira,vale pedras,https://www.idealista.pt/arrendar-casas/albufeira-e-olhos-de-agua/albufeira/vale-pedras
+155,,albufeira,albufeira,branqueira brejos,https://www.idealista.pt/arrendar-casas/albufeira-e-olhos-de-agua/albufeira/branqueira-brejos
+156,,albufeira,albufeira,correeira,https://www.idealista.pt/arrendar-casas/albufeira-e-olhos-de-agua/albufeira/correeira
+157,,albufeira,albufeira,forte sao joao,https://www.idealista.pt/arrendar-casas/albufeira-e-olhos-de-agua/albufeira/forte-sao-joao
+158,,albufeira,albufeira,marina de albufeira cerro da piedade,https://www.idealista.pt/arrendar-casas/albufeira-e-olhos-de-agua/albufeira/marina-de-albufeira-cerro-da-piedade
+159,,obidos,obidos e sobral da lagoa,odibos,https://www.idealista.pt/arrendar-casas/obidos-e-sobral-da-lagoa/odibos
+160,,obidos,obidos e sobral da lagoa,arelho tras do outeiro,https://www.idealista.pt/arrendar-casas/obidos-e-sobral-da-lagoa/arelho-tras-do-outeiro
+161,,obidos,obidos e sobral da lagoa,sobral da lagoa,https://www.idealista.pt/arrendar-casas/obidos-e-sobral-da-lagoa/sobral-da-lagoa
+162,,lisboa,santo antonio,av da liberdade marques de pombal,https://www.idealista.pt/arrendar-casas/santo-antonio/av-da-liberdade-marques-de-pombal
+163,,lisboa,santo antonio,rato amoreiras,https://www.idealista.pt/arrendar-casas/santo-antonio/rato-amoreiras
+164,,lisboa,santo antonio,campo de santana santa marta,https://www.idealista.pt/arrendar-casas/santo-antonio/campo-de-santana-santa-marta
+165,,lisboa,santo antonio,principe real,https://www.idealista.pt/arrendar-casas/santo-antonio/principe-real
+166,,lisboa,santo antonio,praca da alegria,https://www.idealista.pt/arrendar-casas/santo-antonio/praca-da-alegria
+167,,lisboa,santa maria maior,alfama se,https://www.idealista.pt/arrendar-casas/santa-maria-maior/alfama-se
+168,,lisboa,santa maria maior,baixa,https://www.idealista.pt/arrendar-casas/santa-maria-maior/baixa
+169,,lisboa,santa maria maior,castelo mouraria,https://www.idealista.pt/arrendar-casas/santa-maria-maior/castelo-mouraria
+170,,lisboa,santa maria maior,chiado,https://www.idealista.pt/arrendar-casas/santa-maria-maior/chiado
+171,,lisboa,santa maria maior,rossio martim moniz,https://www.idealista.pt/arrendar-casas/santa-maria-maior/rossio-martim-moniz
+172,,lisboa,avenidas novas,campo pequeno,https://www.idealista.pt/arrendar-casas/avenidas-novas/campo-pequeno
+173,,lisboa,avenidas novas,entrecampos,https://www.idealista.pt/arrendar-casas/avenidas-novas/entrecampos
+174,,lisboa,avenidas novas,sao sebastiao da pedreira,https://www.idealista.pt/arrendar-casas/avenidas-novas/sao-sebastiao-da-pedreira
+175,,lisboa,avenidas novas,gulbenkian praca espanha,https://www.idealista.pt/arrendar-casas/avenidas-novas/gulbenkian-praca-espanha
+176,,lisboa,avenidas novas,bairro azul parque eduardo vii,https://www.idealista.pt/arrendar-casas/avenidas-novas/bairro-azul-parque-eduardo-vii
+177,,lisboa,arroios,sao jorge de arroios,https://www.idealista.pt/arrendar-casas/arroios/sao-jorge-de-arroios
+178,,lisboa,arroios,saldanha picoas,https://www.idealista.pt/arrendar-casas/arroios/sao-jorge-de-arroios/saldanha-picoas
+179,,lisboa,arroios,estefania,https://www.idealista.pt/arrendar-casas/arroios/sao-jorge-de-arroios/estefania
+180,,lisboa,arroios,anjos,https://www.idealista.pt/arrendar-casas/arroios/anjos
+181,,lisboa,arroios,pena,https://www.idealista.pt/arrendar-casas/arroios/pena
+182,,lisboa,arroios,alameda praca do chile almirante reis,https://www.idealista.pt/arrendar-casas/arroios/sao-jorge-de-arroios/alameda-praca-do-chile-almirante-reis
+183,,lisboa,misericordia,bairro alto,https://www.idealista.pt/arrendar-casas/misericordia/bairro-alto
+184,,lisboa,misericordia,santa catarina,https://www.idealista.pt/arrendar-casas/misericordia/santa-catarina
+185,,lisboa,misericordia,principe real sao bento,https://www.idealista.pt/arrendar-casas/misericordia/principe-real-sao-bento
+186,,lisboa,misericordia,cais do sodre santos,https://www.idealista.pt/arrendar-casas/misericordia/cais-do-sodre-santos
+187,,lisboa,misericordia,chiado pc de camoes,https://www.idealista.pt/arrendar-casas/misericordia/chiado-pc-de-camoes
+188,,lisboa,misericordia,bica,https://www.idealista.pt/arrendar-casas/misericordia/bica
+189,,lisboa,estrela,lapa,https://www.idealista.pt/arrendar-casas/estrela/lapa
+190,,lisboa,estrela,santos o velho madragoa,https://www.idealista.pt/arrendar-casas/estrela/santos-o-velho-madragoa
+191,,lisboa,estrela,prazeres,https://www.idealista.pt/arrendar-casas/estrela/prazeres
+192,,lisboa,estrela,alcantara,https://www.idealista.pt/arrendar-casas/estrela/alcantara
+193,,lisboa,alvalade,campo grande,https://www.idealista.pt/arrendar-casas/alvalade/campo-grande
+194,,lisboa,alvalade,alvalade,https://www.idealista.pt/arrendar-casas/alvalade/alvalade
+195,,lisboa,alvalade,sao joao de brito,https://www.idealista.pt/arrendar-casas/alvalade/sao-joao-de-brito
+196,,lisboa,sao jorge de arroios,saldanha picoas,https://www.idealista.pt/arrendar-casas/arroios/sao-jorge-de-arroios/saldanha-picoas
+197,,lisboa,sao jorge de arroios,estefania,https://www.idealista.pt/arrendar-casas/arroios/sao-jorge-de-arroios/estefania
+198,,lisboa,sao jorge de arroios,alameda praca do chile almirante reis,https://www.idealista.pt/arrendar-casas/arroios/sao-jorge-de-arroios/alameda-praca-do-chile-almirante-reis
+199,,lisboa,parque das nacoes,expo central,https://www.idealista.pt/arrendar-casas/parque-das-nacoes/expo-central
+200,,lisboa,parque das nacoes,expo norte,https://www.idealista.pt/arrendar-casas/parque-das-nacoes/expo-norte
+201,,lisboa,parque das nacoes,expo sul,https://www.idealista.pt/arrendar-casas/parque-das-nacoes/expo-sul
+202,,lisboa,parque das nacoes,gare do oriente zona sul,https://www.idealista.pt/arrendar-casas/parque-das-nacoes/gare-do-oriente-zona-sul
+203,,lisboa,campo de ourique,centro,https://www.idealista.pt/arrendar-casas/campo-de-ourique/centro
+204,,lisboa,campo de ourique,largo do rato estrela,https://www.idealista.pt/arrendar-casas/campo-de-ourique/largo-do-rato-estrela
+205,,lisboa,campo de ourique,amoreiras,https://www.idealista.pt/arrendar-casas/campo-de-ourique/amoreiras
+206,,lisboa,campo de ourique,santa isabel,https://www.idealista.pt/arrendar-casas/campo-de-ourique/santa-isabel
+207,,lisboa,campo de ourique,prazeres maria pia,https://www.idealista.pt/arrendar-casas/campo-de-ourique/prazeres-maria-pia
+208,,cascais,cascais e estoril,cascais,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/cascais
+209,,cascais,cascais e estoril,estoril,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/estoril
+210,,cascais,cascais e estoril,centro do estoril,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/estoril/centro-do-estoril
+211,,cascais,cascais e estoril,monte estoril,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/estoril/monte-estoril
+212,,cascais,cascais e estoril,centro de cascais,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/cascais/centro-de-cascais
+213,,cascais,cascais e estoril,bairro do rosario,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/cascais/bairro-do-rosario
+214,,cascais,cascais e estoril,parque de palmela ribeira das vinhas,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/cascais/parque-de-palmela-ribeira-das-vinhas
+215,,cascais,cascais e estoril,quinta da marinha,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/cascais/quinta-da-marinha
+216,,cascais,cascais e estoril,sao joao,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/estoril/sao-joao
+217,,cascais,cascais e estoril,costa da guia,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/cascais/costa-da-guia
+218,,cascais,cascais,centro de cascais,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/cascais/centro-de-cascais
+219,,cascais,cascais,bairro do rosario,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/cascais/bairro-do-rosario
+220,,cascais,cascais,parque de palmela ribeira das vinhas,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/cascais/parque-de-palmela-ribeira-das-vinhas
+221,,cascais,cascais,quinta da marinha,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/cascais/quinta-da-marinha
+222,,cascais,cascais,costa da guia,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/cascais/costa-da-guia
+223,,cascais,cascais,areia birre,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/cascais/areia-birre
+224,,cascais,cascais,assuncao,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/cascais/assuncao
+225,,cascais,cascais,bairro santana cobre,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/cascais/bairro-santana-cobre
+226,,cascais,cascais,pampilheira,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/cascais/pampilheira
+227,,cascais,cascais,aldeia de juzo charneca,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/cascais/aldeia-de-juzo-charneca
+228,,cascais,estoril,centro do estoril,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/estoril/centro-do-estoril
+229,,cascais,estoril,monte estoril,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/estoril/monte-estoril
+230,,cascais,estoril,sao joao,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/estoril/sao-joao
+231,,cascais,estoril,sao pedro do estoril,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/estoril/sao-pedro-do-estoril
+232,,cascais,estoril,alapraia livramento,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/estoril/alapraia-livramento
+233,,cascais,estoril,areias,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/estoril/areias
+234,,cascais,estoril,alto dos gaios,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/estoril/alto-dos-gaios
+235,,cascais,estoril,galiza,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/estoril/galiza
+236,,cascais,carcavelos e parede,parede,https://www.idealista.pt/arrendar-casas/carcavelos-e-parede/parede
+237,,cascais,carcavelos e parede,jardins da parede,https://www.idealista.pt/arrendar-casas/carcavelos-e-parede/jardins-da-parede
+238,,cascais,carcavelos e parede,junqueiro,https://www.idealista.pt/arrendar-casas/carcavelos-e-parede/junqueiro
+239,,cascais,carcavelos e parede,carcavelos centro,https://www.idealista.pt/arrendar-casas/carcavelos-e-parede/carcavelos-centro
+240,,cascais,carcavelos e parede,quinta da alagoa quinta do barao,https://www.idealista.pt/arrendar-casas/carcavelos-e-parede/quinta-da-alagoa-quinta-do-barao
+241,,cascais,carcavelos e parede,lombos sul alto dos lombos,https://www.idealista.pt/arrendar-casas/carcavelos-e-parede/lombos-sul-alto-dos-lombos
+242,,cascais,carcavelos e parede,murtal madorna,https://www.idealista.pt/arrendar-casas/carcavelos-e-parede/murtal-madorna
+243,,cascais,carcavelos e parede,quinta de sao goncalo,https://www.idealista.pt/arrendar-casas/carcavelos-e-parede/quinta-de-sao-goncalo
+244,,cascais,carcavelos e parede,bairro alentejano,https://www.idealista.pt/arrendar-casas/carcavelos-e-parede/bairro-alentejano
+245,,cascais,carcavelos e parede,rebelva,https://www.idealista.pt/arrendar-casas/carcavelos-e-parede/rebelva
+246,,cascais,alcabideche,bicesse,https://www.idealista.pt/arrendar-casas/alcabideche/bicesse
+247,,cascais,alcabideche,malveira da serra,https://www.idealista.pt/arrendar-casas/alcabideche/malveira-da-serra
+248,,cascais,alcabideche,centro,https://www.idealista.pt/arrendar-casas/alcabideche/centro
+249,,cascais,alcabideche,amoreira,https://www.idealista.pt/arrendar-casas/alcabideche/amoreira
+250,,cascais,alcabideche,alcoitao,https://www.idealista.pt/arrendar-casas/alcabideche/alcoitao
+251,,cascais,alcabideche,alvide abuxarda,https://www.idealista.pt/arrendar-casas/alcabideche/alvide-abuxarda
+252,,cascais,alcabideche,manique,https://www.idealista.pt/arrendar-casas/alcabideche/manique
+253,,cascais,alcabideche,pai do vento,https://www.idealista.pt/arrendar-casas/alcabideche/pai-do-vento
+254,,cascais,alcabideche,zambujeiro cabreiro,https://www.idealista.pt/arrendar-casas/alcabideche/zambujeiro-cabreiro
+255,,cascais,alcabideche,murches,https://www.idealista.pt/arrendar-casas/alcabideche/murches
+256,,cascais e estoril,cascais,centro de cascais,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/cascais/centro-de-cascais
+257,,cascais e estoril,cascais,bairro do rosario,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/cascais/bairro-do-rosario
+258,,cascais e estoril,cascais,parque de palmela ribeira das vinhas,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/cascais/parque-de-palmela-ribeira-das-vinhas
+259,,cascais e estoril,cascais,quinta da marinha,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/cascais/quinta-da-marinha
+260,,cascais e estoril,cascais,costa da guia,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/cascais/costa-da-guia
+261,,cascais e estoril,cascais,areia birre,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/cascais/areia-birre
+262,,cascais e estoril,cascais,assuncao,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/cascais/assuncao
+263,,cascais e estoril,cascais,bairro santana cobre,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/cascais/bairro-santana-cobre
+264,,cascais e estoril,cascais,pampilheira,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/cascais/pampilheira
+265,,cascais e estoril,cascais,aldeia de juzo charneca,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/cascais/aldeia-de-juzo-charneca
+266,,cascais e estoril,estoril,centro do estoril,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/estoril/centro-do-estoril
+267,,cascais e estoril,estoril,monte estoril,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/estoril/monte-estoril
+268,,cascais e estoril,estoril,sao joao,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/estoril/sao-joao
+269,,cascais e estoril,estoril,sao pedro do estoril,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/estoril/sao-pedro-do-estoril
+270,,cascais e estoril,estoril,alapraia livramento,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/estoril/alapraia-livramento
+271,,cascais e estoril,estoril,areias,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/estoril/areias
+272,,cascais e estoril,estoril,alto dos gaios,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/estoril/alto-dos-gaios
+273,,cascais e estoril,estoril,galiza,https://www.idealista.pt/arrendar-casas/cascais-e-estoril/estoril/galiza
+274,,oeiras,oeiras e sao juliao da barra paco de arcos caxias,paco de arcos,https://www.idealista.pt/arrendar-casas/oeiras-e-sao-juliao-da-barra-paco-de-arcos-caxias/paco-de-arcos
+275,,oeiras,oeiras e sao juliao da barra paco de arcos caxias,figueirinha augusto castro,https://www.idealista.pt/arrendar-casas/oeiras-e-sao-juliao-da-barra-paco-de-arcos-caxias/figueirinha-augusto-castro
+276,,oeiras,oeiras e sao juliao da barra paco de arcos caxias,centro santo amaro,https://www.idealista.pt/arrendar-casas/oeiras-e-sao-juliao-da-barra-paco-de-arcos-caxias/centro-santo-amaro
+277,,oeiras,oeiras e sao juliao da barra paco de arcos caxias,murganhal laveiras,https://www.idealista.pt/arrendar-casas/oeiras-e-sao-juliao-da-barra-paco-de-arcos-caxias/murganhal-laveiras
+278,,oeiras,oeiras e sao juliao da barra paco de arcos caxias,terrugem qta do torneiro qta da fonte,https://www.idealista.pt/arrendar-casas/oeiras-e-sao-juliao-da-barra-paco-de-arcos-caxias/terrugem-qta-do-torneiro-qta-da-fonte
+279,,oeiras,oeiras e sao juliao da barra paco de arcos caxias,alto da barra,https://www.idealista.pt/arrendar-casas/oeiras-e-sao-juliao-da-barra-paco-de-arcos-caxias/alto-da-barra
+280,,oeiras,oeiras e sao juliao da barra paco de arcos caxias,parque dos poetas hospital da luz,https://www.idealista.pt/arrendar-casas/oeiras-e-sao-juliao-da-barra-paco-de-arcos-caxias/parque-dos-poetas-hospital-da-luz
+281,,oeiras,oeiras e sao juliao da barra paco de arcos caxias,caxias alto do lagoal,https://www.idealista.pt/arrendar-casas/oeiras-e-sao-juliao-da-barra-paco-de-arcos-caxias/caxias-alto-do-lagoal
+282,,oeiras,oeiras e sao juliao da barra paco de arcos caxias,nova oeiras quinta das palmeiras,https://www.idealista.pt/arrendar-casas/oeiras-e-sao-juliao-da-barra-paco-de-arcos-caxias/nova-oeiras-quinta-das-palmeiras
+283,,oeiras,oeiras e sao juliao da barra paco de arcos caxias,quinta do marques,https://www.idealista.pt/arrendar-casas/oeiras-e-sao-juliao-da-barra-paco-de-arcos-caxias/quinta-do-marques
+284,,oeiras,alges linda a velha cruz quebrada dafundo,alges,https://www.idealista.pt/arrendar-casas/alges-linda-a-velha-cruz-quebrada-dafundo/alges
+285,,oeiras,alges linda a velha cruz quebrada dafundo,linda a velha,https://www.idealista.pt/arrendar-casas/alges-linda-a-velha-cruz-quebrada-dafundo/linda-a-velha
+286,,oeiras,alges linda a velha cruz quebrada dafundo,dafundo,https://www.idealista.pt/arrendar-casas/alges-linda-a-velha-cruz-quebrada-dafundo/dafundo
+287,,oeiras,alges linda a velha cruz quebrada dafundo,miraflores,https://www.idealista.pt/arrendar-casas/alges-linda-a-velha-cruz-quebrada-dafundo/miraflores
+288,,oeiras,alges linda a velha cruz quebrada dafundo,cruz quebrada,https://www.idealista.pt/arrendar-casas/alges-linda-a-velha-cruz-quebrada-dafundo/cruz-quebrada
+289,,oeiras,alges linda a velha cruz quebrada dafundo,alto de santa catarina,https://www.idealista.pt/arrendar-casas/alges-linda-a-velha-cruz-quebrada-dafundo/alto-de-santa-catarina
+290,,oeiras,carnaxide e queijas,centro de carnaxide,https://www.idealista.pt/arrendar-casas/carnaxide-e-queijas/centro-de-carnaxide
+291,,oeiras,carnaxide e queijas,centro de queijas,https://www.idealista.pt/arrendar-casas/carnaxide-e-queijas/centro-de-queijas
+292,,oeiras,carnaxide e queijas,serra de carnaxide parque de santa cruz,https://www.idealista.pt/arrendar-casas/carnaxide-e-queijas/serra-de-carnaxide-parque-de-santa-cruz
+293,,oeiras,carnaxide e queijas,nova carnaxide,https://www.idealista.pt/arrendar-casas/carnaxide-e-queijas/nova-carnaxide
+294,,oeiras,carnaxide e queijas,linda a pastora nova queijas,https://www.idealista.pt/arrendar-casas/carnaxide-e-queijas/linda-a-pastora-nova-queijas
+295,,oeiras,carnaxide e queijas,outurela portela,https://www.idealista.pt/arrendar-casas/carnaxide-e-queijas/outurela-portela
+296,,oeiras,barcarena,tercena,https://www.idealista.pt/arrendar-casas/barcarena/tercena
+297,,oeiras,barcarena,oeiras golf,https://www.idealista.pt/arrendar-casas/barcarena/oeiras-golf
+298,,oeiras,barcarena,quinta da moura,https://www.idealista.pt/arrendar-casas/barcarena/quinta-da-moura
+299,,oeiras,barcarena,vale de barcarena,https://www.idealista.pt/arrendar-casas/barcarena/vale-de-barcarena
+300,,oeiras,barcarena,queluz de baixo,https://www.idealista.pt/arrendar-casas/barcarena/queluz-de-baixo
+301,,oeiras,barcarena,valejas,https://www.idealista.pt/arrendar-casas/barcarena/valejas
+302,,arroios,sao jorge de arroios,saldanha picoas,https://www.idealista.pt/arrendar-casas/arroios/sao-jorge-de-arroios/saldanha-picoas
+303,,arroios,sao jorge de arroios,estefania,https://www.idealista.pt/arrendar-casas/arroios/sao-jorge-de-arroios/estefania
+304,,arroios,sao jorge de arroios,alameda praca do chile almirante reis,https://www.idealista.pt/arrendar-casas/arroios/sao-jorge-de-arroios/alameda-praca-do-chile-almirante-reis
+305,,porto,cedofeita santo ildefonso se miragaia sao nicolau vitoria,baixa,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa
+306,,porto,cedofeita santo ildefonso se miragaia sao nicolau vitoria,marques faria guimaraes,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/marques-faria-guimaraes
+307,,porto,cedofeita santo ildefonso se miragaia sao nicolau vitoria,bolhao santa catarina,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/bolhao-santa-catarina
+308,,porto,cedofeita santo ildefonso se miragaia sao nicolau vitoria,centro historico,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/centro-historico
+309,,porto,cedofeita santo ildefonso se miragaia sao nicolau vitoria,boavista,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/boavista
+310,,porto,cedofeita santo ildefonso se miragaia sao nicolau vitoria,praca da republica,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/praca-da-republica
+311,,porto,cedofeita santo ildefonso se miragaia sao nicolau vitoria,aliados clerigos carlos alberto,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/aliados-clerigos-carlos-alberto
+312,,porto,cedofeita santo ildefonso se miragaia sao nicolau vitoria,batalha poveiros,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/batalha-poveiros
+313,,porto,cedofeita santo ildefonso se miragaia sao nicolau vitoria,cedofeita,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/cedofeita
+314,,porto,cedofeita santo ildefonso se miragaia sao nicolau vitoria,casa da musica,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/boavista/casa-da-musica
+315,,porto,baixa,bolhao santa catarina,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/bolhao-santa-catarina
+316,,porto,baixa,praca da republica,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/praca-da-republica
+317,,porto,baixa,aliados clerigos carlos alberto,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/aliados-clerigos-carlos-alberto
+318,,porto,baixa,batalha poveiros,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/batalha-poveiros
+319,,porto,baixa,cedofeita,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/cedofeita
+320,,porto,baixa,trindade,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/trindade
+321,,porto,baixa,bairro das artes,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/bairro-das-artes
+322,,porto,paranhos,sao joao polo universitario asprela,https://www.idealista.pt/arrendar-casas/paranhos/sao-joao-polo-universitario-asprela
+323,,porto,paranhos,covelo monte de sao joao,https://www.idealista.pt/arrendar-casas/paranhos/covelo-monte-de-sao-joao
+324,,porto,paranhos,areosa fernao de magalhaes,https://www.idealista.pt/arrendar-casas/paranhos/areosa-fernao-de-magalhaes
+325,,porto,paranhos,monte dos burgos carvalhido,https://www.idealista.pt/arrendar-casas/paranhos/monte-dos-burgos-carvalhido
+326,,porto,paranhos,salgueiros,https://www.idealista.pt/arrendar-casas/paranhos/salgueiros
+327,,porto,paranhos,arca d agua campo lindo vale formoso,https://www.idealista.pt/arrendar-casas/paranhos/arca-d-agua-campo-lindo-vale-formoso
+328,,porto,paranhos,amial,https://www.idealista.pt/arrendar-casas/paranhos/amial
+329,,porto,paranhos,combatentes costa cabral,https://www.idealista.pt/arrendar-casas/paranhos/combatentes-costa-cabral
+330,,porto,bonfim,campo 24 de agosto,https://www.idealista.pt/arrendar-casas/bonfim/campo-24-de-agosto
+331,,porto,bonfim,esmae doze casas,https://www.idealista.pt/arrendar-casas/bonfim/esmae-doze-casas
+332,,porto,bonfim,fontainhas duques,https://www.idealista.pt/arrendar-casas/bonfim/fontainhas-duques
+333,,porto,bonfim,fernao magalhaes joaquim urbano,https://www.idealista.pt/arrendar-casas/bonfim/fernao-magalhaes-joaquim-urbano
+334,,porto,bonfim,antas praca velasquez,https://www.idealista.pt/arrendar-casas/bonfim/antas-praca-velasquez
+335,,porto,bonfim,heroismo nova sintra soares dos reis,https://www.idealista.pt/arrendar-casas/bonfim/heroismo-nova-sintra-soares-dos-reis
+336,,porto,bonfim,igreja do bonfim lomba,https://www.idealista.pt/arrendar-casas/bonfim/igreja-do-bonfim-lomba
+337,,porto,bonfim,praca do marques lima,https://www.idealista.pt/arrendar-casas/bonfim/praca-do-marques-lima
+338,,porto,bonfim,santos pousada,https://www.idealista.pt/arrendar-casas/bonfim/santos-pousada
+339,,porto,lordelo do ouro e massarelos,palacio de cristal galiza vilar,https://www.idealista.pt/arrendar-casas/lordelo-do-ouro-e-massarelos/palacio-de-cristal-galiza-vilar
+340,,porto,lordelo do ouro e massarelos,bessa leite,https://www.idealista.pt/arrendar-casas/lordelo-do-ouro-e-massarelos/bessa-leite
+341,,porto,lordelo do ouro e massarelos,agramonte bom sucesso guerra junqueiro,https://www.idealista.pt/arrendar-casas/lordelo-do-ouro-e-massarelos/agramonte-bom-sucesso-guerra-junqueiro
+342,,porto,lordelo do ouro e massarelos,serralves,https://www.idealista.pt/arrendar-casas/lordelo-do-ouro-e-massarelos/serralves
+343,,porto,lordelo do ouro e massarelos,campo alegre,https://www.idealista.pt/arrendar-casas/lordelo-do-ouro-e-massarelos/campo-alegre
+344,,porto,lordelo do ouro e massarelos,cais das pedras,https://www.idealista.pt/arrendar-casas/lordelo-do-ouro-e-massarelos/cais-das-pedras
+345,,porto,lordelo do ouro e massarelos,fluvial,https://www.idealista.pt/arrendar-casas/lordelo-do-ouro-e-massarelos/fluvial
+346,,porto,lordelo do ouro e massarelos,ouro condominhas,https://www.idealista.pt/arrendar-casas/lordelo-do-ouro-e-massarelos/ouro-condominhas
+347,,porto,lordelo do ouro e massarelos,arrabida,https://www.idealista.pt/arrendar-casas/lordelo-do-ouro-e-massarelos/arrabida
+348,,porto,aldoar foz do douro nevogilde,foz,https://www.idealista.pt/arrendar-casas/aldoar-foz-do-douro-nevogilde/foz
+349,,porto,aldoar foz do douro nevogilde,foz velha,https://www.idealista.pt/arrendar-casas/aldoar-foz-do-douro-nevogilde/foz-velha
+350,,porto,aldoar foz do douro nevogilde,pinhais da foz,https://www.idealista.pt/arrendar-casas/aldoar-foz-do-douro-nevogilde/pinhais-da-foz
+351,,porto,aldoar foz do douro nevogilde,aviz cristo rei,https://www.idealista.pt/arrendar-casas/aldoar-foz-do-douro-nevogilde/aviz-cristo-rei
+352,,porto,aldoar foz do douro nevogilde,cooperativa dos arquitectos fonte da moura pedra verde,https://www.idealista.pt/arrendar-casas/aldoar-foz-do-douro-nevogilde/cooperativa-dos-arquitectos-fonte-da-moura-pedra-verde
+353,,porto,aldoar foz do douro nevogilde,parque da cidade vilarinha antonio aroso,https://www.idealista.pt/arrendar-casas/aldoar-foz-do-douro-nevogilde/parque-da-cidade-vilarinha-antonio-aroso
+354,,porto,ramalde,bessa foco,https://www.idealista.pt/arrendar-casas/ramalde/bessa-foco
+355,,porto,ramalde,francos casa da musica pedro hispano,https://www.idealista.pt/arrendar-casas/ramalde/francos-casa-da-musica-pedro-hispano
+356,,porto,ramalde,pinheiro manso,https://www.idealista.pt/arrendar-casas/ramalde/pinheiro-manso
+357,,porto,ramalde,prelada monte dos burgos,https://www.idealista.pt/arrendar-casas/ramalde/prelada-monte-dos-burgos
+358,,porto,ramalde,centro de ramalde pereiro,https://www.idealista.pt/arrendar-casas/ramalde/centro-de-ramalde-pereiro
+359,,porto,ramalde, viso zona industrial,https://www.idealista.pt/arrendar-casas/ramalde/-viso-zona-industrial
+360,,porto,ramalde,fonte da moura vilarinha,https://www.idealista.pt/arrendar-casas/ramalde/fonte-da-moura-vilarinha
+361,,porto,campanha,antas sao roque,https://www.idealista.pt/arrendar-casas/campanha/antas-sao-roque
+362,,porto,campanha,contumil nicolau nasoni,https://www.idealista.pt/arrendar-casas/campanha/contumil-nicolau-nasoni
+363,,porto,campanha,estacao,https://www.idealista.pt/arrendar-casas/campanha/estacao
+364,,porto,campanha,sao roque da lameira,https://www.idealista.pt/arrendar-casas/campanha/sao-roque-da-lameira
+365,,porto,campanha,freixo,https://www.idealista.pt/arrendar-casas/campanha/freixo
+366,,porto,campanha,parque oriental azevedo,https://www.idealista.pt/arrendar-casas/campanha/parque-oriental-azevedo
+367,,cedofeita santo ildefonso se miragaia sao nicolau vitoria,baixa,bolhao santa catarina,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/bolhao-santa-catarina
+368,,cedofeita santo ildefonso se miragaia sao nicolau vitoria,baixa,praca da republica,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/praca-da-republica
+369,,cedofeita santo ildefonso se miragaia sao nicolau vitoria,baixa,aliados clerigos carlos alberto,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/aliados-clerigos-carlos-alberto
+370,,cedofeita santo ildefonso se miragaia sao nicolau vitoria,baixa,batalha poveiros,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/batalha-poveiros
+371,,cedofeita santo ildefonso se miragaia sao nicolau vitoria,baixa,cedofeita,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/cedofeita
+372,,cedofeita santo ildefonso se miragaia sao nicolau vitoria,baixa,trindade,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/trindade
+373,,cedofeita santo ildefonso se miragaia sao nicolau vitoria,baixa,bairro das artes,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/baixa/bairro-das-artes
+374,,cedofeita santo ildefonso se miragaia sao nicolau vitoria,centro historico,vitoria clerigos,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/centro-historico/vitoria-clerigos
+375,,cedofeita santo ildefonso se miragaia sao nicolau vitoria,centro historico,rua das flores mouzinho,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/centro-historico/rua-das-flores-mouzinho
+376,,cedofeita santo ildefonso se miragaia sao nicolau vitoria,centro historico,ferreira borges comercio do porto,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/centro-historico/ferreira-borges-comercio-do-porto
+377,,cedofeita santo ildefonso se miragaia sao nicolau vitoria,centro historico,se,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/centro-historico/se
+378,,cedofeita santo ildefonso se miragaia sao nicolau vitoria,centro historico,ribeira,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/centro-historico/ribeira
+379,,cedofeita santo ildefonso se miragaia sao nicolau vitoria,centro historico,sao bento cimo de vila,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/centro-historico/sao-bento-cimo-de-vila
+380,,cedofeita santo ildefonso se miragaia sao nicolau vitoria,boavista,casa da musica,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/boavista/casa-da-musica
+381,,cedofeita santo ildefonso se miragaia sao nicolau vitoria,boavista,carolina michaelis,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/boavista/carolina-michaelis
+382,,cedofeita santo ildefonso se miragaia sao nicolau vitoria,boavista,julio dinis hospital militar,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/boavista/julio-dinis-hospital-militar
+383,,cedofeita santo ildefonso se miragaia sao nicolau vitoria,boavista,ramalda alta,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/boavista/ramalda-alta
+384,,cedofeita santo ildefonso se miragaia sao nicolau vitoria,boavista,avenida de franca,https://www.idealista.pt/arrendar-casas/cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-vitoria/boavista/avenida-de-franca
+385,,vila nova de gaia,mafamude e vilar do paraiso,soares dos reis rasa de cima,https://www.idealista.pt/arrendar-casas/mafamude-e-vilar-do-paraiso/soares-dos-reis-rasa-de-cima
+386,,vila nova de gaia,mafamude e vilar do paraiso,camara de gaia aviadores quinta das pedras,https://www.idealista.pt/arrendar-casas/mafamude-e-vilar-do-paraiso/camara-de-gaia-aviadores-quinta-das-pedras
+387,,vila nova de gaia,mafamude e vilar do paraiso,liceu paco do rei,https://www.idealista.pt/arrendar-casas/mafamude-e-vilar-do-paraiso/liceu-paco-do-rei
+388,,vila nova de gaia,mafamude e vilar do paraiso,santo ovidio cedro monte da virgem,https://www.idealista.pt/arrendar-casas/mafamude-e-vilar-do-paraiso/santo-ovidio-cedro-monte-da-virgem
+389,,vila nova de gaia,mafamude e vilar do paraiso,laborim rechousa alto das torres,https://www.idealista.pt/arrendar-casas/mafamude-e-vilar-do-paraiso/laborim-rechousa-alto-das-torres
+390,,vila nova de gaia,mafamude e vilar do paraiso,vilar do paraiso junqueira sao caetano,https://www.idealista.pt/arrendar-casas/mafamude-e-vilar-do-paraiso/vilar-do-paraiso-junqueira-sao-caetano
+391,,vila nova de gaia,santa marinha e sao pedro da afurada,centro historico,https://www.idealista.pt/arrendar-casas/santa-marinha-e-sao-pedro-da-afurada/centro-historico
+392,,vila nova de gaia,santa marinha e sao pedro da afurada,afurada arrabida cavaco,https://www.idealista.pt/arrendar-casas/santa-marinha-e-sao-pedro-da-afurada/afurada-arrabida-cavaco
+393,,vila nova de gaia,santa marinha e sao pedro da afurada,coimbroes,https://www.idealista.pt/arrendar-casas/santa-marinha-e-sao-pedro-da-afurada/coimbroes
+394,,vila nova de gaia,santa marinha e sao pedro da afurada,candal regadas,https://www.idealista.pt/arrendar-casas/santa-marinha-e-sao-pedro-da-afurada/candal-regadas
+395,,vila nova de gaia,santa marinha e sao pedro da afurada,general torres,https://www.idealista.pt/arrendar-casas/santa-marinha-e-sao-pedro-da-afurada/general-torres
+396,,vila nova de gaia,santa marinha e sao pedro da afurada,barrosa devesas telheira do meio,https://www.idealista.pt/arrendar-casas/santa-marinha-e-sao-pedro-da-afurada/barrosa-devesas-telheira-do-meio
+397,,vila nova de gaia,canidelo,lavadores,https://www.idealista.pt/arrendar-casas/canidelo/lavadores
+398,,vila nova de gaia,canidelo,salgueiros,https://www.idealista.pt/arrendar-casas/canidelo/salgueiros
+399,,vila nova de gaia,canidelo,sampaio alumiara verdinho,https://www.idealista.pt/arrendar-casas/canidelo/sampaio-alumiara-verdinho
+400,,vila nova de gaia,canidelo,paniceiro viso meiral,https://www.idealista.pt/arrendar-casas/canidelo/paniceiro-viso-meiral
+401,,vila nova de gaia,gulpilhares e valadares,praia de francelos praia de miramar,https://www.idealista.pt/arrendar-casas/gulpilhares-e-valadares/praia-de-francelos-praia-de-miramar
+402,,vila nova de gaia,gulpilhares e valadares,gulpilhares,https://www.idealista.pt/arrendar-casas/gulpilhares-e-valadares/gulpilhares
+403,,vila nova de gaia,gulpilhares e valadares,praia de valadares,https://www.idealista.pt/arrendar-casas/gulpilhares-e-valadares/praia-de-valadares
+404,,vila nova de gaia,gulpilhares e valadares,francelos,https://www.idealista.pt/arrendar-casas/gulpilhares-e-valadares/francelos
+405,,vila nova de gaia,gulpilhares e valadares,crastro vila cha,https://www.idealista.pt/arrendar-casas/gulpilhares-e-valadares/crastro-vila-cha
+406,,vila nova de gaia,madalena,praia,https://www.idealista.pt/arrendar-casas/madalena/praia
+407,,vila nova de gaia,madalena,maninho baviera,https://www.idealista.pt/arrendar-casas/madalena/maninho-baviera
+408,,vila nova de gaia,madalena,centro,https://www.idealista.pt/arrendar-casas/madalena/centro
+409,,vila nova de gaia,oliveira do douro,parque da lavandeira sardao,https://www.idealista.pt/arrendar-casas/oliveira-do-douro/parque-da-lavandeira-sardao
+410,,vila nova de gaia,oliveira do douro,freixieiro,https://www.idealista.pt/arrendar-casas/oliveira-do-douro/freixieiro
+411,,vila nova de gaia,oliveira do douro,areinho quebrantoes,https://www.idealista.pt/arrendar-casas/oliveira-do-douro/areinho-quebrantoes
+412,,vila nova de gaia,oliveira do douro,gervide,https://www.idealista.pt/arrendar-casas/oliveira-do-douro/gervide
+413,,vila nova de gaia,oliveira do douro,monte da virgem sao tiago,https://www.idealista.pt/arrendar-casas/oliveira-do-douro/monte-da-virgem-sao-tiago
+414,,matosinhos,matosinhos e leca da palmeira,matosinhos sul marginal,https://www.idealista.pt/arrendar-casas/matosinhos-e-leca-da-palmeira/matosinhos-sul-marginal
+415,,matosinhos,matosinhos e leca da palmeira,boa nova cohaemato sardoal,https://www.idealista.pt/arrendar-casas/matosinhos-e-leca-da-palmeira/boa-nova-cohaemato-sardoal
+416,,matosinhos,matosinhos e leca da palmeira,amorosa exponor quinta da conceicao,https://www.idealista.pt/arrendar-casas/matosinhos-e-leca-da-palmeira/amorosa-exponor-quinta-da-conceicao
+417,,matosinhos,matosinhos e leca da palmeira,zona historica de matosinhos,https://www.idealista.pt/arrendar-casas/matosinhos-e-leca-da-palmeira/zona-historica-de-matosinhos
+418,,matosinhos,matosinhos e leca da palmeira,centro de matosinhos,https://www.idealista.pt/arrendar-casas/matosinhos-e-leca-da-palmeira/centro-de-matosinhos
+419,,matosinhos,matosinhos e leca da palmeira,parque de real agua viva,https://www.idealista.pt/arrendar-casas/matosinhos-e-leca-da-palmeira/parque-de-real-agua-viva
+420,,matosinhos,matosinhos e leca da palmeira,centro historico de leca,https://www.idealista.pt/arrendar-casas/matosinhos-e-leca-da-palmeira/centro-historico-de-leca
+421,,matosinhos,matosinhos e leca da palmeira,monte espinho zona industrial,https://www.idealista.pt/arrendar-casas/matosinhos-e-leca-da-palmeira/monte-espinho-zona-industrial
+422,,matosinhos,sao mamede de infesta e senhora da hora,sao joao asprela telheiro,https://www.idealista.pt/arrendar-casas/sao-mamede-de-infesta-e-senhora-da-hora/sao-joao-asprela-telheiro
+423,,matosinhos,sao mamede de infesta e senhora da hora,monte de burgos padrao da legua,https://www.idealista.pt/arrendar-casas/sao-mamede-de-infesta-e-senhora-da-hora/monte-de-burgos-padrao-da-legua
+424,,matosinhos,sao mamede de infesta e senhora da hora,quinta seca azenha de cima,https://www.idealista.pt/arrendar-casas/sao-mamede-de-infesta-e-senhora-da-hora/quinta-seca-azenha-de-cima
+425,,matosinhos,sao mamede de infesta e senhora da hora,montes caulinos,https://www.idealista.pt/arrendar-casas/sao-mamede-de-infesta-e-senhora-da-hora/montes-caulinos
+426,,matosinhos,sao mamede de infesta e senhora da hora,centro de senhora da hora,https://www.idealista.pt/arrendar-casas/sao-mamede-de-infesta-e-senhora-da-hora/centro-de-senhora-da-hora
+427,,matosinhos,sao mamede de infesta e senhora da hora,sete bicas,https://www.idealista.pt/arrendar-casas/sao-mamede-de-infesta-e-senhora-da-hora/sete-bicas
+428,,matosinhos,sao mamede de infesta e senhora da hora,barranha vasco da gama,https://www.idealista.pt/arrendar-casas/sao-mamede-de-infesta-e-senhora-da-hora/barranha-vasco-da-gama
+429,,matosinhos,sao mamede de infesta e senhora da hora,centro de sao mamede de infesta laranjeiras,https://www.idealista.pt/arrendar-casas/sao-mamede-de-infesta-e-senhora-da-hora/centro-de-sao-mamede-de-infesta-laranjeiras
+430,,matosinhos,sao mamede de infesta e senhora da hora,pedra verde,https://www.idealista.pt/arrendar-casas/sao-mamede-de-infesta-e-senhora-da-hora/pedra-verde
+431,,matosinhos,custoias leca do balio guifoes,leca do balio,https://www.idealista.pt/arrendar-casas/custoias-leca-do-balio-guifoes/leca-do-balio
+432,,matosinhos,custoias leca do balio guifoes,padrao da legua av xanana gusmao,https://www.idealista.pt/arrendar-casas/custoias-leca-do-balio-guifoes/padrao-da-legua-av-xanana-gusmao
+433,,matosinhos,custoias leca do balio guifoes,custoias,https://www.idealista.pt/arrendar-casas/custoias-leca-do-balio-guifoes/custoias
+434,,matosinhos,custoias leca do balio guifoes,guifoes,https://www.idealista.pt/arrendar-casas/custoias-leca-do-balio-guifoes/guifoes
+435,,almada,almada cova da piedade pragal cacilhas,almada,https://www.idealista.pt/arrendar-casas/almada-cova-da-piedade-pragal-cacilhas/almada
+436,,almada,almada cova da piedade pragal cacilhas,cova da piedade,https://www.idealista.pt/arrendar-casas/almada-cova-da-piedade-pragal-cacilhas/cova-da-piedade
+437,,almada,almada cova da piedade pragal cacilhas,cacilhas,https://www.idealista.pt/arrendar-casas/almada-cova-da-piedade-pragal-cacilhas/cacilhas
+438,,almada,almada cova da piedade pragal cacilhas,pragal,https://www.idealista.pt/arrendar-casas/almada-cova-da-piedade-pragal-cacilhas/pragal
+439,,almada,charneca da caparica e sobreda,aroeira,https://www.idealista.pt/arrendar-casas/charneca-da-caparica-e-sobreda/aroeira
+440,,almada,charneca da caparica e sobreda,herdade da aroeira,https://www.idealista.pt/arrendar-casas/charneca-da-caparica-e-sobreda/aroeira/herdade-da-aroeira
+441,,almada,charneca da caparica e sobreda,aroeira norte,https://www.idealista.pt/arrendar-casas/charneca-da-caparica-e-sobreda/aroeira/aroeira-norte
+442,,almada,charneca da caparica e sobreda,marco cabaco vale cavala,https://www.idealista.pt/arrendar-casas/charneca-da-caparica-e-sobreda/marco-cabaco-vale-cavala
+443,,almada,charneca da caparica e sobreda,quintinhas,https://www.idealista.pt/arrendar-casas/charneca-da-caparica-e-sobreda/quintinhas
+444,,almada,charneca da caparica e sobreda,vale fetal vale rosal,https://www.idealista.pt/arrendar-casas/charneca-da-caparica-e-sobreda/vale-fetal-vale-rosal
+445,,almada,charneca da caparica e sobreda,botequim regateira palhais,https://www.idealista.pt/arrendar-casas/charneca-da-caparica-e-sobreda/botequim-regateira-palhais
+446,,almada,charneca da caparica e sobreda,vale figueira carcereira,https://www.idealista.pt/arrendar-casas/charneca-da-caparica-e-sobreda/vale-figueira-carcereira
+447,,almada,charneca da caparica e sobreda,aroeira central,https://www.idealista.pt/arrendar-casas/charneca-da-caparica-e-sobreda/aroeira/aroeira-central
+448,,almada,charneca da caparica e sobreda,centro da charneca da caparica,https://www.idealista.pt/arrendar-casas/charneca-da-caparica-e-sobreda/centro-da-charneca-da-caparica
+449,,almada,costa de caparica,centro,https://www.idealista.pt/arrendar-casas/costa-de-caparica/centro
+450,,almada,costa de caparica,santo antonio,https://www.idealista.pt/arrendar-casas/costa-de-caparica/santo-antonio
+451,,almada,costa de caparica,sao joao da caparica,https://www.idealista.pt/arrendar-casas/costa-de-caparica/sao-joao-da-caparica
+452,,almada,aroeira,herdade da aroeira,https://www.idealista.pt/arrendar-casas/charneca-da-caparica-e-sobreda/aroeira/herdade-da-aroeira
+453,,almada,aroeira,aroeira norte,https://www.idealista.pt/arrendar-casas/charneca-da-caparica-e-sobreda/aroeira/aroeira-norte
+454,,almada,aroeira,aroeira central,https://www.idealista.pt/arrendar-casas/charneca-da-caparica-e-sobreda/aroeira/aroeira-central
+455,,almada,laranjeiro e feijo,centro de laranjeiro,https://www.idealista.pt/arrendar-casas/laranjeiro-e-feijo/centro-de-laranjeiro
+456,,almada,laranjeiro e feijo,centro do feijo,https://www.idealista.pt/arrendar-casas/laranjeiro-e-feijo/centro-do-feijo
+457,,almada,laranjeiro e feijo,parque da paz alfeite,https://www.idealista.pt/arrendar-casas/laranjeiro-e-feijo/parque-da-paz-alfeite
+458,,almada,laranjeiro e feijo,vale flores quinta do chiado,https://www.idealista.pt/arrendar-casas/laranjeiro-e-feijo/vale-flores-quinta-do-chiado
+459,,setubal,setubal,baixa centro historico,https://www.idealista.pt/arrendar-casas/setubal/baixa-centro-historico
+460,,setubal,setubal,bonfim,https://www.idealista.pt/arrendar-casas/setubal/bonfim
+461,,setubal,setubal,bairro do liceu vanicelos,https://www.idealista.pt/arrendar-casas/setubal/bairro-do-liceu-vanicelos
+462,,setubal,setubal,zona ribeirinha,https://www.idealista.pt/arrendar-casas/setubal/zona-ribeirinha
+463,,setubal,setubal,montalvao,https://www.idealista.pt/arrendar-casas/setubal/montalvao
+464,,setubal,setubal,parque natural da arrabida,https://www.idealista.pt/arrendar-casas/setubal/parque-natural-da-arrabida
+465,,setubal,setubal,viso francisco xavier,https://www.idealista.pt/arrendar-casas/setubal/viso-francisco-xavier
+466,,setubal,setubal,amoreiras,https://www.idealista.pt/arrendar-casas/setubal/amoreiras
+467,,setubal,setubal,sao gabriel varzinha,https://www.idealista.pt/arrendar-casas/setubal/sao-gabriel-varzinha
+468,,setubal,setubal,brancanes,https://www.idealista.pt/arrendar-casas/setubal/brancanes
+469,,setubal,sao sebastiao,arangues pinheirinhos,https://www.idealista.pt/arrendar-casas/sao-sebastiao/arangues-pinheirinhos
+470,,setubal,sao sebastiao,afonso costa fonte do lavra,https://www.idealista.pt/arrendar-casas/sao-sebastiao/afonso-costa-fonte-do-lavra
+471,,setubal,sao sebastiao,bairro da conceicao bairro santo nicolau,https://www.idealista.pt/arrendar-casas/sao-sebastiao/bairro-da-conceicao-bairro-santo-nicolau
+472,,setubal,sao sebastiao,monte belo norte,https://www.idealista.pt/arrendar-casas/sao-sebastiao/monte-belo-norte
+473,,setubal,sao sebastiao,vale do cobro,https://www.idealista.pt/arrendar-casas/sao-sebastiao/vale-do-cobro
+474,,setubal,sao sebastiao,bela vista,https://www.idealista.pt/arrendar-casas/sao-sebastiao/bela-vista
+475,,setubal,sao sebastiao,monte belo sul jardins do sado,https://www.idealista.pt/arrendar-casas/sao-sebastiao/monte-belo-sul-jardins-do-sado
+476,,setubal,sao sebastiao,azeda jardins de santiago,https://www.idealista.pt/arrendar-casas/sao-sebastiao/azeda-jardins-de-santiago
+477,,setubal,sao sebastiao,camarinha peixe frito,https://www.idealista.pt/arrendar-casas/sao-sebastiao/camarinha-peixe-frito
+478,,setubal,sao sebastiao,centro historico,https://www.idealista.pt/arrendar-casas/sao-sebastiao/centro-historico
+479,,setubal,azeitao,oleiros aldeia de irmaos quinta do picao,https://www.idealista.pt/arrendar-casas/azeitao/oleiros-aldeia-de-irmaos-quinta-do-picao
+480,,setubal,azeitao,vale de choupos choilo galeotas,https://www.idealista.pt/arrendar-casas/azeitao/vale-de-choupos-choilo-galeotas
+481,,setubal,azeitao,vendas de azeitao salmoura brejos de clerigo,https://www.idealista.pt/arrendar-casas/azeitao/vendas-de-azeitao-salmoura-brejos-de-clerigo
+482,,setubal,azeitao,parque natural da arrabida,https://www.idealista.pt/arrendar-casas/azeitao/parque-natural-da-arrabida
+483,,setubal,azeitao,vila nogueira de azeitao,https://www.idealista.pt/arrendar-casas/azeitao/vila-nogueira-de-azeitao
+484,,setubal,azeitao,brejoeira pinhal de negreiros,https://www.idealista.pt/arrendar-casas/azeitao/brejoeira-pinhal-de-negreiros
+485,,setubal,azeitao,brejos de azeitao,https://www.idealista.pt/arrendar-casas/azeitao/brejos-de-azeitao
+486,,seixal,seixal arrentela aldeia de paio pires,quinta da fidalga quinta do outeiro murtinheira,https://www.idealista.pt/arrendar-casas/seixal-arrentela-aldeia-de-paio-pires/quinta-da-fidalga-quinta-do-outeiro-murtinheira
+487,,seixal,seixal arrentela aldeia de paio pires,zona historica do seixal frente ribeirinha,https://www.idealista.pt/arrendar-casas/seixal-arrentela-aldeia-de-paio-pires/zona-historica-do-seixal-frente-ribeirinha
+488,,seixal,seixal arrentela aldeia de paio pires,casal do marco,https://www.idealista.pt/arrendar-casas/seixal-arrentela-aldeia-de-paio-pires/casal-do-marco
+489,,seixal,seixal arrentela aldeia de paio pires,aldeia de paio pires alto dos bonecos vale da abelha,https://www.idealista.pt/arrendar-casas/seixal-arrentela-aldeia-de-paio-pires/aldeia-de-paio-pires-alto-dos-bonecos-vale-da-abelha
+490,,seixal,seixal arrentela aldeia de paio pires,pinhal de frades,https://www.idealista.pt/arrendar-casas/seixal-arrentela-aldeia-de-paio-pires/pinhal-de-frades
+491,,seixal,seixal arrentela aldeia de paio pires,quinta da trindade,https://www.idealista.pt/arrendar-casas/seixal-arrentela-aldeia-de-paio-pires/quinta-da-trindade
+492,,seixal,seixal arrentela aldeia de paio pires,torre da marinha,https://www.idealista.pt/arrendar-casas/seixal-arrentela-aldeia-de-paio-pires/torre-da-marinha
+493,,seixal,seixal arrentela aldeia de paio pires,bairro novo quinta dona maria,https://www.idealista.pt/arrendar-casas/seixal-arrentela-aldeia-de-paio-pires/bairro-novo-quinta-dona-maria
+494,,seixal,seixal arrentela aldeia de paio pires,centro de arrentela,https://www.idealista.pt/arrendar-casas/seixal-arrentela-aldeia-de-paio-pires/centro-de-arrentela
+495,,seixal,seixal arrentela aldeia de paio pires,vale da romeira vale de carros cavadas,https://www.idealista.pt/arrendar-casas/seixal-arrentela-aldeia-de-paio-pires/vale-da-romeira-vale-de-carros-cavadas
+496,,seixal,corroios,santa marta do pinhal,https://www.idealista.pt/arrendar-casas/corroios/santa-marta-do-pinhal
+497,,seixal,corroios,centro,https://www.idealista.pt/arrendar-casas/corroios/centro
+498,,seixal,corroios,miratejo qta do brasileiro qta do rouxinol,https://www.idealista.pt/arrendar-casas/corroios/miratejo-qta-do-brasileiro-qta-do-rouxinol
+499,,seixal,corroios,verdizela,https://www.idealista.pt/arrendar-casas/corroios/verdizela
+500,,seixal,corroios,marisol valadares quinta da queimada,https://www.idealista.pt/arrendar-casas/corroios/marisol-valadares-quinta-da-queimada
+501,,seixal,corroios,alto do moinho,https://www.idealista.pt/arrendar-casas/corroios/alto-do-moinho
+502,,seixal,corroios,pinhal vidal,https://www.idealista.pt/arrendar-casas/corroios/pinhal-vidal
+503,,seixal,corroios,vale de milhacos,https://www.idealista.pt/arrendar-casas/corroios/vale-de-milhacos
+504,,seixal,fernao ferro,redondos,https://www.idealista.pt/arrendar-casas/fernao-ferro/redondos
+505,,seixal,fernao ferro,quinta das laranjeiras,https://www.idealista.pt/arrendar-casas/fernao-ferro/quinta-das-laranjeiras
+506,,seixal,fernao ferro,centro,https://www.idealista.pt/arrendar-casas/fernao-ferro/centro
+507,,seixal,fernao ferro,pinhal do general,https://www.idealista.pt/arrendar-casas/fernao-ferro/pinhal-do-general
+508,,seixal,fernao ferro,monteverde,https://www.idealista.pt/arrendar-casas/fernao-ferro/monteverde
+509,,seixal,amora,cruz de pau,https://www.idealista.pt/arrendar-casas/amora/cruz-de-pau
+510,,seixal,amora,foros de amora,https://www.idealista.pt/arrendar-casas/amora/foros-de-amora
+511,,seixal,amora,belverde,https://www.idealista.pt/arrendar-casas/amora/belverde
+512,,seixal,amora,fogueteiro,https://www.idealista.pt/arrendar-casas/amora/fogueteiro
+513,,seixal,amora,paivas,https://www.idealista.pt/arrendar-casas/amora/paivas
+514,,palmela,palmela,centro,https://www.idealista.pt/arrendar-casas/palmela/centro
+515,,palmela,palmela,aires,https://www.idealista.pt/arrendar-casas/palmela/aires
+516,,palmela,palmela,quinta de asseca padre nabeto,https://www.idealista.pt/arrendar-casas/palmela/quinta-de-asseca-padre-nabeto
+517,,palmela,palmela,zona oeste,https://www.idealista.pt/arrendar-casas/palmela/zona-oeste
+518,,palmela,palmela,palmela norte,https://www.idealista.pt/arrendar-casas/palmela/palmela-norte
+519,,charneca da caparica e sobreda,aroeira,herdade da aroeira,https://www.idealista.pt/arrendar-casas/charneca-da-caparica-e-sobreda/aroeira/herdade-da-aroeira
+520,,charneca da caparica e sobreda,aroeira,aroeira norte,https://www.idealista.pt/arrendar-casas/charneca-da-caparica-e-sobreda/aroeira/aroeira-norte
+521,,charneca da caparica e sobreda,aroeira,aroeira central,https://www.idealista.pt/arrendar-casas/charneca-da-caparica-e-sobreda/aroeira/aroeira-central
+522,,sesimbra,quinta do conde,centro da quinta do conde,https://www.idealista.pt/arrendar-casas/quinta-do-conde/centro-da-quinta-do-conde
+523,,sesimbra,quinta do conde,quinta do peru,https://www.idealista.pt/arrendar-casas/quinta-do-conde/quinta-do-peru
+524,,sesimbra,quinta do conde,casal do sapo,https://www.idealista.pt/arrendar-casas/quinta-do-conde/casal-do-sapo
+525,,montijo,montijo e afonsoeiro,centro do montijo,https://www.idealista.pt/arrendar-casas/montijo-e-afonsoeiro/centro-do-montijo
+526,,montijo,montijo e afonsoeiro,portas da cidade alto das vinhas grandes,https://www.idealista.pt/arrendar-casas/montijo-e-afonsoeiro/portas-da-cidade-alto-das-vinhas-grandes
+527,,montijo,montijo e afonsoeiro,afonseiro,https://www.idealista.pt/arrendar-casas/montijo-e-afonsoeiro/afonseiro
+528,,montijo,montijo e afonsoeiro,corte esteval,https://www.idealista.pt/arrendar-casas/montijo-e-afonsoeiro/corte-esteval
+529,,montijo,montijo e afonsoeiro,bairro do areias,https://www.idealista.pt/arrendar-casas/montijo-e-afonsoeiro/bairro-do-areias
+530,,montijo,montijo e afonsoeiro,corte das cheias,https://www.idealista.pt/arrendar-casas/montijo-e-afonsoeiro/corte-das-cheias
+531,,montijo,montijo e afonsoeiro,pocinho colinas do oriente,https://www.idealista.pt/arrendar-casas/montijo-e-afonsoeiro/pocinho-colinas-do-oriente
+532,,viana do castelo,viana do castelo e meadela,centro historico,https://www.idealista.pt/arrendar-casas/viana-do-castelo-e-meadela/centro-historico
+533,,viana do castelo,viana do castelo e meadela,santa maria maior,https://www.idealista.pt/arrendar-casas/viana-do-castelo-e-meadela/santa-maria-maior
+534,,viana do castelo,viana do castelo e meadela,meadela,https://www.idealista.pt/arrendar-casas/viana-do-castelo-e-meadela/meadela
+535,,viana do castelo,viana do castelo e meadela,monserrate,https://www.idealista.pt/arrendar-casas/viana-do-castelo-e-meadela/monserrate
+536,,viseu,viseu,centro,https://www.idealista.pt/arrendar-casas/viseu/centro
+537,,viseu,viseu,marzovelos jugueiros,https://www.idealista.pt/arrendar-casas/viseu/marzovelos-jugueiros
+538,,viseu,viseu,zona historica,https://www.idealista.pt/arrendar-casas/viseu/zona-historica
+539,,viseu,viseu,aguieira santiago,https://www.idealista.pt/arrendar-casas/viseu/aguieira-santiago
+540,,viseu,viseu,gumiraes quinta da carreira,https://www.idealista.pt/arrendar-casas/viseu/gumiraes-quinta-da-carreira

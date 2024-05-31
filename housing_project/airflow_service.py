@@ -6,25 +6,10 @@ from parser import main_function, parse_html_files_to_dataframe
 import boto3
 import shutil
 import os
+import pandas as pd
 
 
-idealista_urls = [
-    "https://www.idealista.pt/arrendar-casas/aveiro/",
-    "https://www.idealista.pt/arrendar-casas/coimbra/",
-    "https://www.idealista.pt/arrendar-casas/viseu/",
-    "https://www.idealista.pt/arrendar-casas/viana-do-castelo/",
-    "https://www.idealista.pt/arrendar-casas/maia/", 
-    "https://www.idealista.pt/arrendar-casas/cascais/",
-    "https://www.idealista.pt/arrendar-casas/sintra/",
-    "https://www.idealista.pt/arrendar-casas/leiria/",
-    "https://www.idealista.pt/arrendar-casas/matosinhos/",
-    "https://www.idealista.pt/arrendar-casas/vila-nova-de-gaia/",
-    "https://www.idealista.pt/arrendar-casas/loures/",
-    "https://www.idealista.pt/arrendar-casas/almada/",
-    "https://www.idealista.pt/arrendar-casas/setubal/",
-    "https://www.idealista.pt/arrendar-casas/guimaraes/",
-    "https://www.idealista.pt/arrendar-casas/gondomar/"
-]
+idealista_urls = pd.read_csv("district_data_formatted.csv")["neighborhood_link"]
 
 def scrape_idealista(urls, directory_path):
     idealista_scraper = scraper_factory('idealista')
@@ -47,9 +32,9 @@ def delete_folder(folder_path):
         print(f"Folder '{folder_path}' does not exist.")
 
 s3 = boto3.client('s3',
-        aws_access_key_id='AKIAUZ4J7MONLAWOGAF2',
-        aws_secret_access_key='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',
-        region_name='eu-north-1')
+        aws_access_key_id=os.getenv('aws_access_key_id'),
+        aws_secret_access_key=os.getenv('aws_secret_access_key'),
+        region_name=os.getenv('region_name'))
 
 # Define default arguments for the DAG
 default_args = {

@@ -33,6 +33,7 @@ import re
 from datetime import datetime
 from time import sleep
 import random
+import pandas as pd
 import os
 from bs4 import BeautifulSoup
 from typing import List
@@ -225,33 +226,8 @@ def scraper_factory(source: str) -> WebScraper:
     else:
         raise ValueError(f"source {source} is not supported. Please pass a valid source.")
 
-# Starting URLs for scraping
-
-idealista_urls = [
-    "https://www.idealista.pt/arrendar-casas/aveiro/",
-    "https://www.idealista.pt/arrendar-casas/coimbra/",
-    "https://www.idealista.pt/arrendar-casas/viseu/",
-    "https://www.idealista.pt/arrendar-casas/viana-do-castelo/",
-    "https://www.idealista.pt/arrendar-casas/maia/", 
-    "https://www.idealista.pt/arrendar-casas/cascais/",
-    "https://www.idealista.pt/arrendar-casas/sintra/",
-    "https://www.idealista.pt/arrendar-casas/leiria/",
-    "https://www.idealista.pt/arrendar-casas/matosinhos/",
-    "https://www.idealista.pt/arrendar-casas/vila-nova-de-gaia/",
-    "https://www.idealista.pt/arrendar-casas/loures/",
-    "https://www.idealista.pt/arrendar-casas/almada/",
-    "https://www.idealista.pt/arrendar-casas/setubal/",
-    "https://www.idealista.pt/arrendar-casas/guimaraes/",
-    "https://www.idealista.pt/arrendar-casas/gondomar/"
-]
-
-imovirtual_urls = [
-    "https://www.imovirtual.com/pt/resultados/arrendar/apartamento/porto/porto",
-    "https://www.imovirtual.com/pt/resultados/arrendar/apartamento/lisboa/lisboa",
-    "https://www.imovirtual.com/pt/resultados/arrendar/apartamento/braga/braga"
-]
-
 if __name__ == "__main__":
+    idealista_urls = pd.read_csv("district_data_formatted.csv")["neighborhood_link"]
     # Create an instance of the scraper
     idealista_scraper = scraper_factory('idealista')
     idealista_scraper.scrape(urls=idealista_urls,

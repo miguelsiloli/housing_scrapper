@@ -12,6 +12,7 @@ import boto3
 from io import BytesIO
 import os
 from pathlib import Path
+from dotenv import load_dotenv
 
 async def read_html_files_async(directory_path):
     """
@@ -69,10 +70,20 @@ def parse_html_files_to_dataframe(file_path: str) -> pd.DataFrame:
 
     # adding date based on file metadata
     df['date'] = convert_timestamp_to_date(os.stat(file_path).st_ctime)
+    df['source_link'] = find_canonical_href(parsed_html)
 
     if not df.empty:
         df = process_dataframe(df)
     return df
+
+def find_canonical_href(html_element):
+    try:
+        link = html_element.xpath('//link[@rel="canonical"]/@href')[0]
+        return link
+    
+    except:
+        return []
+
 
 def find_city(article):
     
@@ -104,7 +115,7 @@ def extract_listing_info(article: html.HtmlElement) -> Dict[str, Optional[str]]:
         'price': extract_price(article.xpath('.//span[@class="item-price h2-simulated"]/text()')),
         'additional_details': article.xpath('.//span[@class="item-detail"]/text()'),
         'home_type': title.split()[0] if title and title != np.NaN else np.NaN,
-        'city': find_city(article)
+        # 'city': find_city(article)
     }
 
 def extract_price(price_texts: List[str]) -> Optional[int]:
@@ -144,7 +155,7 @@ def process_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     df['elevator'] = df['floor'].apply(lambda x: 'com elevador' in str(x) if x else False)
     df['floor'] = df['floor'].apply(lambda x: int(re.search(r'\d+', str(x)).group()) if x else 0)
     df['price_per_sqr_meter'] = df['price'] / df['home_area']
-    df['neighborhood'] = df['title'].str.rsplit(',', n = 1).str[-1].str.strip()
+    # df['neighborhood'] = df['title'].str.rsplit(',', n = 1).str[-1].str.strip()
     df.drop(columns=['additional_details'], 
             inplace=True)
     df.fillna({'elevator': False, 'floor': 0}, 
@@ -152,7 +163,7 @@ def process_dataframe(df: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
-def main_function(parsing_function: callable, s3_object:  object, source_directory_path: str = "./raw/idealista", chunk_size: int = 25) -> None:
+def main_function(parsing_function: callable, s3_object:  object, source_directory_path: str = "./raw/idealista", chunk_size: int = 25, upload_to_s3 = False) -> None:
     """
     Process HTML files into a DataFrame and save it as a Parquet file.
     
@@ -189,18 +200,27 @@ def main_function(parsing_function: callable, s3_object:  object, source_directo
         final_df = assert_dataframe_datatypes(final_df)
 
         # dropping duplicates if there are any
-        # final_df.drop_duplicates(subset=["link", "date"], 
-        #                          inplace = True)
+        final_df.drop_duplicates(subset=["link"], 
+                                  inplace = True)
 
         # validate dataframe
-        final_df = schema.validate(final_df)
+        # final_df = schema.validate(final_df)
 
+        districts = pd.read_csv("district_data_formatted.csv")
+        districts["neighborhood_link"] = districts["neighborhood_link"].astype(str)
+        districts['neighborhood_link'] = districts['neighborhood_link'].apply(lambda x: x + '/')
+        final_df["source_link"] = final_df["source_link"].astype(str)
+        merged_df = pd.merge(districts, final_df, left_on='neighborhood_link', right_on='source_link', how='right')
+
+        merged_df.to_parquet(f'house_price_data_{current_date}.parquet')
+        merged_df.drop(["Unnamed: 0"], axis = 1, inplace = True)
         # maybe it would be easier to pass args as list/dict
         # bucket name cannot contain underscores
-        upload_df_to_s3_as_parquet(df = final_df,
-                                   bucket = "miguelsiloli-projects-s3",
-                                   file_name = filename,
-                                   s3_client = s3_object)
+        if upload_to_s3:
+            upload_df_to_s3_as_parquet(df = merged_df,
+                                    bucket = "miguelsiloli-projects-s3",
+                                    file_name = filename,
+                                    s3_client = s3_object)
         
 def convert_timestamp_to_date(timestamp):
     # Convert timestamp to datetime
@@ -247,7 +267,7 @@ def assert_dataframe_datatypes(df):
     df['home_area'] = df['home_area'].astype(np.int32)
     df['floor'] = df['floor'].astype(np.int32)
     df['elevator'] = df['elevator'].astype('bool')
-    df['price_per_sqr_meter'] = df['price_per_sqr_meter'].astype(np.float32) 
+    # df['price_per_sqr_meter'] = df['price_per_sqr_meter'].astype(np.float32) 
     df['date'] = pd.to_datetime(df['date'], format='%d-%m-%Y')  
 
     # Validate the new data types
@@ -276,12 +296,14 @@ def process_html_files(parsing_function: callable, files: List[str]) -> Optional
 
 
 if __name__ == "__main__":
+    load_dotenv()
     s3 = boto3.client('s3',
-            aws_access_key_id='AKIAUZ4J7MONLAWOGAF2',
-            aws_secret_access_key='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',
-            region_name='eu-north-1')
+            aws_access_key_id=os.getenv('aws_access_key_id'),
+            aws_secret_access_key=os.getenv('aws_secret_access_key'),
+            region_name=os.getenv('region_name'))
     
     main_function(parsing_function = parse_html_files_to_dataframe, 
                   s3_object= s3,
-                  source_directory_path = "./raw/idealista")
+                  source_directory_path = "./raw/idealista",
+                  upload_to_s3= False)
     

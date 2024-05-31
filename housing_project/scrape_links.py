@@ -4,7 +4,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 from seleniumbase import Driver
-import json
+import pandas as pd
+from time import sleep
 
 ran_through_urls = []
 
@@ -29,83 +30,104 @@ def fetch_page_content(driver: webdriver.Chrome, url: str) -> str:
         logging.error(f"Error fetching page content: {e}")
         return ""
 
-def extract_links_from_sublocations(page_content: str, pattern: str) -> list:
+def extract_links_from_sublocations(page_content: str) -> list:
+    sleep(2)
     soup = BeautifulSoup(page_content, 'html.parser')
     sublocations_list = soup.find(id='sublocations-list')
     if not sublocations_list:
         return []
-    links = [a['href'] for a in sublocations_list.find_all('a', href=True) if re.match(pattern, a['href'])]
+    links = [a['href'] for a in sublocations_list.find_all('a', href=True)]
     return links
 
-def scrape_links_recursively(driver: webdriver.Chrome, url: str, base_url: str, pattern: str) -> dict:
-    """Recursively scrape links from the page and return data in hierarchical JSON format.
+def parse_neighborhoods(driver, parish_url):
+    page_source = fetch_page_content(driver, parish_url)
+    neighborhoods = extract_links_from_sublocations(page_source)
+    neighborhoods = [("https://www.idealista.pt" + url) for url in neighborhoods]
+    return neighborhoods
 
-    Args:
-        driver (webdriver.Chrome): The WebDriver instance.
-        url (str): The URL of the page to scrape.
-        base_url (str): The base URL of the website.
-        pattern (str): The regex pattern to match href links.
-        parent_link (str, optional): The parent link to avoid circular references.
+def parse_parishes(driver, municipality_url):
+    page_source = fetch_page_content(driver, municipality_url)
+    parishes = extract_links_from_sublocations(page_source)
+    parishes = [("https://www.idealista.pt" + url) for url in parishes]
+    parish_data = {}
+    # check if parishes is an empty list
+    if parishes:
+        for parish_url in parishes:
+            neighborhoods = parse_neighborhoods(driver, parish_url)
+            parish_data[parish_url] = neighborhoods
+    return parish_data
 
-    Returns:
-        dict: The hierarchical JSON data with links.
-    """
-    
-    global ran_through_urls
+def parse_municipalities(driver, district_url):
+    page_source = fetch_page_content(driver, district_url)
+    municipalities = extract_links_from_sublocations(page_source)
+    municipalities = [("https://www.idealista.pt" + url) for url in municipalities]
+    municipality_data = {}
+    if municipalities:
+        for municipality_url in municipalities:
+            parishes = parse_parishes(driver, municipality_url)
+            municipality_data[municipality_url] = parishes
+    return municipality_data
 
-    page_content = fetch_page_content(driver, url)
-    if not page_content:
-        return {}
+def parse_district(driver, district_url):
+    district_data = parse_municipalities(driver, district_url)
+    return district_data
 
-    links = extract_links_from_sublocations(page_content, pattern)
-    links = [base_url + link for link in links]
-    links = set(links) - set(ran_through_urls)
-    hierarchical_data = {}
+def flatten_json_to_df(district_url, data):
+    records = []
+    for municipality, parishes in data.items():
+        for parish, neighborhoods in parishes.items():
+            for neighborhood in neighborhoods:
+                records.append({
+                    "district": district_url,
+                    "municipality": municipality,
+                    "parish": parish,
+                    "neighborhood": neighborhood
+                })
+    return pd.DataFrame(records)
 
-    while True:
-        if len(links) > 1:
-            for link in links:
-                page_content = fetch_page_content(driver, link)
-                ran_through_urls.append(link) # remove parent
-                hierarchical_data[link] = list(set(extract_links_from_sublocations(page_content, pattern)) - set(ran_through_urls))
-                
+def remove_mapa_suffix(url):
+    return re.sub(r'/mapa$', '', url)
 
-            return hierarchical_data   
-        elif len(links) == 0:
-            return hierarchical_data            
-        
-        else:
-            links = set(links) - set(link)
+def extract_location(url):
+    match = re.search(r'/([^/]+)/mapa$', url)
+    if match:
+        return match.group(1)
+    return None
 
-def add_sublevels(driver: webdriver.Chrome, data: dict, pattern: str) -> dict:
-    base_url = "https://www.idealista.pt"
-    updated_data = {}
-    for parent_link, links in data.items():
-        hierarchical_data = {}
-        ran_through_urls = [parent_link]
-        for link in links:
-            full_link = base_url + link
-            page_content = fetch_page_content(driver, full_link)
-            sub_links = extract_links_from_sublocations(page_content, pattern)
-            sub_links = [base_url + sub_link for sub_link in sub_links if (base_url + sub_link) not in ran_through_urls]
-            hierarchical_data[link] = sub_links
-        updated_data[parent_link] = hierarchical_data
-    return updated_data
-
-
-if __name__ == "__main__":
-    base_url = "https://www.idealista.pt"
-    initial_page = f"{base_url}/arrendar-casas/porto-distrito/mapa"
-    pattern = r'^/arrendar-casas/.*/mapa$'
-
+# run this async
+if __name__ == '__main__':
     driver = setup_driver()
-
-    # fetch_page_content(driver, base_url)
-    
-    hierarchical_links = scrape_links_recursively(driver, initial_page, base_url, pattern)
-    hierarchical_links_with_sublevels = add_sublevels(driver, hierarchical_links, pattern)
-    
-    driver.quit()
-
-    with open('data.json', 'w') as f:
-        json.dump(hierarchical_links_with_sublevels, f, indent=4)
+    districts = [
+    "https://www.idealista.pt/arrendar-casas/aveiro-distrito/mapa",
+    "https://www.idealista.pt/arrendar-casas/beja-distrito/mapa",
+    "https://www.idealista.pt/arrendar-casas/braga-distrito/mapa",
+    "https://www.idealista.pt/arrendar-casas/castelo-branco-distrito/mapa",
+    "https://www.idealista.pt/arrendar-casas/coimbra-distrito/mapa",
+    "https://www.idealista.pt/arrendar-casas/evora-distrito/mapa",
+    "https://www.idealista.pt/arrendar-casas/faro-distrito/mapa",
+    "https://www.idealista.pt/arrendar-casas/guarda-distrito/mapa",
+    "https://www.idealista.pt/arrendar-casas/leiria-distrito/mapa",
+    "https://www.idealista.pt/arrendar-casas/lisboa-distrito/mapa",
+    "https://www.idealista.pt/arrendar-casas/portalegre-distrito/mapa",
+    "https://www.idealista.pt/arrendar-casas/porto-distrito/mapa",
+    "https://www.idealista.pt/arrendar-casas/santarem-distrito/mapa",
+    "https://www.idealista.pt/arrendar-casas/setubal-distrito/mapa",
+    "https://www.idealista.pt/arrendar-casas/viana-do-castelo-distrito/mapa",
+    "https://www.idealista.pt/arrendar-casas/vila-real-distrito/mapa",
+    "https://www.idealista.pt/arrendar-casas/viseu-distrito/mapa"
+    ]
+    # base_url = "https://www.idealista.pt"
+    # initial_page = f"{base_url}/arrendar-casas/porto-distrito/mapa"
+    df_list = []
+    for page in districts:
+        district_data = parse_district(driver, 
+                                    page)
+        df_list.append(flatten_json_to_df(district_data, district_data))
+    df = pd.concat(df_list, axis = 0, ignore_index = True)
+    df.to_csv('district_data.csv', index=False)
+    df['district'] = df['district'].apply(extract_location)
+    df['parish'] = df['parish'].apply(extract_location)
+    df['municipality'] = df['municipality'].apply(extract_location)
+    df['neighborhood_link'] = df['neighborhood'].apply(remove_mapa_suffix)
+    df['neighborhood'] = df['neighborhood'].apply(extract_location)
+    df.to_csv('district_data.csv', index=False)
