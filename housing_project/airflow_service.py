@@ -9,7 +9,7 @@ import os
 import pandas as pd
 
 
-idealista_urls = pd.read_csv("district_data_formatted.csv")["neighborhood_link"]
+idealista_urls = pd.read_csv("district_data_updated.csv")["neighborhood_link"]
 
 def scrape_idealista(urls, directory_path):
     idealista_scraper = scraper_factory('idealista')
