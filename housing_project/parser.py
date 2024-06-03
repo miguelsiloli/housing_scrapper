@@ -13,6 +13,7 @@ from io import BytesIO
 import os
 from pathlib import Path
 from dotenv import load_dotenv
+from lxml import html
 
 async def read_html_files_async(directory_path):
     """
@@ -40,8 +41,6 @@ def chunk_files(file_list: List[str], chunk_size: int) -> Generator[List[str], N
     """
     for i in range(0, len(file_list), chunk_size):
         yield file_list[i:i + chunk_size]
-
-from lxml import html
 
 def parse_html_files_to_dataframe(file_path: str) -> pd.DataFrame:
     """
@@ -107,16 +106,20 @@ def extract_listing_info(article: html.HtmlElement) -> Dict[str, Optional[str]]:
     # Extracts data from an article and returns a dictionary of listing info
     # careful with paths, might change between runs need to evaluate this
     title = article.xpath('.//a[@class="item-link "]/@title')[0] if article.xpath('.//a[@class="item-link "]/@title') else np.NaN
-    return {
-        'title': title,
-        'link': 'https://www.idealista.pt' + (article.xpath('.//a[@class="item-link "]/@href')[0] if article.xpath('.//a[@class="item-link "]/@href') else np.NaN),
-        'description': article.xpath('.//div[@class="item-description description"]/p[@class="ellipsis"]//text()')[0].strip() if article.xpath('.//div[@class="item-description description"]/p[@class="ellipsis"]//text()') else np.NaN,
-        'garage': "True" if article.xpath('.//span[@class="item-parking"]') else "False",
-        'price': extract_price(article.xpath('.//span[@class="item-price h2-simulated"]/text()')),
-        'additional_details': article.xpath('.//span[@class="item-detail"]/text()'),
-        'home_type': title.split()[0] if title and title != np.NaN else np.NaN,
-        # 'city': find_city(article)
-    }
+    if title == np.NaN:
+        return {}
+    
+    else:
+        return {
+            'title': title,
+            'link': 'https://www.idealista.pt' + str((article.xpath('.//a[@class="item-link "]/@href')[0]) if article.xpath('.//a[@class="item-link "]/@href') else np.NaN),
+            'description': article.xpath('.//div[@class="item-description description"]/p[@class="ellipsis"]//text()')[0].strip() if article.xpath('.//div[@class="item-description description"]/p[@class="ellipsis"]//text()') else np.NaN,
+            'garage': "True" if article.xpath('.//span[@class="item-parking"]') else "False",
+            'price': extract_price(article.xpath('.//span[@class="item-price h2-simulated"]/text()')),
+            'additional_details': article.xpath('.//span[@class="item-detail"]/text()'),
+            'home_type': str(title).split()[0] if title and title != np.NaN else np.NaN,
+            # 'city': find_city(article)
+        }
 
 def extract_price(price_texts: List[str]) -> Optional[int]:
     """
@@ -152,8 +155,8 @@ def process_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     df['home_size'] = df['additional_details'].apply(lambda x: x[0] if x else None)
     df['home_area'] = df['additional_details'].apply(lambda x: int(re.search(r'\d+', x[1]).group()) if len(x) >= 2 else None)
     df['floor'] = df['additional_details'].apply(lambda x: x[2] if len(x) >= 3 and 'andar' in x[2] else None)
-    df['elevator'] = df['floor'].apply(lambda x: 'com elevador' in str(x) if x else False)
-    df['floor'] = df['floor'].apply(lambda x: int(re.search(r'\d+', str(x)).group()) if x else 0)
+    df['floor'] = df['floor'].apply(lambda x: int(re.search(r'\d+', str(x)).group()) if x else 0)    
+    df['elevator'] = df['floor'].apply(lambda x: 'com elevador' in str(x) if str(x) else False)
     df['price_per_sqr_meter'] = df['price'] / df['home_area']
     # df['neighborhood'] = df['title'].str.rsplit(',', n = 1).str[-1].str.strip()
     df.drop(columns=['additional_details'], 
@@ -206,7 +209,7 @@ def main_function(parsing_function: callable, s3_object:  object, source_directo
         # validate dataframe
         # final_df = schema.validate(final_df)
 
-        districts = pd.read_csv("district_data_formatted.csv")
+        districts = pd.read_csv("district_data_updated.csv")
         districts["neighborhood_link"] = districts["neighborhood_link"].astype(str)
         districts['neighborhood_link'] = districts['neighborhood_link'].apply(lambda x: x + '/')
         final_df["source_link"] = final_df["source_link"].astype(str)
@@ -257,15 +260,16 @@ def upload_df_to_s3_as_parquet(df, bucket, file_name, s3_client):
     print(f"File uploaded successfully to s3://{bucket}/{file_name}")
 
 def assert_dataframe_datatypes(df):
+
     # Convert data types
     df['title'] = df['title'].astype('string')  # Using Pandas' new StringDtype
     df['link'] = df['link'].astype('string')
     df['description'] = df['description'].astype('string')
     df['garage'] = df['garage'].astype('bool')
-    df['price'] = df['price'].astype(np.int32)  # Use np.int32 if the price range is within the 32-bit integer range
+    # df['price'] = df['price'].astype(np.int32)  # Use np.int32 if the price range is within the 32-bit integer range
     df['home_size'] = df['home_size'].astype('string')  
-    df['home_area'] = df['home_area'].astype(np.int32)
-    df['floor'] = df['floor'].astype(np.int32)
+    # df['home_area'] = df['home_area'].astype(np.int32)
+    # df['floor'] = df['floor'].astype(np.int32)
     df['elevator'] = df['elevator'].astype('bool')
     # df['price_per_sqr_meter'] = df['price_per_sqr_meter'].astype(np.float32) 
     df['date'] = pd.to_datetime(df['date'], format='%d-%m-%Y')  

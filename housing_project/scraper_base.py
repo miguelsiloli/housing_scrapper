@@ -40,6 +40,7 @@ from typing import List
 from tqdm import tqdm
 import numpy as np
 from seleniumbase import Driver
+from retrying import retry
 
 class WebScraper(ABC):
     def __init__(self):
@@ -72,6 +73,7 @@ class IdealistaScraper(WebScraper):
         # self.options.add_argument("--headless")
         self.driver = Driver(uc=True, incognito=True)
 
+    @retry(wait_exponential_multiplier=5, wait_exponential_max=1000, stop_max_attempt_number=5)
     def scrape(self, urls: List[str], directory_path: str = "raw/idealista") -> None:
         """Scrape data from a list of URLs using Selenium WebDriver."""
         try:
@@ -227,7 +229,7 @@ def scraper_factory(source: str) -> WebScraper:
         raise ValueError(f"source {source} is not supported. Please pass a valid source.")
 
 if __name__ == "__main__":
-    idealista_urls = pd.read_csv("district_data_formatted.csv")["neighborhood_link"]
+    idealista_urls = pd.read_csv("district_data_updated.csv")["neighborhood_link"]
     # Create an instance of the scraper
     idealista_scraper = scraper_factory('idealista')
     idealista_scraper.scrape(urls=idealista_urls,
