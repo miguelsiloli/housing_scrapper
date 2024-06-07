@@ -166,7 +166,7 @@ def process_dataframe(df: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
-def main_function(parsing_function: callable, s3_object:  object, source_directory_path: str = "./raw/idealista", chunk_size: int = 25, upload_to_s3 = False) -> None:
+def main_function(parsing_function: callable, s3_object:  object, source_directory_path: str = "./raw/idealista", chunk_size: int = 25, upload_to_s3 = False, folder = "housing_prices/raw/idealista") -> None:
     """
     Process HTML files into a DataFrame and save it as a Parquet file.
     
@@ -196,7 +196,6 @@ def main_function(parsing_function: callable, s3_object:  object, source_directo
                              axis=0, 
                              ignore_index=True)
         current_date = final_df["date"].iloc[0]
-        folder = "housing_prices/raw/"
         filename = f'{folder}house_price_data_{current_date}.parquet'
 
         # making sure data types match
