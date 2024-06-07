@@ -4,7 +4,7 @@ import regex as re
 import os
 import dask
 import dask.dataframe as dd
-from housing_project.notebooks.duckdb_handler import DatabaseConnection
+from idealista.notebooks.duckdb_handler import DatabaseConnection
 from dask.diagnostics import ProgressBar
 
 def find_city(html_source):

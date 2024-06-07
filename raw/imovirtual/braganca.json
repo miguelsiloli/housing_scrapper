@@ -1,0 +1,1638 @@
+{
+    "braganca/alfandega-da-fe": [],
+    "braganca/alfandega-da-fe/agrobom-saldonha-e-vale-pereiro": [],
+    "braganca/alfandega-da-fe/alfandega-da-fe": [],
+    "braganca/alfandega-da-fe/cerejais": [],
+    "braganca/alfandega-da-fe/eucisia-gouveia-e-valverde": [],
+    "braganca/alfandega-da-fe/ferradosa-e-sendim-da-serra": [],
+    "braganca/alfandega-da-fe/gebelim-e-soeima": [],
+    "braganca/alfandega-da-fe/parada-e-sendim-da-ribeira": [],
+    "braganca/alfandega-da-fe/pombal-e-vales": [],
+    "braganca/alfandega-da-fe/sambade": [],
+    "braganca/alfandega-da-fe/vilar-chao": [],
+    "braganca/alfandega-da-fe/vilarelhos": [],
+    "braganca/alfandega-da-fe/vilares-de-vilarica": [],
+    "braganca/braganca": [
+        {
+            "id": 18340435,
+            "title": "Apartamento T2+1 - na Avenida Sá Carneiro-Bragança",
+            "slug": "apartamento-t2-1-na-avenida-sa-carneiro-braganca-ID1eXbt",
+            "estate": "FLAT",
+            "developmentId": 0,
+            "developmentTitle": "",
+            "developmentUrl": "",
+            "transaction": "RENT",
+            "location": {
+                "mapDetails": {
+                    "radius": 100,
+                    "__typename": "MapDetails"
+                },
+                "address": {
+                    "street": null,
+                    "city": {
+                        "name": "Sé, Santa Maria e Meixedo",
+                        "__typename": "City"
+                    },
+                    "province": {
+                        "name": "Bragança",
+                        "__typename": "Province"
+                    },
+                    "__typename": "Address"
+                },
+                "reverseGeocoding": {
+                    "locations": [
+                        {
+                            "id": "braganca",
+                            "fullName": "Bragança",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "braganca/braganca",
+                            "fullName": "Bragança, Bragança",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "braganca/braganca/se-santa-maria-e-meixedo",
+                            "fullName": "Sé, Santa Maria e Meixedo, Bragança, Bragança",
+                            "__typename": "BasicLocationObject"
+                        }
+                    ],
+                    "__typename": "ReverseGeocoding"
+                },
+                "__typename": "LocationDetails"
+            },
+            "images": [
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjI2Nnh4amIzb25vMi1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.kCxC7H_JuGug5Y8gS2czhzlA6hbj18VZWMwJ0mNcliY/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjI2Nnh4amIzb25vMi1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.kCxC7H_JuGug5Y8gS2czhzlA6hbj18VZWMwJ0mNcliY/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                },
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImhwYjFyMmw4azM3YS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.Pg5HqRxe73iv1xQckFsplXzUj1oGOHrrBtogjLBMFrw/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImhwYjFyMmw4azM3YS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.Pg5HqRxe73iv1xQckFsplXzUj1oGOHrrBtogjLBMFrw/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                }
+            ],
+            "isExclusiveOffer": false,
+            "isPrivateOwner": false,
+            "isPromoted": false,
+            "agency": null,
+            "openDays": "",
+            "totalPrice": {
+                "value": 550,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "rentPrice": null,
+            "priceFromPerSquareMeter": null,
+            "pricePerSquareMeter": {
+                "value": 5,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "areaInSquareMeters": 122,
+            "terrainAreaInSquareMeters": null,
+            "roomsNumber": "THREE",
+            "hidePrice": false,
+            "floorNumber": null,
+            "investmentState": null,
+            "investmentUnitsAreaInSquareMeters": null,
+            "peoplePerRoom": null,
+            "dateCreated": "2024-06-01 17:44:09",
+            "dateCreatedFirst": "2024-06-01 17:41:34",
+            "investmentUnitsNumber": null,
+            "investmentUnitsRoomsNumber": null,
+            "investmentEstimatedDelivery": null,
+            "pushedUpAt": null,
+            "specialOffer": null,
+            "shortDescription": "O apartamento localiza-se na parte central da Avenida de Sá Carneiro,num 1.andar, tendo em frente Farmácia , Minipreço e Comércio em geral.\nÉ composto por: cozinha, despensa, sala , dois quartos +um, ...",
+            "__typename": "AdvertListItem",
+            "totalPossibleImages": 12
+        },
+        {
+            "id": 18332975,
+            "title": "Apartamento T4 para arrendar",
+            "slug": "apartamento-t4-para-arrendar-ID1eWf9",
+            "estate": "FLAT",
+            "developmentId": 0,
+            "developmentTitle": "",
+            "developmentUrl": "",
+            "transaction": "RENT",
+            "location": {
+                "mapDetails": {
+                    "radius": 0,
+                    "__typename": "MapDetails"
+                },
+                "address": {
+                    "street": {
+                        "name": "Cruzamento de Vale D'Álvaro - Bairro da Braguinha",
+                        "number": "",
+                        "__typename": "Street"
+                    },
+                    "city": {
+                        "name": "Sé, Santa Maria e Meixedo",
+                        "__typename": "City"
+                    },
+                    "province": {
+                        "name": "Bragança",
+                        "__typename": "Province"
+                    },
+                    "__typename": "Address"
+                },
+                "reverseGeocoding": {
+                    "locations": [
+                        {
+                            "id": "braganca",
+                            "fullName": "Bragança",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "braganca/braganca",
+                            "fullName": "Bragança, Bragança",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "braganca/braganca/se-santa-maria-e-meixedo",
+                            "fullName": "Sé, Santa Maria e Meixedo, Bragança, Bragança",
+                            "__typename": "BasicLocationObject"
+                        }
+                    ],
+                    "__typename": "ReverseGeocoding"
+                },
+                "__typename": "LocationDetails"
+            },
+            "images": [
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImliOXZ5cHdhdGI1bC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.OKSIWM0Yhl4g6yd4ypt0ii9MipMrhuExO52S0cOscRo/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImliOXZ5cHdhdGI1bC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.OKSIWM0Yhl4g6yd4ypt0ii9MipMrhuExO52S0cOscRo/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                },
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjRwazBxZ3owdTl3NS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.SEIYlPj5po0wcU8NsBD-Be8f7NJBqh9eorUaWhlhi0I/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjRwazBxZ3owdTl3NS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.SEIYlPj5po0wcU8NsBD-Be8f7NJBqh9eorUaWhlhi0I/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                }
+            ],
+            "isExclusiveOffer": false,
+            "isPrivateOwner": false,
+            "isPromoted": false,
+            "agency": {
+                "id": 353420,
+                "name": "Century 21 Nopi",
+                "slug": "century-21-nopi-ID353420",
+                "imageUrl": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im53Ym1ra2N0ZWhrYTItQVBUIn0.EH1hFeKDXauOfG1BtvGT_aDwEz6TkdJ4Abioiu5C3-Q/image;s=800x600;q=90",
+                "type": "AGENCY",
+                "brandingVisible": true,
+                "highlightedAds": false,
+                "__typename": "AgencyListingDetails"
+            },
+            "openDays": "",
+            "totalPrice": {
+                "value": 900,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "rentPrice": null,
+            "priceFromPerSquareMeter": null,
+            "pricePerSquareMeter": {
+                "value": 5,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "areaInSquareMeters": 179,
+            "terrainAreaInSquareMeters": null,
+            "roomsNumber": "FIVE",
+            "hidePrice": false,
+            "floorNumber": null,
+            "investmentState": null,
+            "investmentUnitsAreaInSquareMeters": null,
+            "peoplePerRoom": null,
+            "dateCreated": "2024-05-27 23:16:08",
+            "dateCreatedFirst": "2024-05-27 23:16:05",
+            "investmentUnitsNumber": null,
+            "investmentUnitsRoomsNumber": null,
+            "investmentEstimatedDelivery": null,
+            "pushedUpAt": null,
+            "specialOffer": null,
+            "shortDescription": "Apartamento novo para arrendar.\nEste imóvel é constituído por quatro quartos, sendo dois deles suite, Cozinha equipada com  sala open space, varanda e garagem.\n\nA marca CENTURY 21®\nA maior rede de fra...",
+            "__typename": "AdvertListItem",
+            "totalPossibleImages": 28
+        },
+        {
+            "id": 18329672,
+            "title": "T2 arrendamento braganca",
+            "slug": "t2-arrendamento-braganca-ID1eUnS",
+            "estate": "FLAT",
+            "developmentId": 0,
+            "developmentTitle": "",
+            "developmentUrl": "",
+            "transaction": "RENT",
+            "location": {
+                "mapDetails": {
+                    "radius": 100,
+                    "__typename": "MapDetails"
+                },
+                "address": {
+                    "street": null,
+                    "city": {
+                        "name": "Sé, Santa Maria e Meixedo",
+                        "__typename": "City"
+                    },
+                    "province": {
+                        "name": "Bragança",
+                        "__typename": "Province"
+                    },
+                    "__typename": "Address"
+                },
+                "reverseGeocoding": {
+                    "locations": [
+                        {
+                            "id": "braganca",
+                            "fullName": "Bragança",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "braganca/braganca",
+                            "fullName": "Bragança, Bragança",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "braganca/braganca/se-santa-maria-e-meixedo",
+                            "fullName": "Sé, Santa Maria e Meixedo, Bragança, Bragança",
+                            "__typename": "BasicLocationObject"
+                        }
+                    ],
+                    "__typename": "ReverseGeocoding"
+                },
+                "__typename": "LocationDetails"
+            },
+            "images": [
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imt1YWVqdWo5eTVzdjEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.p89pD6VOIXcs7KBnk_JGhSz6wKDXOdLv6VN5xTDH7-Q/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imt1YWVqdWo5eTVzdjEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.p89pD6VOIXcs7KBnk_JGhSz6wKDXOdLv6VN5xTDH7-Q/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                },
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImxtMmVmaTBqaWp0dTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.2ejhfEZZz1qMV8ZcOS2DYFRZ8ho_bVmnf2GePrEHTDI/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImxtMmVmaTBqaWp0dTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.2ejhfEZZz1qMV8ZcOS2DYFRZ8ho_bVmnf2GePrEHTDI/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                }
+            ],
+            "isExclusiveOffer": false,
+            "isPrivateOwner": false,
+            "isPromoted": false,
+            "agency": null,
+            "openDays": "",
+            "totalPrice": {
+                "value": 600,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "rentPrice": null,
+            "priceFromPerSquareMeter": null,
+            "pricePerSquareMeter": {
+                "value": 8,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "areaInSquareMeters": 80,
+            "terrainAreaInSquareMeters": null,
+            "roomsNumber": "THREE",
+            "hidePrice": false,
+            "floorNumber": null,
+            "investmentState": null,
+            "investmentUnitsAreaInSquareMeters": null,
+            "peoplePerRoom": null,
+            "dateCreated": "2024-05-24 17:40:24",
+            "dateCreatedFirst": "2024-05-24 17:40:20",
+            "investmentUnitsNumber": null,
+            "investmentUnitsRoomsNumber": null,
+            "investmentEstimatedDelivery": null,
+            "pushedUpAt": null,
+            "specialOffer": null,
+            "shortDescription": "T2 com 1 casa de banho. \nCompletamente remodelado com cozinha equipada e completamente nova.  \nLugar para 1 carro. \nLocalizado na Zona de Vale de Álvaro (cidade de Bragança ), \nA 3 minutos a pé do cen...",
+            "__typename": "AdvertListItem",
+            "totalPossibleImages": 4
+        },
+        {
+            "id": 18276568,
+            "title": "Arrenda-se T2 mobilado inserido em moradia",
+            "slug": "arrenda-se-t2-mobilado-inserido-em-moradia-ID1eGzm",
+            "estate": "FLAT",
+            "developmentId": 0,
+            "developmentTitle": "",
+            "developmentUrl": "",
+            "transaction": "RENT",
+            "location": {
+                "mapDetails": {
+                    "radius": 100,
+                    "__typename": "MapDetails"
+                },
+                "address": {
+                    "street": null,
+                    "city": {
+                        "name": "Espinhosela",
+                        "__typename": "City"
+                    },
+                    "province": {
+                        "name": "Bragança",
+                        "__typename": "Province"
+                    },
+                    "__typename": "Address"
+                },
+                "reverseGeocoding": {
+                    "locations": [
+                        {
+                            "id": "braganca",
+                            "fullName": "Bragança",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "braganca/braganca",
+                            "fullName": "Bragança, Bragança",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "braganca/braganca/se-santa-maria-e-meixedo",
+                            "fullName": "Sé, Santa Maria e Meixedo, Bragança, Bragança",
+                            "__typename": "BasicLocationObject"
+                        }
+                    ],
+                    "__typename": "ReverseGeocoding"
+                },
+                "__typename": "LocationDetails"
+            },
+            "images": [
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InI0YTM3OWJ4em1mcC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.il_-TdbvWD1shTjnb3UgRIPFR2rNYdg2lY1CRT5GO8U/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InI0YTM3OWJ4em1mcC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.il_-TdbvWD1shTjnb3UgRIPFR2rNYdg2lY1CRT5GO8U/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                },
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Iml3Znc2ejF3MnFycTItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.r1YNCfbp2hKECUUvR6XmXOrVBxwx7HFfVdZef60WtE0/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Iml3Znc2ejF3MnFycTItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.r1YNCfbp2hKECUUvR6XmXOrVBxwx7HFfVdZef60WtE0/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                }
+            ],
+            "isExclusiveOffer": false,
+            "isPrivateOwner": false,
+            "isPromoted": false,
+            "agency": null,
+            "openDays": "",
+            "totalPrice": {
+                "value": 500,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "rentPrice": null,
+            "priceFromPerSquareMeter": null,
+            "pricePerSquareMeter": {
+                "value": 4,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "areaInSquareMeters": 120,
+            "terrainAreaInSquareMeters": null,
+            "roomsNumber": "THREE",
+            "hidePrice": false,
+            "floorNumber": null,
+            "investmentState": null,
+            "investmentUnitsAreaInSquareMeters": null,
+            "peoplePerRoom": null,
+            "dateCreated": "2024-05-01 10:31:46",
+            "dateCreatedFirst": "2024-05-01 10:31:29",
+            "investmentUnitsNumber": null,
+            "investmentUnitsRoomsNumber": null,
+            "investmentEstimatedDelivery": null,
+            "pushedUpAt": null,
+            "specialOffer": null,
+            "shortDescription": "Arrenda-se T2 mobilado inserido em moradia.\nA 5m a pé do centro da cidade.\nPerto de transportes públicos.",
+            "__typename": "AdvertListItem",
+            "totalPossibleImages": 8
+        },
+        {
+            "id": 18060823,
+            "title": "Apartamento T2 para arrendamento",
+            "slug": "apartamento-t2-para-arrendamento-ID1dMrB",
+            "estate": "FLAT",
+            "developmentId": 0,
+            "developmentTitle": "",
+            "developmentUrl": "",
+            "transaction": "RENT",
+            "location": {
+                "mapDetails": {
+                    "radius": 0,
+                    "__typename": "MapDetails"
+                },
+                "address": {
+                    "street": {
+                        "name": "Rua Emídio Navarro",
+                        "number": "",
+                        "__typename": "Street"
+                    },
+                    "city": {
+                        "name": "Espinhosela",
+                        "__typename": "City"
+                    },
+                    "province": {
+                        "name": "Bragança",
+                        "__typename": "Province"
+                    },
+                    "__typename": "Address"
+                },
+                "reverseGeocoding": {
+                    "locations": [
+                        {
+                            "id": "braganca",
+                            "fullName": "Bragança",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "braganca/braganca",
+                            "fullName": "Bragança, Bragança",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "braganca/braganca/se-santa-maria-e-meixedo",
+                            "fullName": "Sé, Santa Maria e Meixedo, Bragança, Bragança",
+                            "__typename": "BasicLocationObject"
+                        }
+                    ],
+                    "__typename": "ReverseGeocoding"
+                },
+                "__typename": "LocationDetails"
+            },
+            "images": [
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjZxc2poNHZ2eW93ci1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.pw3EqAxuXA1EOZndP41OuHdLv9xIzGerKWKpf1h-5qk/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjZxc2poNHZ2eW93ci1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.pw3EqAxuXA1EOZndP41OuHdLv9xIzGerKWKpf1h-5qk/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                },
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjJ4cjg1ODhmYWM0dS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.nHnxnW3amMK1ze4Pu5zVNIJ1P1X7byo8GEBIMrLLWMw/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjJ4cjg1ODhmYWM0dS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.nHnxnW3amMK1ze4Pu5zVNIJ1P1X7byo8GEBIMrLLWMw/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                }
+            ],
+            "isExclusiveOffer": false,
+            "isPrivateOwner": false,
+            "isPromoted": false,
+            "agency": {
+                "id": 4034400,
+                "name": "REMAX URBIS",
+                "slug": "remax-urbis-ID4034400",
+                "imageUrl": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImI5enZ1anc3eWoyMTItQVBUIn0.81HTlSgwtl6ykZB67o1qVmUymo4R1qEj02RtS1IlmFM/image;s=800x600;q=90",
+                "type": "AGENCY",
+                "brandingVisible": true,
+                "highlightedAds": false,
+                "__typename": "AgencyListingDetails"
+            },
+            "openDays": "",
+            "totalPrice": {
+                "value": 680,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "rentPrice": null,
+            "priceFromPerSquareMeter": null,
+            "pricePerSquareMeter": {
+                "value": 7,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "areaInSquareMeters": 91.5,
+            "terrainAreaInSquareMeters": null,
+            "roomsNumber": "THREE",
+            "hidePrice": false,
+            "floorNumber": null,
+            "investmentState": null,
+            "investmentUnitsAreaInSquareMeters": null,
+            "peoplePerRoom": null,
+            "dateCreated": "2024-02-07 11:45:38",
+            "dateCreatedFirst": "2024-02-07 11:45:28",
+            "investmentUnitsNumber": null,
+            "investmentUnitsRoomsNumber": null,
+            "investmentEstimatedDelivery": null,
+            "pushedUpAt": null,
+            "specialOffer": null,
+            "shortDescription": "Fant&aacute;stico apartamento, todo mobilado, situado no cora&ccedil;&atilde;o da cidade de Bragan&ccedil;a. &Eacute; o im&oacute;vel ideal para quem gosta de morar no centro da cidade, ter acesso dir...",
+            "__typename": "AdvertListItem",
+            "totalPossibleImages": 12
+        },
+        {
+            "id": 17742613,
+            "title": "Bragança, perto do Politécnico e do Hospital",
+            "slug": "braganca-perto-do-politecnico-e-do-hospital-ID1crFb",
+            "estate": "FLAT",
+            "developmentId": 0,
+            "developmentTitle": "",
+            "developmentUrl": "",
+            "transaction": "RENT",
+            "location": {
+                "mapDetails": {
+                    "radius": 100,
+                    "__typename": "MapDetails"
+                },
+                "address": {
+                    "street": null,
+                    "city": {
+                        "name": "Sé, Santa Maria e Meixedo",
+                        "__typename": "City"
+                    },
+                    "province": {
+                        "name": "Bragança",
+                        "__typename": "Province"
+                    },
+                    "__typename": "Address"
+                },
+                "reverseGeocoding": {
+                    "locations": [
+                        {
+                            "id": "braganca",
+                            "fullName": "Bragança",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "braganca/braganca",
+                            "fullName": "Bragança, Bragança",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "braganca/braganca/se-santa-maria-e-meixedo",
+                            "fullName": "Sé, Santa Maria e Meixedo, Bragança, Bragança",
+                            "__typename": "BasicLocationObject"
+                        }
+                    ],
+                    "__typename": "ReverseGeocoding"
+                },
+                "__typename": "LocationDetails"
+            },
+            "images": [
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InM0Y2Z3MXQ4OG1nOS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.LZk8jR3-yqxpmmSqEIcsE-5yy1dFUOgcaxAx_IWlF8M/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InM0Y2Z3MXQ4OG1nOS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.LZk8jR3-yqxpmmSqEIcsE-5yy1dFUOgcaxAx_IWlF8M/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                },
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjFzMG9icHc0N3E1eS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.KTiYChGpWsjTsMAjwUPTGhRWJHvTCG3tGPPklFn82lU/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjFzMG9icHc0N3E1eS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.KTiYChGpWsjTsMAjwUPTGhRWJHvTCG3tGPPklFn82lU/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                }
+            ],
+            "isExclusiveOffer": false,
+            "isPrivateOwner": false,
+            "isPromoted": false,
+            "agency": null,
+            "openDays": "",
+            "totalPrice": {
+                "value": 550,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "rentPrice": null,
+            "priceFromPerSquareMeter": null,
+            "pricePerSquareMeter": {
+                "value": 9,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "areaInSquareMeters": 60,
+            "terrainAreaInSquareMeters": null,
+            "roomsNumber": "TWO",
+            "hidePrice": false,
+            "floorNumber": null,
+            "investmentState": null,
+            "investmentUnitsAreaInSquareMeters": null,
+            "peoplePerRoom": null,
+            "dateCreated": "2023-10-15 16:57:51",
+            "dateCreatedFirst": "2023-10-15 16:57:48",
+            "investmentUnitsNumber": null,
+            "investmentUnitsRoomsNumber": null,
+            "investmentEstimatedDelivery": null,
+            "pushedUpAt": null,
+            "specialOffer": null,
+            "shortDescription": "Apartamento T1, muito bem situado (na parte de trás do prédio da pastelaria \"Canelão\"), todo equipado (incluindo aquecimento central), e, em muito bom estado de conservação, com lugar de garagem. Exig...",
+            "__typename": "AdvertListItem",
+            "totalPossibleImages": 11
+        },
+        {
+            "id": 17025120,
+            "title": "T0 em Bragança, a 150m da Praça da Sé",
+            "slug": "t0-em-braganca-a-150m-da-praca-da-se-ID19r0I",
+            "estate": "FLAT",
+            "developmentId": 0,
+            "developmentTitle": "",
+            "developmentUrl": "",
+            "transaction": "RENT",
+            "location": {
+                "mapDetails": {
+                    "radius": 100,
+                    "__typename": "MapDetails"
+                },
+                "address": {
+                    "street": null,
+                    "city": {
+                        "name": "Espinhosela",
+                        "__typename": "City"
+                    },
+                    "province": {
+                        "name": "Bragança",
+                        "__typename": "Province"
+                    },
+                    "__typename": "Address"
+                },
+                "reverseGeocoding": {
+                    "locations": [
+                        {
+                            "id": "braganca",
+                            "fullName": "Bragança",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "braganca/braganca",
+                            "fullName": "Bragança, Bragança",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "braganca/braganca/se-santa-maria-e-meixedo",
+                            "fullName": "Sé, Santa Maria e Meixedo, Bragança, Bragança",
+                            "__typename": "BasicLocationObject"
+                        }
+                    ],
+                    "__typename": "ReverseGeocoding"
+                },
+                "__typename": "LocationDetails"
+            },
+            "images": [
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImNxeHJoNm8zZW52dDMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.Lxy-K4cawqm3UsZi7AhPkmutgzte7ZaQS9Rz6zebOXk/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImNxeHJoNm8zZW52dDMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.Lxy-K4cawqm3UsZi7AhPkmutgzte7ZaQS9Rz6zebOXk/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                },
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImM1NDF2dTgxZmZjNy1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.LE383JwU_qHQCI1A4Yyy8z5q68oPXsKuNlT5tcr2y3E/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImM1NDF2dTgxZmZjNy1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.LE383JwU_qHQCI1A4Yyy8z5q68oPXsKuNlT5tcr2y3E/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                }
+            ],
+            "isExclusiveOffer": false,
+            "isPrivateOwner": false,
+            "isPromoted": false,
+            "agency": null,
+            "openDays": "",
+            "totalPrice": {
+                "value": 400,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "rentPrice": null,
+            "priceFromPerSquareMeter": null,
+            "pricePerSquareMeter": {
+                "value": 20,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "areaInSquareMeters": 20,
+            "terrainAreaInSquareMeters": null,
+            "roomsNumber": "ONE",
+            "hidePrice": false,
+            "floorNumber": null,
+            "investmentState": null,
+            "investmentUnitsAreaInSquareMeters": null,
+            "peoplePerRoom": null,
+            "dateCreated": "2022-08-26 18:48:29",
+            "dateCreatedFirst": "2022-08-26 18:48:25",
+            "investmentUnitsNumber": null,
+            "investmentUnitsRoomsNumber": null,
+            "investmentEstimatedDelivery": null,
+            "pushedUpAt": null,
+            "specialOffer": null,
+            "shortDescription": "Apartamento localizado na zona histórica da cidade, entre a Praça da Sé e o Castelo.\nNo valor estão incluídos os consumos de electricidade até €30 , água e internet.\nDisponível a partir do dia 16 de J...",
+            "__typename": "AdvertListItem",
+            "totalPossibleImages": 4
+        }
+    ],
+    "braganca/braganca/alfaiao": [],
+    "braganca/braganca/aveleda-e-rio-de-onor": [],
+    "braganca/braganca/babe": [],
+    "braganca/braganca/bacal": [],
+    "braganca/braganca/carragosa": [],
+    "braganca/braganca/castrelos-e-carrazedo": [],
+    "braganca/braganca/castro-de-avelas": [],
+    "braganca/braganca/coelhoso": [],
+    "braganca/braganca/donai": [],
+    "braganca/braganca/espinhosela": [],
+    "braganca/braganca/franca": [],
+    "braganca/braganca/gimonde": [],
+    "braganca/braganca/gondesende": [],
+    "braganca/braganca/gostei": [],
+    "braganca/braganca/grijo-de-parada": [],
+    "braganca/braganca/izeda-calvelhe-e-paradinha-nova": [],
+    "braganca/braganca/macedo-do-mato": [],
+    "braganca/braganca/mos": [],
+    "braganca/braganca/nogueira": [],
+    "braganca/braganca/outeiro": [],
+    "braganca/braganca/parada-e-failde": [],
+    "braganca/braganca/paramio": [],
+    "braganca/braganca/pinela": [],
+    "braganca/braganca/quintanilha": [],
+    "braganca/braganca/quintela-de-lampacas": [],
+    "braganca/braganca/rabal": [],
+    "braganca/braganca/rebordainhos-e-pombares": [],
+    "braganca/braganca/rebordaos": [],
+    "braganca/braganca/rio-frio-e-milhao": [],
+    "braganca/braganca/salsas": [],
+    "braganca/braganca/samil": [],
+    "braganca/braganca/santa-comba-de-rossas": [],
+    "braganca/braganca/sao-juliao-de-palacios-e-deilao": [],
+    "braganca/braganca/sao-pedro-de-sarracenos": [],
+    "braganca/braganca/sendas": [],
+    "braganca/braganca/serapicos": [],
+    "braganca/braganca/se-santa-maria-e-meixedo": [
+        {
+            "id": 18340435,
+            "title": "Apartamento T2+1 - na Avenida Sá Carneiro-Bragança",
+            "slug": "apartamento-t2-1-na-avenida-sa-carneiro-braganca-ID1eXbt",
+            "estate": "FLAT",
+            "developmentId": 0,
+            "developmentTitle": "",
+            "developmentUrl": "",
+            "transaction": "RENT",
+            "location": {
+                "mapDetails": {
+                    "radius": 100,
+                    "__typename": "MapDetails"
+                },
+                "address": {
+                    "street": null,
+                    "city": {
+                        "name": "Sé, Santa Maria e Meixedo",
+                        "__typename": "City"
+                    },
+                    "province": {
+                        "name": "Bragança",
+                        "__typename": "Province"
+                    },
+                    "__typename": "Address"
+                },
+                "reverseGeocoding": {
+                    "locations": [
+                        {
+                            "id": "braganca",
+                            "fullName": "Bragança",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "braganca/braganca",
+                            "fullName": "Bragança, Bragança",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "braganca/braganca/se-santa-maria-e-meixedo",
+                            "fullName": "Sé, Santa Maria e Meixedo, Bragança, Bragança",
+                            "__typename": "BasicLocationObject"
+                        }
+                    ],
+                    "__typename": "ReverseGeocoding"
+                },
+                "__typename": "LocationDetails"
+            },
+            "images": [
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjI2Nnh4amIzb25vMi1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.kCxC7H_JuGug5Y8gS2czhzlA6hbj18VZWMwJ0mNcliY/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjI2Nnh4amIzb25vMi1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.kCxC7H_JuGug5Y8gS2czhzlA6hbj18VZWMwJ0mNcliY/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                },
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImhwYjFyMmw4azM3YS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.Pg5HqRxe73iv1xQckFsplXzUj1oGOHrrBtogjLBMFrw/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImhwYjFyMmw4azM3YS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.Pg5HqRxe73iv1xQckFsplXzUj1oGOHrrBtogjLBMFrw/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                }
+            ],
+            "isExclusiveOffer": false,
+            "isPrivateOwner": false,
+            "isPromoted": false,
+            "agency": null,
+            "openDays": "",
+            "totalPrice": {
+                "value": 550,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "rentPrice": null,
+            "priceFromPerSquareMeter": null,
+            "pricePerSquareMeter": {
+                "value": 5,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "areaInSquareMeters": 122,
+            "terrainAreaInSquareMeters": null,
+            "roomsNumber": "THREE",
+            "hidePrice": false,
+            "floorNumber": null,
+            "investmentState": null,
+            "investmentUnitsAreaInSquareMeters": null,
+            "peoplePerRoom": null,
+            "dateCreated": "2024-06-01 17:44:09",
+            "dateCreatedFirst": "2024-06-01 17:41:34",
+            "investmentUnitsNumber": null,
+            "investmentUnitsRoomsNumber": null,
+            "investmentEstimatedDelivery": null,
+            "pushedUpAt": null,
+            "specialOffer": null,
+            "shortDescription": "O apartamento localiza-se na parte central da Avenida de Sá Carneiro,num 1.andar, tendo em frente Farmácia , Minipreço e Comércio em geral.\nÉ composto por: cozinha, despensa, sala , dois quartos +um, ...",
+            "__typename": "AdvertListItem",
+            "totalPossibleImages": 12
+        },
+        {
+            "id": 18332975,
+            "title": "Apartamento T4 para arrendar",
+            "slug": "apartamento-t4-para-arrendar-ID1eWf9",
+            "estate": "FLAT",
+            "developmentId": 0,
+            "developmentTitle": "",
+            "developmentUrl": "",
+            "transaction": "RENT",
+            "location": {
+                "mapDetails": {
+                    "radius": 0,
+                    "__typename": "MapDetails"
+                },
+                "address": {
+                    "street": {
+                        "name": "Cruzamento de Vale D'Álvaro - Bairro da Braguinha",
+                        "number": "",
+                        "__typename": "Street"
+                    },
+                    "city": {
+                        "name": "Sé, Santa Maria e Meixedo",
+                        "__typename": "City"
+                    },
+                    "province": {
+                        "name": "Bragança",
+                        "__typename": "Province"
+                    },
+                    "__typename": "Address"
+                },
+                "reverseGeocoding": {
+                    "locations": [
+                        {
+                            "id": "braganca",
+                            "fullName": "Bragança",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "braganca/braganca",
+                            "fullName": "Bragança, Bragança",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "braganca/braganca/se-santa-maria-e-meixedo",
+                            "fullName": "Sé, Santa Maria e Meixedo, Bragança, Bragança",
+                            "__typename": "BasicLocationObject"
+                        }
+                    ],
+                    "__typename": "ReverseGeocoding"
+                },
+                "__typename": "LocationDetails"
+            },
+            "images": [
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImliOXZ5cHdhdGI1bC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.OKSIWM0Yhl4g6yd4ypt0ii9MipMrhuExO52S0cOscRo/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImliOXZ5cHdhdGI1bC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.OKSIWM0Yhl4g6yd4ypt0ii9MipMrhuExO52S0cOscRo/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                },
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjRwazBxZ3owdTl3NS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.SEIYlPj5po0wcU8NsBD-Be8f7NJBqh9eorUaWhlhi0I/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjRwazBxZ3owdTl3NS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.SEIYlPj5po0wcU8NsBD-Be8f7NJBqh9eorUaWhlhi0I/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                }
+            ],
+            "isExclusiveOffer": false,
+            "isPrivateOwner": false,
+            "isPromoted": false,
+            "agency": {
+                "id": 353420,
+                "name": "Century 21 Nopi",
+                "slug": "century-21-nopi-ID353420",
+                "imageUrl": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im53Ym1ra2N0ZWhrYTItQVBUIn0.EH1hFeKDXauOfG1BtvGT_aDwEz6TkdJ4Abioiu5C3-Q/image;s=800x600;q=90",
+                "type": "AGENCY",
+                "brandingVisible": true,
+                "highlightedAds": false,
+                "__typename": "AgencyListingDetails"
+            },
+            "openDays": "",
+            "totalPrice": {
+                "value": 900,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "rentPrice": null,
+            "priceFromPerSquareMeter": null,
+            "pricePerSquareMeter": {
+                "value": 5,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "areaInSquareMeters": 179,
+            "terrainAreaInSquareMeters": null,
+            "roomsNumber": "FIVE",
+            "hidePrice": false,
+            "floorNumber": null,
+            "investmentState": null,
+            "investmentUnitsAreaInSquareMeters": null,
+            "peoplePerRoom": null,
+            "dateCreated": "2024-05-27 23:16:08",
+            "dateCreatedFirst": "2024-05-27 23:16:05",
+            "investmentUnitsNumber": null,
+            "investmentUnitsRoomsNumber": null,
+            "investmentEstimatedDelivery": null,
+            "pushedUpAt": null,
+            "specialOffer": null,
+            "shortDescription": "Apartamento novo para arrendar.\nEste imóvel é constituído por quatro quartos, sendo dois deles suite, Cozinha equipada com  sala open space, varanda e garagem.\n\nA marca CENTURY 21®\nA maior rede de fra...",
+            "__typename": "AdvertListItem",
+            "totalPossibleImages": 28
+        },
+        {
+            "id": 18329672,
+            "title": "T2 arrendamento braganca",
+            "slug": "t2-arrendamento-braganca-ID1eUnS",
+            "estate": "FLAT",
+            "developmentId": 0,
+            "developmentTitle": "",
+            "developmentUrl": "",
+            "transaction": "RENT",
+            "location": {
+                "mapDetails": {
+                    "radius": 100,
+                    "__typename": "MapDetails"
+                },
+                "address": {
+                    "street": null,
+                    "city": {
+                        "name": "Sé, Santa Maria e Meixedo",
+                        "__typename": "City"
+                    },
+                    "province": {
+                        "name": "Bragança",
+                        "__typename": "Province"
+                    },
+                    "__typename": "Address"
+                },
+                "reverseGeocoding": {
+                    "locations": [
+                        {
+                            "id": "braganca",
+                            "fullName": "Bragança",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "braganca/braganca",
+                            "fullName": "Bragança, Bragança",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "braganca/braganca/se-santa-maria-e-meixedo",
+                            "fullName": "Sé, Santa Maria e Meixedo, Bragança, Bragança",
+                            "__typename": "BasicLocationObject"
+                        }
+                    ],
+                    "__typename": "ReverseGeocoding"
+                },
+                "__typename": "LocationDetails"
+            },
+            "images": [
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imt1YWVqdWo5eTVzdjEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.p89pD6VOIXcs7KBnk_JGhSz6wKDXOdLv6VN5xTDH7-Q/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imt1YWVqdWo5eTVzdjEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.p89pD6VOIXcs7KBnk_JGhSz6wKDXOdLv6VN5xTDH7-Q/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                },
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImxtMmVmaTBqaWp0dTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.2ejhfEZZz1qMV8ZcOS2DYFRZ8ho_bVmnf2GePrEHTDI/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImxtMmVmaTBqaWp0dTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.2ejhfEZZz1qMV8ZcOS2DYFRZ8ho_bVmnf2GePrEHTDI/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                }
+            ],
+            "isExclusiveOffer": false,
+            "isPrivateOwner": false,
+            "isPromoted": false,
+            "agency": null,
+            "openDays": "",
+            "totalPrice": {
+                "value": 600,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "rentPrice": null,
+            "priceFromPerSquareMeter": null,
+            "pricePerSquareMeter": {
+                "value": 8,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "areaInSquareMeters": 80,
+            "terrainAreaInSquareMeters": null,
+            "roomsNumber": "THREE",
+            "hidePrice": false,
+            "floorNumber": null,
+            "investmentState": null,
+            "investmentUnitsAreaInSquareMeters": null,
+            "peoplePerRoom": null,
+            "dateCreated": "2024-05-24 17:40:24",
+            "dateCreatedFirst": "2024-05-24 17:40:20",
+            "investmentUnitsNumber": null,
+            "investmentUnitsRoomsNumber": null,
+            "investmentEstimatedDelivery": null,
+            "pushedUpAt": null,
+            "specialOffer": null,
+            "shortDescription": "T2 com 1 casa de banho. \nCompletamente remodelado com cozinha equipada e completamente nova.  \nLugar para 1 carro. \nLocalizado na Zona de Vale de Álvaro (cidade de Bragança ), \nA 3 minutos a pé do cen...",
+            "__typename": "AdvertListItem",
+            "totalPossibleImages": 4
+        },
+        {
+            "id": 18276568,
+            "title": "Arrenda-se T2 mobilado inserido em moradia",
+            "slug": "arrenda-se-t2-mobilado-inserido-em-moradia-ID1eGzm",
+            "estate": "FLAT",
+            "developmentId": 0,
+            "developmentTitle": "",
+            "developmentUrl": "",
+            "transaction": "RENT",
+            "location": {
+                "mapDetails": {
+                    "radius": 100,
+                    "__typename": "MapDetails"
+                },
+                "address": {
+                    "street": null,
+                    "city": {
+                        "name": "Espinhosela",
+                        "__typename": "City"
+                    },
+                    "province": {
+                        "name": "Bragança",
+                        "__typename": "Province"
+                    },
+                    "__typename": "Address"
+                },
+                "reverseGeocoding": {
+                    "locations": [
+                        {
+                            "id": "braganca",
+                            "fullName": "Bragança",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "braganca/braganca",
+                            "fullName": "Bragança, Bragança",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "braganca/braganca/se-santa-maria-e-meixedo",
+                            "fullName": "Sé, Santa Maria e Meixedo, Bragança, Bragança",
+                            "__typename": "BasicLocationObject"
+                        }
+                    ],
+                    "__typename": "ReverseGeocoding"
+                },
+                "__typename": "LocationDetails"
+            },
+            "images": [
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InI0YTM3OWJ4em1mcC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.il_-TdbvWD1shTjnb3UgRIPFR2rNYdg2lY1CRT5GO8U/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InI0YTM3OWJ4em1mcC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.il_-TdbvWD1shTjnb3UgRIPFR2rNYdg2lY1CRT5GO8U/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                },
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Iml3Znc2ejF3MnFycTItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.r1YNCfbp2hKECUUvR6XmXOrVBxwx7HFfVdZef60WtE0/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Iml3Znc2ejF3MnFycTItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.r1YNCfbp2hKECUUvR6XmXOrVBxwx7HFfVdZef60WtE0/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                }
+            ],
+            "isExclusiveOffer": false,
+            "isPrivateOwner": false,
+            "isPromoted": false,
+            "agency": null,
+            "openDays": "",
+            "totalPrice": {
+                "value": 500,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "rentPrice": null,
+            "priceFromPerSquareMeter": null,
+            "pricePerSquareMeter": {
+                "value": 4,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "areaInSquareMeters": 120,
+            "terrainAreaInSquareMeters": null,
+            "roomsNumber": "THREE",
+            "hidePrice": false,
+            "floorNumber": null,
+            "investmentState": null,
+            "investmentUnitsAreaInSquareMeters": null,
+            "peoplePerRoom": null,
+            "dateCreated": "2024-05-01 10:31:46",
+            "dateCreatedFirst": "2024-05-01 10:31:29",
+            "investmentUnitsNumber": null,
+            "investmentUnitsRoomsNumber": null,
+            "investmentEstimatedDelivery": null,
+            "pushedUpAt": null,
+            "specialOffer": null,
+            "shortDescription": "Arrenda-se T2 mobilado inserido em moradia.\nA 5m a pé do centro da cidade.\nPerto de transportes públicos.",
+            "__typename": "AdvertListItem",
+            "totalPossibleImages": 8
+        },
+        {
+            "id": 18060823,
+            "title": "Apartamento T2 para arrendamento",
+            "slug": "apartamento-t2-para-arrendamento-ID1dMrB",
+            "estate": "FLAT",
+            "developmentId": 0,
+            "developmentTitle": "",
+            "developmentUrl": "",
+            "transaction": "RENT",
+            "location": {
+                "mapDetails": {
+                    "radius": 0,
+                    "__typename": "MapDetails"
+                },
+                "address": {
+                    "street": {
+                        "name": "Rua Emídio Navarro",
+                        "number": "",
+                        "__typename": "Street"
+                    },
+                    "city": {
+                        "name": "Espinhosela",
+                        "__typename": "City"
+                    },
+                    "province": {
+                        "name": "Bragança",
+                        "__typename": "Province"
+                    },
+                    "__typename": "Address"
+                },
+                "reverseGeocoding": {
+                    "locations": [
+                        {
+                            "id": "braganca",
+                            "fullName": "Bragança",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "braganca/braganca",
+                            "fullName": "Bragança, Bragança",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "braganca/braganca/se-santa-maria-e-meixedo",
+                            "fullName": "Sé, Santa Maria e Meixedo, Bragança, Bragança",
+                            "__typename": "BasicLocationObject"
+                        }
+                    ],
+                    "__typename": "ReverseGeocoding"
+                },
+                "__typename": "LocationDetails"
+            },
+            "images": [
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjZxc2poNHZ2eW93ci1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.pw3EqAxuXA1EOZndP41OuHdLv9xIzGerKWKpf1h-5qk/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjZxc2poNHZ2eW93ci1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.pw3EqAxuXA1EOZndP41OuHdLv9xIzGerKWKpf1h-5qk/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                },
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjJ4cjg1ODhmYWM0dS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.nHnxnW3amMK1ze4Pu5zVNIJ1P1X7byo8GEBIMrLLWMw/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjJ4cjg1ODhmYWM0dS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.nHnxnW3amMK1ze4Pu5zVNIJ1P1X7byo8GEBIMrLLWMw/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                }
+            ],
+            "isExclusiveOffer": false,
+            "isPrivateOwner": false,
+            "isPromoted": false,
+            "agency": {
+                "id": 4034400,
+                "name": "REMAX URBIS",
+                "slug": "remax-urbis-ID4034400",
+                "imageUrl": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImI5enZ1anc3eWoyMTItQVBUIn0.81HTlSgwtl6ykZB67o1qVmUymo4R1qEj02RtS1IlmFM/image;s=800x600;q=90",
+                "type": "AGENCY",
+                "brandingVisible": true,
+                "highlightedAds": false,
+                "__typename": "AgencyListingDetails"
+            },
+            "openDays": "",
+            "totalPrice": {
+                "value": 680,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "rentPrice": null,
+            "priceFromPerSquareMeter": null,
+            "pricePerSquareMeter": {
+                "value": 7,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "areaInSquareMeters": 91.5,
+            "terrainAreaInSquareMeters": null,
+            "roomsNumber": "THREE",
+            "hidePrice": false,
+            "floorNumber": null,
+            "investmentState": null,
+            "investmentUnitsAreaInSquareMeters": null,
+            "peoplePerRoom": null,
+            "dateCreated": "2024-02-07 11:45:38",
+            "dateCreatedFirst": "2024-02-07 11:45:28",
+            "investmentUnitsNumber": null,
+            "investmentUnitsRoomsNumber": null,
+            "investmentEstimatedDelivery": null,
+            "pushedUpAt": null,
+            "specialOffer": null,
+            "shortDescription": "Fant&aacute;stico apartamento, todo mobilado, situado no cora&ccedil;&atilde;o da cidade de Bragan&ccedil;a. &Eacute; o im&oacute;vel ideal para quem gosta de morar no centro da cidade, ter acesso dir...",
+            "__typename": "AdvertListItem",
+            "totalPossibleImages": 12
+        },
+        {
+            "id": 17742613,
+            "title": "Bragança, perto do Politécnico e do Hospital",
+            "slug": "braganca-perto-do-politecnico-e-do-hospital-ID1crFb",
+            "estate": "FLAT",
+            "developmentId": 0,
+            "developmentTitle": "",
+            "developmentUrl": "",
+            "transaction": "RENT",
+            "location": {
+                "mapDetails": {
+                    "radius": 100,
+                    "__typename": "MapDetails"
+                },
+                "address": {
+                    "street": null,
+                    "city": {
+                        "name": "Sé, Santa Maria e Meixedo",
+                        "__typename": "City"
+                    },
+                    "province": {
+                        "name": "Bragança",
+                        "__typename": "Province"
+                    },
+                    "__typename": "Address"
+                },
+                "reverseGeocoding": {
+                    "locations": [
+                        {
+                            "id": "braganca",
+                            "fullName": "Bragança",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "braganca/braganca",
+                            "fullName": "Bragança, Bragança",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "braganca/braganca/se-santa-maria-e-meixedo",
+                            "fullName": "Sé, Santa Maria e Meixedo, Bragança, Bragança",
+                            "__typename": "BasicLocationObject"
+                        }
+                    ],
+                    "__typename": "ReverseGeocoding"
+                },
+                "__typename": "LocationDetails"
+            },
+            "images": [
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InM0Y2Z3MXQ4OG1nOS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.LZk8jR3-yqxpmmSqEIcsE-5yy1dFUOgcaxAx_IWlF8M/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InM0Y2Z3MXQ4OG1nOS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.LZk8jR3-yqxpmmSqEIcsE-5yy1dFUOgcaxAx_IWlF8M/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                },
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjFzMG9icHc0N3E1eS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.KTiYChGpWsjTsMAjwUPTGhRWJHvTCG3tGPPklFn82lU/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjFzMG9icHc0N3E1eS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.KTiYChGpWsjTsMAjwUPTGhRWJHvTCG3tGPPklFn82lU/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                }
+            ],
+            "isExclusiveOffer": false,
+            "isPrivateOwner": false,
+            "isPromoted": false,
+            "agency": null,
+            "openDays": "",
+            "totalPrice": {
+                "value": 550,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "rentPrice": null,
+            "priceFromPerSquareMeter": null,
+            "pricePerSquareMeter": {
+                "value": 9,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "areaInSquareMeters": 60,
+            "terrainAreaInSquareMeters": null,
+            "roomsNumber": "TWO",
+            "hidePrice": false,
+            "floorNumber": null,
+            "investmentState": null,
+            "investmentUnitsAreaInSquareMeters": null,
+            "peoplePerRoom": null,
+            "dateCreated": "2023-10-15 16:57:51",
+            "dateCreatedFirst": "2023-10-15 16:57:48",
+            "investmentUnitsNumber": null,
+            "investmentUnitsRoomsNumber": null,
+            "investmentEstimatedDelivery": null,
+            "pushedUpAt": null,
+            "specialOffer": null,
+            "shortDescription": "Apartamento T1, muito bem situado (na parte de trás do prédio da pastelaria \"Canelão\"), todo equipado (incluindo aquecimento central), e, em muito bom estado de conservação, com lugar de garagem. Exig...",
+            "__typename": "AdvertListItem",
+            "totalPossibleImages": 11
+        },
+        {
+            "id": 17025120,
+            "title": "T0 em Bragança, a 150m da Praça da Sé",
+            "slug": "t0-em-braganca-a-150m-da-praca-da-se-ID19r0I",
+            "estate": "FLAT",
+            "developmentId": 0,
+            "developmentTitle": "",
+            "developmentUrl": "",
+            "transaction": "RENT",
+            "location": {
+                "mapDetails": {
+                    "radius": 100,
+                    "__typename": "MapDetails"
+                },
+                "address": {
+                    "street": null,
+                    "city": {
+                        "name": "Espinhosela",
+                        "__typename": "City"
+                    },
+                    "province": {
+                        "name": "Bragança",
+                        "__typename": "Province"
+                    },
+                    "__typename": "Address"
+                },
+                "reverseGeocoding": {
+                    "locations": [
+                        {
+                            "id": "braganca",
+                            "fullName": "Bragança",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "braganca/braganca",
+                            "fullName": "Bragança, Bragança",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "braganca/braganca/se-santa-maria-e-meixedo",
+                            "fullName": "Sé, Santa Maria e Meixedo, Bragança, Bragança",
+                            "__typename": "BasicLocationObject"
+                        }
+                    ],
+                    "__typename": "ReverseGeocoding"
+                },
+                "__typename": "LocationDetails"
+            },
+            "images": [
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImNxeHJoNm8zZW52dDMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.Lxy-K4cawqm3UsZi7AhPkmutgzte7ZaQS9Rz6zebOXk/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImNxeHJoNm8zZW52dDMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.Lxy-K4cawqm3UsZi7AhPkmutgzte7ZaQS9Rz6zebOXk/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                },
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImM1NDF2dTgxZmZjNy1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.LE383JwU_qHQCI1A4Yyy8z5q68oPXsKuNlT5tcr2y3E/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImM1NDF2dTgxZmZjNy1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.LE383JwU_qHQCI1A4Yyy8z5q68oPXsKuNlT5tcr2y3E/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                }
+            ],
+            "isExclusiveOffer": false,
+            "isPrivateOwner": false,
+            "isPromoted": false,
+            "agency": null,
+            "openDays": "",
+            "totalPrice": {
+                "value": 400,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "rentPrice": null,
+            "priceFromPerSquareMeter": null,
+            "pricePerSquareMeter": {
+                "value": 20,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "areaInSquareMeters": 20,
+            "terrainAreaInSquareMeters": null,
+            "roomsNumber": "ONE",
+            "hidePrice": false,
+            "floorNumber": null,
+            "investmentState": null,
+            "investmentUnitsAreaInSquareMeters": null,
+            "peoplePerRoom": null,
+            "dateCreated": "2022-08-26 18:48:29",
+            "dateCreatedFirst": "2022-08-26 18:48:25",
+            "investmentUnitsNumber": null,
+            "investmentUnitsRoomsNumber": null,
+            "investmentEstimatedDelivery": null,
+            "pushedUpAt": null,
+            "specialOffer": null,
+            "shortDescription": "Apartamento localizado na zona histórica da cidade, entre a Praça da Sé e o Castelo.\nNo valor estão incluídos os consumos de electricidade até €30 , água e internet.\nDisponível a partir do dia 16 de J...",
+            "__typename": "AdvertListItem",
+            "totalPossibleImages": 4
+        }
+    ],
+    "braganca/braganca/sortes": [],
+    "braganca/braganca/zoio": [],
+    "braganca/carrazeda-de-ansiaes": [],
+    "braganca/carrazeda-de-ansiaes/amedo-e-zedes": [],
+    "braganca/carrazeda-de-ansiaes/belver-e-mogo-de-malta": [],
+    "braganca/carrazeda-de-ansiaes/carrazeda-de-ansiaes": [],
+    "braganca/carrazeda-de-ansiaes/castanheiro-do-norte-e-ribalonga": [],
+    "braganca/carrazeda-de-ansiaes/fonte-longa": [],
+    "braganca/carrazeda-de-ansiaes/lavandeira-beira-grande-e-selores": [],
+    "braganca/carrazeda-de-ansiaes/linhares": [],
+    "braganca/carrazeda-de-ansiaes/marzagao": [],
+    "braganca/carrazeda-de-ansiaes/parambos": [],
+    "braganca/carrazeda-de-ansiaes/pereiros": [],
+    "braganca/carrazeda-de-ansiaes/pinhal-do-norte": [],
+    "braganca/carrazeda-de-ansiaes/pombal": [],
+    "braganca/carrazeda-de-ansiaes/seixo-de-ansiaes": [],
+    "braganca/carrazeda-de-ansiaes/vilarinho-da-castanheira": [],
+    "braganca/freixo-de-espada-a-cinta": [],
+    "braganca/freixo-de-espada-a-cinta/freixo-de-espada-a-cinta-e-mazouco": [],
+    "braganca/freixo-de-espada-a-cinta/lagoaca-e-fornos": [],
+    "braganca/freixo-de-espada-a-cinta/ligares": [],
+    "braganca/freixo-de-espada-a-cinta/poiares": [],
+    "braganca/macedo-de-cavaleiros": [],
+    "braganca/macedo-de-cavaleiros/ala-e-vilarinho-do-monte": [],
+    "braganca/macedo-de-cavaleiros/amendoeira": [],
+    "braganca/macedo-de-cavaleiros/arcas": [],
+    "braganca/macedo-de-cavaleiros/bornes-e-burga": [],
+    "braganca/macedo-de-cavaleiros/carrapatas": [],
+    "braganca/macedo-de-cavaleiros/castelaos-e-vilar-do-monte": [],
+    "braganca/macedo-de-cavaleiros/chacim": [],
+    "braganca/macedo-de-cavaleiros/corticos": [],
+    "braganca/macedo-de-cavaleiros/corujas": [],
+    "braganca/macedo-de-cavaleiros/espadanedo-edroso-murcos-e-soutelo-mourisco": [],
+    "braganca/macedo-de-cavaleiros/ferreira": [],
+    "braganca/macedo-de-cavaleiros/grijo": [],
+    "braganca/macedo-de-cavaleiros/lagoa": [],
+    "braganca/macedo-de-cavaleiros/lamalonga": [],
+    "braganca/macedo-de-cavaleiros/lamas": [],
+    "braganca/macedo-de-cavaleiros/lombo": [],
+    "braganca/macedo-de-cavaleiros/macedo-de-cavaleiros": [],
+    "braganca/macedo-de-cavaleiros/morais": [],
+    "braganca/macedo-de-cavaleiros/olmos": [],
+    "braganca/macedo-de-cavaleiros/peredo": [],
+    "braganca/macedo-de-cavaleiros/podence-e-santa-combinha": [],
+    "braganca/macedo-de-cavaleiros/salselas": [],
+    "braganca/macedo-de-cavaleiros/sezulfe": [],
+    "braganca/macedo-de-cavaleiros/talhas": [],
+    "braganca/macedo-de-cavaleiros/talhinhas-e-bagueixe": [],
+    "braganca/macedo-de-cavaleiros/vale-benfeito": [],
+    "braganca/macedo-de-cavaleiros/vale-da-porca": [],
+    "braganca/macedo-de-cavaleiros/vale-de-prados": [],
+    "braganca/macedo-de-cavaleiros/vilarinho-de-agrochao": [],
+    "braganca/macedo-de-cavaleiros/vinhas": [],
+    "braganca/miranda-do-douro": [],
+    "braganca/miranda-do-douro/constantim-e-cicouro": [],
+    "braganca/miranda-do-douro/duas-igrejas": [],
+    "braganca/miranda-do-douro/genisio": [],
+    "braganca/miranda-do-douro/ifanes-e-paradela": [],
+    "braganca/miranda-do-douro/malhadas": [],
+    "braganca/miranda-do-douro/miranda-do-douro": [],
+    "braganca/miranda-do-douro/palacoulo": [],
+    "braganca/miranda-do-douro/picote": [],
+    "braganca/miranda-do-douro/povoa": [],
+    "braganca/miranda-do-douro/sao-martinho-de-angueira": [],
+    "braganca/miranda-do-douro/sendim-e-atenor": [],
+    "braganca/miranda-do-douro/silva-e-aguas-vivas": [],
+    "braganca/miranda-do-douro/vila-cha-de-braciosa": [],
+    "braganca/mirandela": [],
+    "braganca/mirandela/abambres": [],
+    "braganca/mirandela/abreiro": [],
+    "braganca/mirandela/aguieiras": [],
+    "braganca/mirandela/alvites": [],
+    "braganca/mirandela/avantos-e-romeu": [],
+    "braganca/mirandela/avidagos-navalho-e-pereira": [],
+    "braganca/mirandela/barcel-marmelos-e-valverde-da-gestosa": [],
+    "braganca/mirandela/bouca": [],
+    "braganca/mirandela/cabanelas": [],
+    "braganca/mirandela/caravelas": [],
+    "braganca/mirandela/carvalhais": [],
+    "braganca/mirandela/cedaes": [],
+    "braganca/mirandela/cobro": [],
+    "braganca/mirandela/fradizela": [],
+    "braganca/mirandela/franco-e-vila-boa": [],
+    "braganca/mirandela/frechas": [],
+    "braganca/mirandela/freixeda-e-vila-verde": [],
+    "braganca/mirandela/lamas-de-orelhao": [],
+    "braganca/mirandela/mascarenhas": [],
+    "braganca/mirandela/mirandela": [],
+    "braganca/mirandela/murias": [],
+    "braganca/mirandela/passos": [],
+    "braganca/mirandela/sao-pedro-velho": [],
+    "braganca/mirandela/sao-salvador": [],
+    "braganca/mirandela/sucaes": [],
+    "braganca/mirandela/torre-de-dona-chama": [],
+    "braganca/mirandela/vale-de-asnes": [],
+    "braganca/mirandela/vale-de-gouvinhas": [],
+    "braganca/mirandela/vale-de-salgueiro": [],
+    "braganca/mirandela/vale-de-telhas": [],
+    "braganca/mogadouro": [],
+    "braganca/mogadouro/azinhoso": [],
+    "braganca/mogadouro/bemposta": [],
+    "braganca/mogadouro/bruco": [],
+    "braganca/mogadouro/brunhoso": [],
+    "braganca/mogadouro/brunhozinho-castanheira-e-sanhoane": [],
+    "braganca/mogadouro/castelo-branco": [],
+    "braganca/mogadouro/castro-vicente": [],
+    "braganca/mogadouro/meirinhos": [],
+    "braganca/mogadouro/mogadouro-valverde-vale-de-porco-e-vilar-de-rei": [],
+    "braganca/mogadouro/paradela": [],
+    "braganca/mogadouro/penas-roias": [],
+    "braganca/mogadouro/peredo-da-bemposta": [],
+    "braganca/mogadouro/remondes-e-soutelo": [],
+    "braganca/mogadouro/saldanha": [],
+    "braganca/mogadouro/sao-martinho-do-peso": [],
+    "braganca/mogadouro/to": [],
+    "braganca/mogadouro/travanca": [],
+    "braganca/mogadouro/urros": [],
+    "braganca/mogadouro/vale-da-madre": [],
+    "braganca/mogadouro/vila-de-ala": [],
+    "braganca/mogadouro/vilarinho-dos-galegos-e-ventozelo": [],
+    "braganca/torre-de-moncorvo": [],
+    "braganca/torre-de-moncorvo/acoreira": [],
+    "braganca/torre-de-moncorvo/adeganha-e-cardanha": [],
+    "braganca/torre-de-moncorvo/cabeca-boa": [],
+    "braganca/torre-de-moncorvo/carvicais": [],
+    "braganca/torre-de-moncorvo/castedo": [],
+    "braganca/torre-de-moncorvo/felgar-e-souto-da-velha": [],
+    "braganca/torre-de-moncorvo/felgueiras-e-macores": [],
+    "braganca/torre-de-moncorvo/horta-da-vilarica": [],
+    "braganca/torre-de-moncorvo/larinho": [],
+    "braganca/torre-de-moncorvo/lousa": [],
+    "braganca/torre-de-moncorvo/mos": [],
+    "braganca/torre-de-moncorvo/torre-de-moncorvo": [],
+    "braganca/torre-de-moncorvo/urros-e-peredo-dos-castelhanos": [],
+    "braganca/vila-flor": [],
+    "braganca/vila-flor/assares-e-lodoes": [],
+    "braganca/vila-flor/benlhevai": [],
+    "braganca/vila-flor/candoso-e-carvalho-de-egas": [],
+    "braganca/vila-flor/freixiel": [],
+    "braganca/vila-flor/roios": [],
+    "braganca/vila-flor/samoes": [],
+    "braganca/vila-flor/sampaio": [],
+    "braganca/vila-flor/santa-comba-de-vilarica": [],
+    "braganca/vila-flor/seixo-de-manhoses": [],
+    "braganca/vila-flor/trindade": [],
+    "braganca/vila-flor/vale-frechoso": [],
+    "braganca/vila-flor/valtorno-e-mourao": [],
+    "braganca/vila-flor/vila-flor-e-nabo": [],
+    "braganca/vila-flor/vilas-boas-e-vilarinho-das-azenhas": [],
+    "braganca/vimioso": [],
+    "braganca/vimioso/algoso-campo-de-viboras-e-uva": [],
+    "braganca/vimioso/argozelo": [],
+    "braganca/vimioso/cacarelhos-e-angueira": [],
+    "braganca/vimioso/carcao": [],
+    "braganca/vimioso/matela": [],
+    "braganca/vimioso/pinelo": [],
+    "braganca/vimioso/santulhao": [],
+    "braganca/vimioso/vale-de-frades-e-avelanoso": [],
+    "braganca/vimioso/vilar-seco": [],
+    "braganca/vimioso/vimioso": [],
+    "braganca/vinhais": [],
+    "braganca/vinhais/agrochao": [],
+    "braganca/vinhais/candedo": [],
+    "braganca/vinhais/celas": [],
+    "braganca/vinhais/curopos-e-vale-de-janeiro": [],
+    "braganca/vinhais/edral": [],
+    "braganca/vinhais/edrosa": [],
+    "braganca/vinhais/ervedosa": [],
+    "braganca/vinhais/moimenta-e-montouto": [],
+    "braganca/vinhais/nunes-e-ousilhao": [],
+    "braganca/vinhais/paco": [],
+    "braganca/vinhais/penhas-juntas": [],
+    "braganca/vinhais/quiras-e-pinheiro-novo": [],
+    "braganca/vinhais/rebordelo": [],
+    "braganca/vinhais/santalha": [],
+    "braganca/vinhais/sobreiro-de-baixo-e-alvaredos": [],
+    "braganca/vinhais/soeira-fresulfe-e-mofreita": [],
+    "braganca/vinhais/travanca-e-santa-cruz": [],
+    "braganca/vinhais/tuizelo": [],
+    "braganca/vinhais/vale-das-fontes": [],
+    "braganca/vinhais/vila-boa-de-ousilhao": [],
+    "braganca/vinhais/vilar-de-lomba-e-sao-jomil": [],
+    "braganca/vinhais/vilar-de-ossos": [],
+    "braganca/vinhais/vilar-de-peregrinos": [],
+    "braganca/vinhais/vilar-seco-de-lomba": [],
+    "braganca/vinhais/vila-verde": [],
+    "braganca/vinhais/vinhais": []
+}

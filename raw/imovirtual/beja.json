@@ -1,0 +1,474 @@
+{
+    "beja/aljustrel": [],
+    "beja/aljustrel/aljustrel-e-rio-de-moinhos": [],
+    "beja/aljustrel/ervidel": [],
+    "beja/aljustrel/messejana": [],
+    "beja/aljustrel/sao-joao-de-negrilhos": [],
+    "beja/almodovar": [],
+    "beja/almodovar/aldeia-dos-fernandes": [],
+    "beja/almodovar/almodovar-e-graca-dos-padroes": [],
+    "beja/almodovar/rosario": [],
+    "beja/almodovar/santa-clara-a-nova-e-gomes-aires": [],
+    "beja/almodovar/santa-cruz": [],
+    "beja/almodovar/sao-barnabe": [],
+    "beja/beja": [],
+    "beja/beja/albernoa-e-trindade": [],
+    "beja/beja/baleizao": [],
+    "beja/beja/beja-salvador-e-santa-maria-da-feira-": [],
+    "beja/beja/beja-santiago-maior-e-sao-joao-baptista-": [],
+    "beja/beja/beringel": [],
+    "beja/beja/cabeca-gorda": [],
+    "beja/beja/nossa-senhora-das-neves": [],
+    "beja/beja/salvada-e-quintos": [],
+    "beja/beja/santa-clara-de-louredo": [],
+    "beja/beja/santa-vitoria-e-mombeja": [],
+    "beja/beja/sao-matias": [],
+    "beja/beja/trigaches-e-sao-brissos": [],
+    "beja/castro-verde": [],
+    "beja/castro-verde/castro-verde-e-casevel": [],
+    "beja/castro-verde/entradas": [],
+    "beja/castro-verde/santa-barbara-de-padroes": [],
+    "beja/castro-verde/sao-marcos-da-ataboeira": [],
+    "beja/cuba": [],
+    "beja/cuba/cuba": [],
+    "beja/cuba/faro-do-alentejo": [],
+    "beja/cuba/vila-alva": [],
+    "beja/cuba/vila-ruiva": [],
+    "beja/ferreira-do-alentejo": [],
+    "beja/ferreira-do-alentejo/alfundao-e-peroguarda": [],
+    "beja/ferreira-do-alentejo/ferreira-do-alentejo-e-canhestros": [],
+    "beja/ferreira-do-alentejo/figueira-dos-cavaleiros": [],
+    "beja/ferreira-do-alentejo/odivelas": [],
+    "beja/mertola": [],
+    "beja/mertola/alcaria-ruiva": [],
+    "beja/mertola/corte-do-pinto": [],
+    "beja/mertola/espirito-santo": [],
+    "beja/mertola/mertola": [],
+    "beja/mertola/santana-de-cambas": [],
+    "beja/mertola/sao-joao-dos-caldeireiros": [],
+    "beja/mertola/s-mig-pinheiro-s-pedro-solis-s-sebastiao-dos-carros": [],
+    "beja/moura": [
+        {
+            "id": 18063469,
+            "title": "Alugo Apartamento T1",
+            "slug": "alugo-apartamento-t1-ID1dN8h",
+            "estate": "FLAT",
+            "developmentId": 0,
+            "developmentTitle": "",
+            "developmentUrl": "",
+            "transaction": "RENT",
+            "location": {
+                "mapDetails": {
+                    "radius": 100,
+                    "__typename": "MapDetails"
+                },
+                "address": {
+                    "street": null,
+                    "city": {
+                        "name": "Moura (Santo Agostinho e São João Baptista) e Santo Amador",
+                        "__typename": "City"
+                    },
+                    "province": {
+                        "name": "Beja",
+                        "__typename": "Province"
+                    },
+                    "__typename": "Address"
+                },
+                "reverseGeocoding": {
+                    "locations": [
+                        {
+                            "id": "beja",
+                            "fullName": "Beja",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "beja/moura",
+                            "fullName": "Moura, Beja",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "beja/moura/santo-agostinho-e-sao-joao-baptista-e-santo-amador",
+                            "fullName": "Santo Agostinho e São João Baptista e Santo Amador, Moura, Beja",
+                            "__typename": "BasicLocationObject"
+                        }
+                    ],
+                    "__typename": "ReverseGeocoding"
+                },
+                "__typename": "LocationDetails"
+            },
+            "images": [
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IndiaXg1OTAxOTJzbTItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.bY4H2P-bV7RqCgK1wKIUU0my2Q58mjixRvTNOmiGXfM/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IndiaXg1OTAxOTJzbTItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.bY4H2P-bV7RqCgK1wKIUU0my2Q58mjixRvTNOmiGXfM/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                },
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImxybmdnaTFrcDFxNS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.llVSXDcKYS2vSvsUnYV_h9twxaHk1XknP8lT9Wcr-PE/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImxybmdnaTFrcDFxNS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.llVSXDcKYS2vSvsUnYV_h9twxaHk1XknP8lT9Wcr-PE/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                }
+            ],
+            "isExclusiveOffer": false,
+            "isPrivateOwner": false,
+            "isPromoted": false,
+            "agency": null,
+            "openDays": "",
+            "totalPrice": {
+                "value": 280,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "rentPrice": null,
+            "priceFromPerSquareMeter": null,
+            "pricePerSquareMeter": {
+                "value": 5,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "areaInSquareMeters": 51,
+            "terrainAreaInSquareMeters": null,
+            "roomsNumber": "TWO",
+            "hidePrice": false,
+            "floorNumber": null,
+            "investmentState": null,
+            "investmentUnitsAreaInSquareMeters": null,
+            "peoplePerRoom": null,
+            "dateCreated": "2024-02-07 22:59:49",
+            "dateCreatedFirst": "2024-02-07 22:59:41",
+            "investmentUnitsNumber": null,
+            "investmentUnitsRoomsNumber": null,
+            "investmentEstimatedDelivery": null,
+            "pushedUpAt": null,
+            "specialOffer": null,
+            "shortDescription": "Apartamento T 1\nMourasol\nJunto ao café e mercearia da urbanização MOURASOL \nEquipado com fogão, forno exaustor, e móvel de cozinha \nRoupeiro grande embutido",
+            "__typename": "AdvertListItem",
+            "totalPossibleImages": 6
+        }
+    ],
+    "beja/moura/amareleja": [],
+    "beja/moura/povoa-de-sao-miguel": [],
+    "beja/moura/safara-e-santo-aleixo-da-restauracao": [],
+    "beja/moura/santo-agostinho-e-sao-joao-baptista-e-santo-amador": [
+        {
+            "id": 18063469,
+            "title": "Alugo Apartamento T1",
+            "slug": "alugo-apartamento-t1-ID1dN8h",
+            "estate": "FLAT",
+            "developmentId": 0,
+            "developmentTitle": "",
+            "developmentUrl": "",
+            "transaction": "RENT",
+            "location": {
+                "mapDetails": {
+                    "radius": 100,
+                    "__typename": "MapDetails"
+                },
+                "address": {
+                    "street": null,
+                    "city": {
+                        "name": "Moura (Santo Agostinho e São João Baptista) e Santo Amador",
+                        "__typename": "City"
+                    },
+                    "province": {
+                        "name": "Beja",
+                        "__typename": "Province"
+                    },
+                    "__typename": "Address"
+                },
+                "reverseGeocoding": {
+                    "locations": [
+                        {
+                            "id": "beja",
+                            "fullName": "Beja",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "beja/moura",
+                            "fullName": "Moura, Beja",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "beja/moura/santo-agostinho-e-sao-joao-baptista-e-santo-amador",
+                            "fullName": "Santo Agostinho e São João Baptista e Santo Amador, Moura, Beja",
+                            "__typename": "BasicLocationObject"
+                        }
+                    ],
+                    "__typename": "ReverseGeocoding"
+                },
+                "__typename": "LocationDetails"
+            },
+            "images": [
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IndiaXg1OTAxOTJzbTItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.bY4H2P-bV7RqCgK1wKIUU0my2Q58mjixRvTNOmiGXfM/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IndiaXg1OTAxOTJzbTItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.bY4H2P-bV7RqCgK1wKIUU0my2Q58mjixRvTNOmiGXfM/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                },
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImxybmdnaTFrcDFxNS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.llVSXDcKYS2vSvsUnYV_h9twxaHk1XknP8lT9Wcr-PE/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImxybmdnaTFrcDFxNS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.llVSXDcKYS2vSvsUnYV_h9twxaHk1XknP8lT9Wcr-PE/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                }
+            ],
+            "isExclusiveOffer": false,
+            "isPrivateOwner": false,
+            "isPromoted": false,
+            "agency": null,
+            "openDays": "",
+            "totalPrice": {
+                "value": 280,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "rentPrice": null,
+            "priceFromPerSquareMeter": null,
+            "pricePerSquareMeter": {
+                "value": 5,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "areaInSquareMeters": 51,
+            "terrainAreaInSquareMeters": null,
+            "roomsNumber": "TWO",
+            "hidePrice": false,
+            "floorNumber": null,
+            "investmentState": null,
+            "investmentUnitsAreaInSquareMeters": null,
+            "peoplePerRoom": null,
+            "dateCreated": "2024-02-07 22:59:49",
+            "dateCreatedFirst": "2024-02-07 22:59:41",
+            "investmentUnitsNumber": null,
+            "investmentUnitsRoomsNumber": null,
+            "investmentEstimatedDelivery": null,
+            "pushedUpAt": null,
+            "specialOffer": null,
+            "shortDescription": "Apartamento T 1\nMourasol\nJunto ao café e mercearia da urbanização MOURASOL \nEquipado com fogão, forno exaustor, e móvel de cozinha \nRoupeiro grande embutido",
+            "__typename": "AdvertListItem",
+            "totalPossibleImages": 6
+        }
+    ],
+    "beja/moura/sobral-da-adica": [],
+    "beja/odemira": [
+        {
+            "id": 16546365,
+            "title": "Aluga-se Apartamento T1 em Milfontes",
+            "slug": "aluga-se-apartamento-t1-em-milfontes-ID17qsR",
+            "estate": "FLAT",
+            "developmentId": 0,
+            "developmentTitle": "",
+            "developmentUrl": "",
+            "transaction": "RENT",
+            "location": {
+                "mapDetails": {
+                    "radius": 100,
+                    "__typename": "MapDetails"
+                },
+                "address": {
+                    "street": null,
+                    "city": {
+                        "name": "Vila Nova de Milfontes",
+                        "__typename": "City"
+                    },
+                    "province": {
+                        "name": "Beja",
+                        "__typename": "Province"
+                    },
+                    "__typename": "Address"
+                },
+                "reverseGeocoding": {
+                    "locations": [
+                        {
+                            "id": "beja",
+                            "fullName": "Beja",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "beja/odemira",
+                            "fullName": "Odemira, Beja",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "beja/odemira/vila-nova-de-milfontes",
+                            "fullName": "Vila Nova de Milfontes, Odemira, Beja",
+                            "__typename": "BasicLocationObject"
+                        }
+                    ],
+                    "__typename": "ReverseGeocoding"
+                },
+                "__typename": "LocationDetails"
+            },
+            "images": [
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imx1ZXVvMGlzb2pvdi1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.XP9kBxHoTgZnWc6CoTtrGAPbiMB2rVuD1l4dPNnTmAY/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imx1ZXVvMGlzb2pvdi1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.XP9kBxHoTgZnWc6CoTtrGAPbiMB2rVuD1l4dPNnTmAY/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                },
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InlreHBld29ibHEzcTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.zmJysl1JtGo8rKfZ1cITVfTm8PS584P0n5fQHPwstDc/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InlreHBld29ibHEzcTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.zmJysl1JtGo8rKfZ1cITVfTm8PS584P0n5fQHPwstDc/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                }
+            ],
+            "isExclusiveOffer": false,
+            "isPrivateOwner": false,
+            "isPromoted": false,
+            "agency": null,
+            "openDays": "",
+            "totalPrice": {
+                "value": 450,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "rentPrice": null,
+            "priceFromPerSquareMeter": null,
+            "pricePerSquareMeter": {
+                "value": 8,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "areaInSquareMeters": 60,
+            "terrainAreaInSquareMeters": null,
+            "roomsNumber": "TWO",
+            "hidePrice": false,
+            "floorNumber": null,
+            "investmentState": null,
+            "investmentUnitsAreaInSquareMeters": null,
+            "peoplePerRoom": null,
+            "dateCreated": "2021-11-19 13:58:39",
+            "dateCreatedFirst": "2021-11-19 13:58:34",
+            "investmentUnitsNumber": null,
+            "investmentUnitsRoomsNumber": null,
+            "investmentEstimatedDelivery": null,
+            "pushedUpAt": null,
+            "specialOffer": null,
+            "shortDescription": "Aluga-se apartamento T1 no centro de Milfontes a 750m da praia. Apartamento co.completamente, equipado com internet fibra, eletrodomésticos essenciais e com espaço exterior comum no topo do prédio.",
+            "__typename": "AdvertListItem",
+            "totalPossibleImages": 8
+        }
+    ],
+    "beja/odemira/boavista-dos-pinheiros": [],
+    "beja/odemira/colos": [],
+    "beja/odemira/longueira-almograve": [],
+    "beja/odemira/luzianes-gare": [],
+    "beja/odemira/reliquias": [],
+    "beja/odemira/saboia": [],
+    "beja/odemira/santa-clara-a-velha": [],
+    "beja/odemira/sao-luis": [],
+    "beja/odemira/sao-martinho-das-amoreiras": [],
+    "beja/odemira/sao-salvador-e-santa-maria": [],
+    "beja/odemira/sao-teotonio": [],
+    "beja/odemira/vale-de-santiago": [],
+    "beja/odemira/vila-nova-de-milfontes": [
+        {
+            "id": 16546365,
+            "title": "Aluga-se Apartamento T1 em Milfontes",
+            "slug": "aluga-se-apartamento-t1-em-milfontes-ID17qsR",
+            "estate": "FLAT",
+            "developmentId": 0,
+            "developmentTitle": "",
+            "developmentUrl": "",
+            "transaction": "RENT",
+            "location": {
+                "mapDetails": {
+                    "radius": 100,
+                    "__typename": "MapDetails"
+                },
+                "address": {
+                    "street": null,
+                    "city": {
+                        "name": "Vila Nova de Milfontes",
+                        "__typename": "City"
+                    },
+                    "province": {
+                        "name": "Beja",
+                        "__typename": "Province"
+                    },
+                    "__typename": "Address"
+                },
+                "reverseGeocoding": {
+                    "locations": [
+                        {
+                            "id": "beja",
+                            "fullName": "Beja",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "beja/odemira",
+                            "fullName": "Odemira, Beja",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "beja/odemira/vila-nova-de-milfontes",
+                            "fullName": "Vila Nova de Milfontes, Odemira, Beja",
+                            "__typename": "BasicLocationObject"
+                        }
+                    ],
+                    "__typename": "ReverseGeocoding"
+                },
+                "__typename": "LocationDetails"
+            },
+            "images": [
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imx1ZXVvMGlzb2pvdi1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.XP9kBxHoTgZnWc6CoTtrGAPbiMB2rVuD1l4dPNnTmAY/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imx1ZXVvMGlzb2pvdi1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.XP9kBxHoTgZnWc6CoTtrGAPbiMB2rVuD1l4dPNnTmAY/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                },
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InlreHBld29ibHEzcTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.zmJysl1JtGo8rKfZ1cITVfTm8PS584P0n5fQHPwstDc/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InlreHBld29ibHEzcTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.zmJysl1JtGo8rKfZ1cITVfTm8PS584P0n5fQHPwstDc/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                }
+            ],
+            "isExclusiveOffer": false,
+            "isPrivateOwner": false,
+            "isPromoted": false,
+            "agency": null,
+            "openDays": "",
+            "totalPrice": {
+                "value": 450,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "rentPrice": null,
+            "priceFromPerSquareMeter": null,
+            "pricePerSquareMeter": {
+                "value": 8,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "areaInSquareMeters": 60,
+            "terrainAreaInSquareMeters": null,
+            "roomsNumber": "TWO",
+            "hidePrice": false,
+            "floorNumber": null,
+            "investmentState": null,
+            "investmentUnitsAreaInSquareMeters": null,
+            "peoplePerRoom": null,
+            "dateCreated": "2021-11-19 13:58:39",
+            "dateCreatedFirst": "2021-11-19 13:58:34",
+            "investmentUnitsNumber": null,
+            "investmentUnitsRoomsNumber": null,
+            "investmentEstimatedDelivery": null,
+            "pushedUpAt": null,
+            "specialOffer": null,
+            "shortDescription": "Aluga-se apartamento T1 no centro de Milfontes a 750m da praia. Apartamento co.completamente, equipado com internet fibra, eletrodomésticos essenciais e com espaço exterior comum no topo do prédio.",
+            "__typename": "AdvertListItem",
+            "totalPossibleImages": 8
+        }
+    ],
+    "beja/ourique": [],
+    "beja/ourique/garvao-e-santa-luzia": [],
+    "beja/ourique/ourique": [],
+    "beja/ourique/panoias-e-conceicao": [],
+    "beja/ourique/santana-da-serra": [],
+    "beja/serpa": [],
+    "beja/serpa/brinches": [],
+    "beja/serpa/pias": [],
+    "beja/serpa/serpa-salvador-e-santa-maria-": [],
+    "beja/serpa/vila-nova-de-sao-bento-e-vale-de-vargo": [],
+    "beja/serpa/vila-verde-de-ficalho": [],
+    "beja/vidigueira": [],
+    "beja/vidigueira/pedrogao": [],
+    "beja/vidigueira/selmes": [],
+    "beja/vidigueira/vidigueira": [],
+    "beja/vidigueira/vila-de-frades": []
+}

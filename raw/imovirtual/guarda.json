@@ -1,0 +1,1077 @@
+{
+    "guarda/aguiar-da-beira": [],
+    "guarda/aguiar-da-beira/aguiar-da-beira-e-coruche": [],
+    "guarda/aguiar-da-beira/carapito": [],
+    "guarda/aguiar-da-beira/corticada": [],
+    "guarda/aguiar-da-beira/dornelas": [],
+    "guarda/aguiar-da-beira/eirado": [],
+    "guarda/aguiar-da-beira/forninhos": [],
+    "guarda/aguiar-da-beira/pena-verde": [],
+    "guarda/aguiar-da-beira/pinheiro": [],
+    "guarda/aguiar-da-beira/sequeiros-e-gradiz": [],
+    "guarda/aguiar-da-beira/souto-de-aguiar-da-beira-e-valverde": [],
+    "guarda/almeida": [
+        {
+            "id": 18249096,
+            "title": "Hotel  Arrendamento em Vilar Formoso,Almeida",
+            "slug": "hotel-arrendamento-em-vilar-formoso-almeida-ID1ezqg",
+            "estate": "FLAT",
+            "developmentId": 0,
+            "developmentTitle": "",
+            "developmentUrl": "",
+            "transaction": "RENT",
+            "location": {
+                "mapDetails": {
+                    "radius": 0,
+                    "__typename": "MapDetails"
+                },
+                "address": {
+                    "street": {
+                        "name": "Rua Fronteira",
+                        "number": "",
+                        "__typename": "Street"
+                    },
+                    "city": {
+                        "name": "Vilar Formoso",
+                        "__typename": "City"
+                    },
+                    "province": {
+                        "name": "Guarda",
+                        "__typename": "Province"
+                    },
+                    "__typename": "Address"
+                },
+                "reverseGeocoding": {
+                    "locations": [
+                        {
+                            "id": "guarda",
+                            "fullName": "Guarda",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "guarda/almeida",
+                            "fullName": "Almeida, Guarda",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "guarda/almeida/vilar-formoso",
+                            "fullName": "Vilar Formoso, Almeida, Guarda",
+                            "__typename": "BasicLocationObject"
+                        }
+                    ],
+                    "__typename": "ReverseGeocoding"
+                },
+                "__typename": "LocationDetails"
+            },
+            "images": [
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imxnem9kdWF3ejVnNzItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.D4hwnnBk2BslGVEFXrLRO8MQUaMQhxNfa2ldSikphtU/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imxnem9kdWF3ejVnNzItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.D4hwnnBk2BslGVEFXrLRO8MQUaMQhxNfa2ldSikphtU/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                },
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ijk2MDVnODA2bGgwazEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.xu3IVjOIVR7AOFkTvvz5JMSxfAicn0HZaiIa4lJNGuI/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ijk2MDVnODA2bGgwazEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.xu3IVjOIVR7AOFkTvvz5JMSxfAicn0HZaiIa4lJNGuI/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                }
+            ],
+            "isExclusiveOffer": false,
+            "isPrivateOwner": false,
+            "isPromoted": false,
+            "agency": {
+                "id": 3760955,
+                "name": "eXp Realty ",
+                "slug": "exp-realty-ID3760955",
+                "imageUrl": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjFiMGc4bHEwODdkbTMtQVBUIn0.VvanIqKi21xqLW4jKYjiQFuG0m-F6vHFaNbfZM2P7oY/image;s=800x600;q=90",
+                "type": "AGENCY",
+                "brandingVisible": true,
+                "highlightedAds": false,
+                "__typename": "AgencyListingDetails"
+            },
+            "openDays": "",
+            "totalPrice": {
+                "value": 1,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "rentPrice": null,
+            "priceFromPerSquareMeter": null,
+            "pricePerSquareMeter": {
+                "value": 0,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "areaInSquareMeters": 3342.55,
+            "terrainAreaInSquareMeters": null,
+            "roomsNumber": "MORE",
+            "hidePrice": false,
+            "floorNumber": null,
+            "investmentState": null,
+            "investmentUnitsAreaInSquareMeters": null,
+            "peoplePerRoom": null,
+            "dateCreated": "2024-04-20 13:14:50",
+            "dateCreatedFirst": "2024-04-20 13:14:39",
+            "investmentUnitsNumber": null,
+            "investmentUnitsRoomsNumber": null,
+            "investmentEstimatedDelivery": null,
+            "pushedUpAt": null,
+            "specialOffer": null,
+            "shortDescription": "O edifício onde antes funcionou uma RESIDENCIAL em Vilar Formoso. Município de Almeida, Guarda, tem uma localização central (frente à Estação da CP), com uma área de implantação de 1006 m2 e área brut...",
+            "__typename": "AdvertListItem",
+            "totalPossibleImages": 13
+        }
+    ],
+    "guarda/almeida/almeida": [],
+    "guarda/almeida/amoreira-parada-e-cabreira": [],
+    "guarda/almeida/azinhal-peva-e-valverde": [],
+    "guarda/almeida/castelo-bom": [],
+    "guarda/almeida/castelo-mendo-ade-monteperobolso-e-mesquitela": [],
+    "guarda/almeida/freineda": [],
+    "guarda/almeida/freixo": [],
+    "guarda/almeida/junca-e-naves": [],
+    "guarda/almeida/leomil-mido-senouras-e-aldeia-nova": [],
+    "guarda/almeida/malhada-sorda": [],
+    "guarda/almeida/malpartida-e-vale-de-coelha": [],
+    "guarda/almeida/miuzela-e-porto-de-ovelha": [],
+    "guarda/almeida/nave-de-haver": [],
+    "guarda/almeida/sao-pedro-de-rio-seco": [],
+    "guarda/almeida/vale-da-mula": [],
+    "guarda/almeida/vilar-formoso": [
+        {
+            "id": 18249096,
+            "title": "Hotel  Arrendamento em Vilar Formoso,Almeida",
+            "slug": "hotel-arrendamento-em-vilar-formoso-almeida-ID1ezqg",
+            "estate": "FLAT",
+            "developmentId": 0,
+            "developmentTitle": "",
+            "developmentUrl": "",
+            "transaction": "RENT",
+            "location": {
+                "mapDetails": {
+                    "radius": 0,
+                    "__typename": "MapDetails"
+                },
+                "address": {
+                    "street": {
+                        "name": "Rua Fronteira",
+                        "number": "",
+                        "__typename": "Street"
+                    },
+                    "city": {
+                        "name": "Vilar Formoso",
+                        "__typename": "City"
+                    },
+                    "province": {
+                        "name": "Guarda",
+                        "__typename": "Province"
+                    },
+                    "__typename": "Address"
+                },
+                "reverseGeocoding": {
+                    "locations": [
+                        {
+                            "id": "guarda",
+                            "fullName": "Guarda",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "guarda/almeida",
+                            "fullName": "Almeida, Guarda",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "guarda/almeida/vilar-formoso",
+                            "fullName": "Vilar Formoso, Almeida, Guarda",
+                            "__typename": "BasicLocationObject"
+                        }
+                    ],
+                    "__typename": "ReverseGeocoding"
+                },
+                "__typename": "LocationDetails"
+            },
+            "images": [
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imxnem9kdWF3ejVnNzItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.D4hwnnBk2BslGVEFXrLRO8MQUaMQhxNfa2ldSikphtU/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imxnem9kdWF3ejVnNzItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.D4hwnnBk2BslGVEFXrLRO8MQUaMQhxNfa2ldSikphtU/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                },
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ijk2MDVnODA2bGgwazEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.xu3IVjOIVR7AOFkTvvz5JMSxfAicn0HZaiIa4lJNGuI/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ijk2MDVnODA2bGgwazEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.xu3IVjOIVR7AOFkTvvz5JMSxfAicn0HZaiIa4lJNGuI/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                }
+            ],
+            "isExclusiveOffer": false,
+            "isPrivateOwner": false,
+            "isPromoted": false,
+            "agency": {
+                "id": 3760955,
+                "name": "eXp Realty ",
+                "slug": "exp-realty-ID3760955",
+                "imageUrl": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjFiMGc4bHEwODdkbTMtQVBUIn0.VvanIqKi21xqLW4jKYjiQFuG0m-F6vHFaNbfZM2P7oY/image;s=800x600;q=90",
+                "type": "AGENCY",
+                "brandingVisible": true,
+                "highlightedAds": false,
+                "__typename": "AgencyListingDetails"
+            },
+            "openDays": "",
+            "totalPrice": {
+                "value": 1,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "rentPrice": null,
+            "priceFromPerSquareMeter": null,
+            "pricePerSquareMeter": {
+                "value": 0,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "areaInSquareMeters": 3342.55,
+            "terrainAreaInSquareMeters": null,
+            "roomsNumber": "MORE",
+            "hidePrice": false,
+            "floorNumber": null,
+            "investmentState": null,
+            "investmentUnitsAreaInSquareMeters": null,
+            "peoplePerRoom": null,
+            "dateCreated": "2024-04-20 13:14:50",
+            "dateCreatedFirst": "2024-04-20 13:14:39",
+            "investmentUnitsNumber": null,
+            "investmentUnitsRoomsNumber": null,
+            "investmentEstimatedDelivery": null,
+            "pushedUpAt": null,
+            "specialOffer": null,
+            "shortDescription": "O edifício onde antes funcionou uma RESIDENCIAL em Vilar Formoso. Município de Almeida, Guarda, tem uma localização central (frente à Estação da CP), com uma área de implantação de 1006 m2 e área brut...",
+            "__typename": "AdvertListItem",
+            "totalPossibleImages": 13
+        }
+    ],
+    "guarda/celorico-da-beira": [],
+    "guarda/celorico-da-beira/acores-e-velosa": [],
+    "guarda/celorico-da-beira/baracal": [],
+    "guarda/celorico-da-beira/carrapichana": [],
+    "guarda/celorico-da-beira/casas-do-soeiro": [],
+    "guarda/celorico-da-beira/cortico-da-serra-vide-entre-vinhas-e-salgueirais": [],
+    "guarda/celorico-da-beira/forno-telheiro": [],
+    "guarda/celorico-da-beira/lajeosa-do-mondego": [],
+    "guarda/celorico-da-beira/linhares": [],
+    "guarda/celorico-da-beira/macal-do-chao": [],
+    "guarda/celorico-da-beira/mesquitela": [],
+    "guarda/celorico-da-beira/minhocal": [],
+    "guarda/celorico-da-beira/prados": [],
+    "guarda/celorico-da-beira/rapa-e-cadafaz": [],
+    "guarda/celorico-da-beira/ratoeira": [],
+    "guarda/celorico-da-beira/sao-pedro-e-santa-maria-e-vila-boa-do-mondego": [],
+    "guarda/celorico-da-beira/vale-de-azares": [],
+    "guarda/figueira-de-castelo-rodrigo": [],
+    "guarda/figueira-de-castelo-rodrigo/algodres-vale-de-afonsinho-e-vilar-de-amargo": [],
+    "guarda/figueira-de-castelo-rodrigo/almofala-e-escarigo": [],
+    "guarda/figueira-de-castelo-rodrigo/castelo-rodrigo": [],
+    "guarda/figueira-de-castelo-rodrigo/cinco-vilas-e-reigada": [],
+    "guarda/figueira-de-castelo-rodrigo/colmeal-e-vilar-torpim": [],
+    "guarda/figueira-de-castelo-rodrigo/escalhao": [],
+    "guarda/figueira-de-castelo-rodrigo/figueira-de-castelo-rodrigo": [],
+    "guarda/figueira-de-castelo-rodrigo/freixeda-do-torrao-quinta-de-pero-martins-e-penha-de-aguia": [],
+    "guarda/figueira-de-castelo-rodrigo/mata-de-lobos": [],
+    "guarda/figueira-de-castelo-rodrigo/vermiosa": [],
+    "guarda/fornos-de-algodres": [],
+    "guarda/fornos-de-algodres/algodres": [],
+    "guarda/fornos-de-algodres/casal-vasco": [],
+    "guarda/fornos-de-algodres/cortico-e-vila-cha": [],
+    "guarda/fornos-de-algodres/figueiro-da-granja": [],
+    "guarda/fornos-de-algodres/fornos-de-algodres": [],
+    "guarda/fornos-de-algodres/infias": [],
+    "guarda/fornos-de-algodres/juncais-vila-ruiva-e-vila-soeiro-do-chao": [],
+    "guarda/fornos-de-algodres/maceira": [],
+    "guarda/fornos-de-algodres/matanca": [],
+    "guarda/fornos-de-algodres/muxagata": [],
+    "guarda/fornos-de-algodres/queiriz": [],
+    "guarda/fornos-de-algodres/sobral-pichorro-e-fuinhas": [],
+    "guarda/gouveia": [],
+    "guarda/gouveia/aldeias-e-mangualde-da-serra": [],
+    "guarda/gouveia/arcozelo": [],
+    "guarda/gouveia/cativelos": [],
+    "guarda/gouveia/figueiro-da-serra-e-freixo-da-serra": [],
+    "guarda/gouveia/folgosinho": [],
+    "guarda/gouveia/gouveia": [],
+    "guarda/gouveia/melo-e-nabais": [],
+    "guarda/gouveia/moimenta-da-serra-e-vinho": [],
+    "guarda/gouveia/nespereira": [],
+    "guarda/gouveia/pacos-da-serra": [],
+    "guarda/gouveia/ribamondego": [],
+    "guarda/gouveia/rio-torto-e-lagarinhos": [],
+    "guarda/gouveia/sao-paio": [],
+    "guarda/gouveia/vila-cortes-da-serra": [],
+    "guarda/gouveia/vila-franca-da-serra": [],
+    "guarda/gouveia/vila-nova-de-tazem": [],
+    "guarda/guarda": [
+        {
+            "id": 18330178,
+            "title": "T1 - Centro histórico da Guarda",
+            "slug": "t1-centro-historico-da-guarda-ID1eUv2",
+            "estate": "FLAT",
+            "developmentId": 0,
+            "developmentTitle": "",
+            "developmentUrl": "",
+            "transaction": "RENT",
+            "location": {
+                "mapDetails": {
+                    "radius": 100,
+                    "__typename": "MapDetails"
+                },
+                "address": {
+                    "street": null,
+                    "city": {
+                        "name": "Codesseiro",
+                        "__typename": "City"
+                    },
+                    "province": {
+                        "name": "Guarda",
+                        "__typename": "Province"
+                    },
+                    "__typename": "Address"
+                },
+                "reverseGeocoding": {
+                    "locations": [
+                        {
+                            "id": "guarda",
+                            "fullName": "Guarda",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "guarda/guarda",
+                            "fullName": "Guarda, Guarda",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "guarda/guarda/guarda",
+                            "fullName": "Guarda, Guarda, Guarda",
+                            "__typename": "BasicLocationObject"
+                        }
+                    ],
+                    "__typename": "ReverseGeocoding"
+                },
+                "__typename": "LocationDetails"
+            },
+            "images": [
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImVpcGp5dWE1dWp0NTMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.F7_MESG3QMRBRb6EDFZnwjzCXOQwY8vae_55uFIW4oY/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImVpcGp5dWE1dWp0NTMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.F7_MESG3QMRBRb6EDFZnwjzCXOQwY8vae_55uFIW4oY/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                },
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ijh0MnQyMnVucGNpOTMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.YKm_Kvc1WrB2OFftKhetTmMP8DGhhvhxPXzGvFYe2-U/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ijh0MnQyMnVucGNpOTMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.YKm_Kvc1WrB2OFftKhetTmMP8DGhhvhxPXzGvFYe2-U/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                }
+            ],
+            "isExclusiveOffer": false,
+            "isPrivateOwner": false,
+            "isPromoted": false,
+            "agency": null,
+            "openDays": "",
+            "totalPrice": {
+                "value": 400,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "rentPrice": null,
+            "priceFromPerSquareMeter": null,
+            "pricePerSquareMeter": {
+                "value": 13,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "areaInSquareMeters": 30,
+            "terrainAreaInSquareMeters": null,
+            "roomsNumber": "TWO",
+            "hidePrice": false,
+            "floorNumber": null,
+            "investmentState": null,
+            "investmentUnitsAreaInSquareMeters": null,
+            "peoplePerRoom": null,
+            "dateCreated": "2024-05-25 09:12:34",
+            "dateCreatedFirst": "2024-05-25 09:12:24",
+            "investmentUnitsNumber": null,
+            "investmentUnitsRoomsNumber": null,
+            "investmentEstimatedDelivery": null,
+            "pushedUpAt": null,
+            "specialOffer": null,
+            "shortDescription": "Apartamento T1 no Centro da Guarda.\n\nCondições:\n\nCaução.\nNecessidade de Fiador.",
+            "__typename": "AdvertListItem",
+            "totalPossibleImages": 8
+        },
+        {
+            "id": 18197879,
+            "title": "Apartamento T1 para arrendamento",
+            "slug": "apartamento-t1-para-arrendamento-ID1em6b",
+            "estate": "FLAT",
+            "developmentId": 0,
+            "developmentTitle": "",
+            "developmentUrl": "",
+            "transaction": "RENT",
+            "location": {
+                "mapDetails": {
+                    "radius": 0,
+                    "__typename": "MapDetails"
+                },
+                "address": {
+                    "street": {
+                        "name": "Rua das Carreiras Velhas",
+                        "number": "",
+                        "__typename": "Street"
+                    },
+                    "city": {
+                        "name": "Guarda",
+                        "__typename": "City"
+                    },
+                    "province": {
+                        "name": "Guarda",
+                        "__typename": "Province"
+                    },
+                    "__typename": "Address"
+                },
+                "reverseGeocoding": {
+                    "locations": [
+                        {
+                            "id": "guarda",
+                            "fullName": "Guarda",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "guarda/guarda",
+                            "fullName": "Guarda, Guarda",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "guarda/guarda/guarda",
+                            "fullName": "Guarda, Guarda, Guarda",
+                            "__typename": "BasicLocationObject"
+                        }
+                    ],
+                    "__typename": "ReverseGeocoding"
+                },
+                "__typename": "LocationDetails"
+            },
+            "images": [
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InIyZjR4bWhicjFyaTItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.TYPQ5E9BctV7B2f_73-AZdvEH2AEJvIWFtOiEYhjofM/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InIyZjR4bWhicjFyaTItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.TYPQ5E9BctV7B2f_73-AZdvEH2AEJvIWFtOiEYhjofM/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                },
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjlibzM1dmN3bzV1bzMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0._dVfV41cTuoAmXi-hqiym5ODDDOYo5FVUcZ9RFb-a28/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjlibzM1dmN3bzV1bzMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0._dVfV41cTuoAmXi-hqiym5ODDDOYo5FVUcZ9RFb-a28/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                }
+            ],
+            "isExclusiveOffer": false,
+            "isPrivateOwner": false,
+            "isPromoted": false,
+            "agency": {
+                "id": 4691224,
+                "name": "RE/MAX Grupo Casas do Interior",
+                "slug": "re-max-grupo-casas-do-interior-ID4691224",
+                "imageUrl": null,
+                "type": "AGENCY",
+                "brandingVisible": true,
+                "highlightedAds": false,
+                "__typename": "AgencyListingDetails"
+            },
+            "openDays": "",
+            "totalPrice": {
+                "value": 400,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "rentPrice": null,
+            "priceFromPerSquareMeter": null,
+            "pricePerSquareMeter": {
+                "value": 5,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "areaInSquareMeters": 74,
+            "terrainAreaInSquareMeters": null,
+            "roomsNumber": "TWO",
+            "hidePrice": false,
+            "floorNumber": null,
+            "investmentState": null,
+            "investmentUnitsAreaInSquareMeters": null,
+            "peoplePerRoom": null,
+            "dateCreated": "2024-04-03 16:09:00",
+            "dateCreatedFirst": "2024-04-03 16:08:51",
+            "investmentUnitsNumber": null,
+            "investmentUnitsRoomsNumber": null,
+            "investmentEstimatedDelivery": null,
+            "pushedUpAt": null,
+            "specialOffer": null,
+            "shortDescription": "Ótimo  espaço  para  estabelecer  o  seu  negócio. Apartamento  destinado  a  serviços. Composto  por  um  salão,  quarto,  wc  e  varanda.\n Licença de Utilização - 110",
+            "__typename": "AdvertListItem",
+            "totalPossibleImages": 9
+        },
+        {
+            "id": 17976679,
+            "title": "Apartamento T2 na guarda",
+            "slug": "apartamento-t2-na-guarda-ID1dqyr",
+            "estate": "FLAT",
+            "developmentId": 0,
+            "developmentTitle": "",
+            "developmentUrl": "",
+            "transaction": "RENT",
+            "location": {
+                "mapDetails": {
+                    "radius": 100,
+                    "__typename": "MapDetails"
+                },
+                "address": {
+                    "street": null,
+                    "city": {
+                        "name": "Codesseiro",
+                        "__typename": "City"
+                    },
+                    "province": {
+                        "name": "Guarda",
+                        "__typename": "Province"
+                    },
+                    "__typename": "Address"
+                },
+                "reverseGeocoding": {
+                    "locations": [
+                        {
+                            "id": "guarda",
+                            "fullName": "Guarda",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "guarda/guarda",
+                            "fullName": "Guarda, Guarda",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "guarda/guarda/guarda",
+                            "fullName": "Guarda, Guarda, Guarda",
+                            "__typename": "BasicLocationObject"
+                        }
+                    ],
+                    "__typename": "ReverseGeocoding"
+                },
+                "__typename": "LocationDetails"
+            },
+            "images": [
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImxvZDRsOG5hMnNqZzMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.lb5ymIKovPXJxSvOO0qs6Le5hGsYr7CFnF9GD7atDHE/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImxvZDRsOG5hMnNqZzMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.lb5ymIKovPXJxSvOO0qs6Le5hGsYr7CFnF9GD7atDHE/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                },
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImthenkzOHRycjdrMDItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.B1aI4vfJIjjASeHM94TfyPoZTGiWVQuG8Xwe1p0HhNo/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImthenkzOHRycjdrMDItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.B1aI4vfJIjjASeHM94TfyPoZTGiWVQuG8Xwe1p0HhNo/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                }
+            ],
+            "isExclusiveOffer": false,
+            "isPrivateOwner": false,
+            "isPromoted": false,
+            "agency": null,
+            "openDays": "",
+            "totalPrice": {
+                "value": 225,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "rentPrice": null,
+            "priceFromPerSquareMeter": null,
+            "pricePerSquareMeter": {
+                "value": 6,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "areaInSquareMeters": 40,
+            "terrainAreaInSquareMeters": null,
+            "roomsNumber": "THREE",
+            "hidePrice": false,
+            "floorNumber": null,
+            "investmentState": null,
+            "investmentUnitsAreaInSquareMeters": null,
+            "peoplePerRoom": null,
+            "dateCreated": "2024-01-07 19:37:25",
+            "dateCreatedFirst": "2024-01-07 19:37:22",
+            "investmentUnitsNumber": null,
+            "investmentUnitsRoomsNumber": null,
+            "investmentEstimatedDelivery": null,
+            "pushedUpAt": null,
+            "specialOffer": null,
+            "shortDescription": "Arrenda-se espaço para escritório ou consultório na cidade da Guarda localizado em zona privilegiada. \n\nConstituído por Hall de entrada que pode ser a sala de espera, duas salas/consultórios, um WC e ...",
+            "__typename": "AdvertListItem",
+            "totalPossibleImages": 8
+        }
+    ],
+    "guarda/guarda/adao": [],
+    "guarda/guarda/aldeia-do-bispo": [],
+    "guarda/guarda/aldeia-vicosa": [],
+    "guarda/guarda/alvendre": [],
+    "guarda/guarda/arrifana": [],
+    "guarda/guarda/avelas-da-ribeira": [],
+    "guarda/guarda/avelas-de-ambom-e-rocamondo": [],
+    "guarda/guarda/benespera": [],
+    "guarda/guarda/casal-de-cinza": [],
+    "guarda/guarda/castanheira": [],
+    "guarda/guarda/cavadoude": [],
+    "guarda/guarda/codesseiro": [],
+    "guarda/guarda/corujeira-e-trinta": [],
+    "guarda/guarda/faia": [],
+    "guarda/guarda/famalicao": [],
+    "guarda/guarda/fernao-joanes": [],
+    "guarda/guarda/goncalo": [],
+    "guarda/guarda/goncalo-bocas": [],
+    "guarda/guarda/guarda": [
+        {
+            "id": 18330178,
+            "title": "T1 - Centro histórico da Guarda",
+            "slug": "t1-centro-historico-da-guarda-ID1eUv2",
+            "estate": "FLAT",
+            "developmentId": 0,
+            "developmentTitle": "",
+            "developmentUrl": "",
+            "transaction": "RENT",
+            "location": {
+                "mapDetails": {
+                    "radius": 100,
+                    "__typename": "MapDetails"
+                },
+                "address": {
+                    "street": null,
+                    "city": {
+                        "name": "Codesseiro",
+                        "__typename": "City"
+                    },
+                    "province": {
+                        "name": "Guarda",
+                        "__typename": "Province"
+                    },
+                    "__typename": "Address"
+                },
+                "reverseGeocoding": {
+                    "locations": [
+                        {
+                            "id": "guarda",
+                            "fullName": "Guarda",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "guarda/guarda",
+                            "fullName": "Guarda, Guarda",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "guarda/guarda/guarda",
+                            "fullName": "Guarda, Guarda, Guarda",
+                            "__typename": "BasicLocationObject"
+                        }
+                    ],
+                    "__typename": "ReverseGeocoding"
+                },
+                "__typename": "LocationDetails"
+            },
+            "images": [
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImVpcGp5dWE1dWp0NTMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.F7_MESG3QMRBRb6EDFZnwjzCXOQwY8vae_55uFIW4oY/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImVpcGp5dWE1dWp0NTMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.F7_MESG3QMRBRb6EDFZnwjzCXOQwY8vae_55uFIW4oY/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                },
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ijh0MnQyMnVucGNpOTMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.YKm_Kvc1WrB2OFftKhetTmMP8DGhhvhxPXzGvFYe2-U/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ijh0MnQyMnVucGNpOTMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.YKm_Kvc1WrB2OFftKhetTmMP8DGhhvhxPXzGvFYe2-U/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                }
+            ],
+            "isExclusiveOffer": false,
+            "isPrivateOwner": false,
+            "isPromoted": false,
+            "agency": null,
+            "openDays": "",
+            "totalPrice": {
+                "value": 400,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "rentPrice": null,
+            "priceFromPerSquareMeter": null,
+            "pricePerSquareMeter": {
+                "value": 13,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "areaInSquareMeters": 30,
+            "terrainAreaInSquareMeters": null,
+            "roomsNumber": "TWO",
+            "hidePrice": false,
+            "floorNumber": null,
+            "investmentState": null,
+            "investmentUnitsAreaInSquareMeters": null,
+            "peoplePerRoom": null,
+            "dateCreated": "2024-05-25 09:12:34",
+            "dateCreatedFirst": "2024-05-25 09:12:24",
+            "investmentUnitsNumber": null,
+            "investmentUnitsRoomsNumber": null,
+            "investmentEstimatedDelivery": null,
+            "pushedUpAt": null,
+            "specialOffer": null,
+            "shortDescription": "Apartamento T1 no Centro da Guarda.\n\nCondições:\n\nCaução.\nNecessidade de Fiador.",
+            "__typename": "AdvertListItem",
+            "totalPossibleImages": 8
+        },
+        {
+            "id": 18197879,
+            "title": "Apartamento T1 para arrendamento",
+            "slug": "apartamento-t1-para-arrendamento-ID1em6b",
+            "estate": "FLAT",
+            "developmentId": 0,
+            "developmentTitle": "",
+            "developmentUrl": "",
+            "transaction": "RENT",
+            "location": {
+                "mapDetails": {
+                    "radius": 0,
+                    "__typename": "MapDetails"
+                },
+                "address": {
+                    "street": {
+                        "name": "Rua das Carreiras Velhas",
+                        "number": "",
+                        "__typename": "Street"
+                    },
+                    "city": {
+                        "name": "Guarda",
+                        "__typename": "City"
+                    },
+                    "province": {
+                        "name": "Guarda",
+                        "__typename": "Province"
+                    },
+                    "__typename": "Address"
+                },
+                "reverseGeocoding": {
+                    "locations": [
+                        {
+                            "id": "guarda",
+                            "fullName": "Guarda",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "guarda/guarda",
+                            "fullName": "Guarda, Guarda",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "guarda/guarda/guarda",
+                            "fullName": "Guarda, Guarda, Guarda",
+                            "__typename": "BasicLocationObject"
+                        }
+                    ],
+                    "__typename": "ReverseGeocoding"
+                },
+                "__typename": "LocationDetails"
+            },
+            "images": [
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InIyZjR4bWhicjFyaTItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.TYPQ5E9BctV7B2f_73-AZdvEH2AEJvIWFtOiEYhjofM/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InIyZjR4bWhicjFyaTItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.TYPQ5E9BctV7B2f_73-AZdvEH2AEJvIWFtOiEYhjofM/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                },
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjlibzM1dmN3bzV1bzMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0._dVfV41cTuoAmXi-hqiym5ODDDOYo5FVUcZ9RFb-a28/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjlibzM1dmN3bzV1bzMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0._dVfV41cTuoAmXi-hqiym5ODDDOYo5FVUcZ9RFb-a28/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                }
+            ],
+            "isExclusiveOffer": false,
+            "isPrivateOwner": false,
+            "isPromoted": false,
+            "agency": {
+                "id": 4691224,
+                "name": "RE/MAX Grupo Casas do Interior",
+                "slug": "re-max-grupo-casas-do-interior-ID4691224",
+                "imageUrl": null,
+                "type": "AGENCY",
+                "brandingVisible": true,
+                "highlightedAds": false,
+                "__typename": "AgencyListingDetails"
+            },
+            "openDays": "",
+            "totalPrice": {
+                "value": 400,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "rentPrice": null,
+            "priceFromPerSquareMeter": null,
+            "pricePerSquareMeter": {
+                "value": 5,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "areaInSquareMeters": 74,
+            "terrainAreaInSquareMeters": null,
+            "roomsNumber": "TWO",
+            "hidePrice": false,
+            "floorNumber": null,
+            "investmentState": null,
+            "investmentUnitsAreaInSquareMeters": null,
+            "peoplePerRoom": null,
+            "dateCreated": "2024-04-03 16:09:00",
+            "dateCreatedFirst": "2024-04-03 16:08:51",
+            "investmentUnitsNumber": null,
+            "investmentUnitsRoomsNumber": null,
+            "investmentEstimatedDelivery": null,
+            "pushedUpAt": null,
+            "specialOffer": null,
+            "shortDescription": "Ótimo  espaço  para  estabelecer  o  seu  negócio. Apartamento  destinado  a  serviços. Composto  por  um  salão,  quarto,  wc  e  varanda.\n Licença de Utilização - 110",
+            "__typename": "AdvertListItem",
+            "totalPossibleImages": 9
+        },
+        {
+            "id": 17976679,
+            "title": "Apartamento T2 na guarda",
+            "slug": "apartamento-t2-na-guarda-ID1dqyr",
+            "estate": "FLAT",
+            "developmentId": 0,
+            "developmentTitle": "",
+            "developmentUrl": "",
+            "transaction": "RENT",
+            "location": {
+                "mapDetails": {
+                    "radius": 100,
+                    "__typename": "MapDetails"
+                },
+                "address": {
+                    "street": null,
+                    "city": {
+                        "name": "Codesseiro",
+                        "__typename": "City"
+                    },
+                    "province": {
+                        "name": "Guarda",
+                        "__typename": "Province"
+                    },
+                    "__typename": "Address"
+                },
+                "reverseGeocoding": {
+                    "locations": [
+                        {
+                            "id": "guarda",
+                            "fullName": "Guarda",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "guarda/guarda",
+                            "fullName": "Guarda, Guarda",
+                            "__typename": "BasicLocationObject"
+                        },
+                        {
+                            "id": "guarda/guarda/guarda",
+                            "fullName": "Guarda, Guarda, Guarda",
+                            "__typename": "BasicLocationObject"
+                        }
+                    ],
+                    "__typename": "ReverseGeocoding"
+                },
+                "__typename": "LocationDetails"
+            },
+            "images": [
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImxvZDRsOG5hMnNqZzMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.lb5ymIKovPXJxSvOO0qs6Le5hGsYr7CFnF9GD7atDHE/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImxvZDRsOG5hMnNqZzMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.lb5ymIKovPXJxSvOO0qs6Le5hGsYr7CFnF9GD7atDHE/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                },
+                {
+                    "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImthenkzOHRycjdrMDItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.B1aI4vfJIjjASeHM94TfyPoZTGiWVQuG8Xwe1p0HhNo/image;s=655x491;q=80",
+                    "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImthenkzOHRycjdrMDItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.B1aI4vfJIjjASeHM94TfyPoZTGiWVQuG8Xwe1p0HhNo/image;s=1280x1024;q=80",
+                    "__typename": "AdImage"
+                }
+            ],
+            "isExclusiveOffer": false,
+            "isPrivateOwner": false,
+            "isPromoted": false,
+            "agency": null,
+            "openDays": "",
+            "totalPrice": {
+                "value": 225,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "rentPrice": null,
+            "priceFromPerSquareMeter": null,
+            "pricePerSquareMeter": {
+                "value": 6,
+                "currency": "EUR",
+                "__typename": "Money"
+            },
+            "areaInSquareMeters": 40,
+            "terrainAreaInSquareMeters": null,
+            "roomsNumber": "THREE",
+            "hidePrice": false,
+            "floorNumber": null,
+            "investmentState": null,
+            "investmentUnitsAreaInSquareMeters": null,
+            "peoplePerRoom": null,
+            "dateCreated": "2024-01-07 19:37:25",
+            "dateCreatedFirst": "2024-01-07 19:37:22",
+            "investmentUnitsNumber": null,
+            "investmentUnitsRoomsNumber": null,
+            "investmentEstimatedDelivery": null,
+            "pushedUpAt": null,
+            "specialOffer": null,
+            "shortDescription": "Arrenda-se espaço para escritório ou consultório na cidade da Guarda localizado em zona privilegiada. \n\nConstituído por Hall de entrada que pode ser a sala de espera, duas salas/consultórios, um WC e ...",
+            "__typename": "AdvertListItem",
+            "totalPossibleImages": 8
+        }
+    ],
+    "guarda/guarda/jarmelo-sao-miguel": [],
+    "guarda/guarda/jarmelo-sao-pedro": [],
+    "guarda/guarda/joao-antao": [],
+    "guarda/guarda/macainhas": [],
+    "guarda/guarda/marmeleiro": [],
+    "guarda/guarda/meios": [],
+    "guarda/guarda/mizarela-pero-soares-e-vila-soeiro": [],
+    "guarda/guarda/panoias-de-cima": [],
+    "guarda/guarda/pega": [],
+    "guarda/guarda/pera-do-moco": [],
+    "guarda/guarda/porto-da-carne": [],
+    "guarda/guarda/pousade-e-albardo": [],
+    "guarda/guarda/ramela": [],
+    "guarda/guarda/rochoso-e-monte-margarida": [],
+    "guarda/guarda/santana-da-azinha": [],
+    "guarda/guarda/sobral-da-serra": [],
+    "guarda/guarda/vale-de-estrela": [],
+    "guarda/guarda/valhelhas": [],
+    "guarda/guarda/vela": [],
+    "guarda/guarda/videmonte": [],
+    "guarda/guarda/vila-cortes-do-mondego": [],
+    "guarda/guarda/vila-fernando": [],
+    "guarda/guarda/vila-franca-do-deao": [],
+    "guarda/guarda/vila-garcia": [],
+    "guarda/meda": [],
+    "guarda/meda/aveloso": [],
+    "guarda/meda/barreira": [],
+    "guarda/meda/coriscada": [],
+    "guarda/meda/longroiva": [],
+    "guarda/meda/marialva": [],
+    "guarda/meda/meda-outeiro-de-gatos-e-fonte-longa": [],
+    "guarda/meda/poco-do-canto": [],
+    "guarda/meda/prova-e-casteicao": [],
+    "guarda/meda/rabacal": [],
+    "guarda/meda/ranhados": [],
+    "guarda/meda/vale-flor-carvalhal-e-pai-penela": [],
+    "guarda/pinhel": [],
+    "guarda/pinhel/agregacao-das-freguesias-sul-de-pinhel": [],
+    "guarda/pinhel/alto-do-palurdo": [],
+    "guarda/pinhel/alverca-da-beira-bouca-cova": [],
+    "guarda/pinhel/atalaia-e-safurdao": [],
+    "guarda/pinhel/ervedosa": [],
+    "guarda/pinhel/freixedas": [],
+    "guarda/pinhel/lamegal": [],
+    "guarda/pinhel/lameiras": [],
+    "guarda/pinhel/manigoto": [],
+    "guarda/pinhel/pala": [],
+    "guarda/pinhel/pinhel": [],
+    "guarda/pinhel/pinzio": [],
+    "guarda/pinhel/souro-pires": [],
+    "guarda/pinhel/terras-de-massueime": [],
+    "guarda/pinhel/valbom-bogalhal": [],
+    "guarda/pinhel/vale-do-coa": [],
+    "guarda/pinhel/vale-do-massueime": [],
+    "guarda/pinhel/vascoveiro": [],
+    "guarda/sabugal": [],
+    "guarda/sabugal/aguas-belas": [],
+    "guarda/sabugal/aldeia-da-ponte": [],
+    "guarda/sabugal/aldeia-da-ribeira-vilar-maior-e-badamalos": [],
+    "guarda/sabugal/aldeia-do-bispo": [],
+    "guarda/sabugal/aldeia-velha": [],
+    "guarda/sabugal/alfaiates": [],
+    "guarda/sabugal/baracal": [],
+    "guarda/sabugal/bendada": [],
+    "guarda/sabugal/bismula": [],
+    "guarda/sabugal/casteleiro": [],
+    "guarda/sabugal/cerdeira": [],
+    "guarda/sabugal/foios": [],
+    "guarda/sabugal/lajeosa-e-forcalhos": [],
+    "guarda/sabugal/malcata": [],
+    "guarda/sabugal/nave": [],
+    "guarda/sabugal/pousafoles-do-bispo-pena-lobo-e-lomba": [],
+    "guarda/sabugal/quadrazais": [],
+    "guarda/sabugal/quintas-de-sao-bartolomeu": [],
+    "guarda/sabugal/rapoula-do-coa": [],
+    "guarda/sabugal/rebolosa": [],
+    "guarda/sabugal/rendo": [],
+    "guarda/sabugal/ruvina-ruivos-e-vale-das-eguas": [],
+    "guarda/sabugal/sabugal-e-aldeia-de-santo-antonio": [],
+    "guarda/sabugal/santo-estevao-e-moita": [],
+    "guarda/sabugal/seixo-do-coa-e-vale-longo": [],
+    "guarda/sabugal/sortelha": [],
+    "guarda/sabugal/souto": [],
+    "guarda/sabugal/vale-de-espinho": [],
+    "guarda/sabugal/vila-boa": [],
+    "guarda/sabugal/vila-do-touro": [],
+    "guarda/seia": [],
+    "guarda/seia/alvoco-da-serra": [],
+    "guarda/seia/carragozela-e-varzea-de-meruge": [],
+    "guarda/seia/girabolhos": [],
+    "guarda/seia/loriga": [],
+    "guarda/seia/paranhos": [],
+    "guarda/seia/pinhancos": [],
+    "guarda/seia/sabugueiro": [],
+    "guarda/seia/sameice-e-santa-eulalia": [],
+    "guarda/seia/sandomil": [],
+    "guarda/seia/santa-comba": [],
+    "guarda/seia/santa-marinha-e-sao-martinho": [],
+    "guarda/seia/santiago": [],
+    "guarda/seia/sazes-da-beira": [],
+    "guarda/seia/seia-sao-romao-e-lapa-dos-dinheiros": [],
+    "guarda/seia/teixeira": [],
+    "guarda/seia/torrozelo-e-folhadosa": [],
+    "guarda/seia/tourais-e-lajes": [],
+    "guarda/seia/travancinha": [],
+    "guarda/seia/valezim": [],
+    "guarda/seia/vide-e-cabeca": [],
+    "guarda/seia/vila-cova-a-coelheira": [],
+    "guarda/trancoso": [],
+    "guarda/trancoso/aldeia-nova": [],
+    "guarda/trancoso/castanheira": [],
+    "guarda/trancoso/cogula": [],
+    "guarda/trancoso/cotimos": [],
+    "guarda/trancoso/fiaes": [],
+    "guarda/trancoso/freches-e-torres": [],
+    "guarda/trancoso/granja": [],
+    "guarda/trancoso/guilheiro": [],
+    "guarda/trancoso/moimentinha": [],
+    "guarda/trancoso/moreira-de-rei": [],
+    "guarda/trancoso/palhais": [],
+    "guarda/trancoso/povoa-do-concelho": [],
+    "guarda/trancoso/reboleiro": [],
+    "guarda/trancoso/rio-de-mel": [],
+    "guarda/trancoso/tamanhos": [],
+    "guarda/trancoso/torre-do-terrenho-sebadelhe-da-serra-e-terrenho": [],
+    "guarda/trancoso/trancoso-sao-pedro-e-santa-maria-e-souto-maior": [],
+    "guarda/trancoso/valdujo": [],
+    "guarda/trancoso/vale-do-seixo-e-vila-garcia": [],
+    "guarda/trancoso/vila-franca-das-naves-e-feital": [],
+    "guarda/trancoso/vilares-e-carnicaes": [],
+    "guarda/vila-nova-de-foz-coa": [],
+    "guarda/vila-nova-de-foz-coa/almendra": [],
+    "guarda/vila-nova-de-foz-coa/castelo-melhor": [],
+    "guarda/vila-nova-de-foz-coa/cedovim": [],
+    "guarda/vila-nova-de-foz-coa/chas": [],
+    "guarda/vila-nova-de-foz-coa/custoias": [],
+    "guarda/vila-nova-de-foz-coa/freixo-de-numao": [],
+    "guarda/vila-nova-de-foz-coa/horta": [],
+    "guarda/vila-nova-de-foz-coa/muxagata": [],
+    "guarda/vila-nova-de-foz-coa/numao": [],
+    "guarda/vila-nova-de-foz-coa/santa-comba": [],
+    "guarda/vila-nova-de-foz-coa/sebadelhe": [],
+    "guarda/vila-nova-de-foz-coa/seixas": [],
+    "guarda/vila-nova-de-foz-coa/touca": [],
+    "guarda/vila-nova-de-foz-coa/vila-nova-de-foz-coa": []
+}

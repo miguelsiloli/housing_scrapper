@@ -1,9 +1,9 @@
 #!/bin/bash
 # Set AIRFLOW_HOME environment variable to housing_project directory
-export AIRFLOW_HOME=housing_project
+# export AIRFLOW_HOME="$HOME/housing_project"
 
 # Initialize the Airflow database
-airflow initdb
+airflow db init
 
 # Start the Airflow scheduler in background
 airflow scheduler -D &
