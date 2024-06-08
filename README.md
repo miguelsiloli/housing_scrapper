@@ -1,8 +1,51 @@
 # Airflow DAGs for Web Scraping and Data Processing
 
+Use cases:
+- Scrape raw data from source 
+  - idealista scrape html files from a data catalog previously built to show the hierarchy between locations
+  - imovirtual uses a reverse engineering of the graphql endpoint to get data from major locations
+- Parse raw data into semi structured formats
+  - idealista parses data into a flatten dataframe using lxml
+  - imovirtual parses data into a flatten dataframe
+- Upload the data to S3
+
 ## Cloud Architecture
 
 ![Cloud](assets\cloud_arch.png)
+
+1. Activity Diagram
+
+```
++---------------------+
+|      Start          |
++---------------------+
+          |
+          v
++---------------------+
+|  Start Scraping     |
++---------------------+
+          |
+          v
++---------------------+
+| Store HTML Locally  |
++---------------------+
+          |
+          v
++---------------------+
+| Convert HTML to     |
+| Parquet             |
++---------------------+
+          |
+          v
++---------------------+
+| Upload Parquet to S3|
++---------------------+
+          |
+          v
++---------------------+
+|         End         |
++---------------------+
+```
 
 ## Overview
 
