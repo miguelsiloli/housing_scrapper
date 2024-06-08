@@ -11,7 +11,10 @@ Use cases:
 
 ## Cloud Architecture
 
-![Cloud](assets\cloud_arch.png)
+![Cloud](assets/cloud_arch.png)
+
+**Fast API repo**: https://github.com/miguelsiloli/housing_prices_fastapi
+**Dash repo**: https://github.com/miguelsiloli/housing_scrapper
 
 1. Activity Diagram
 
