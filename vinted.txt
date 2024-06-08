@@ -1,0 +1,2 @@
+# https://www.vinted.pt/api/v2/inbox?page=1&per_page=20 get conversation ids
+# https://www.vinted.pt/api/v2/conversations/11938171432 get data for each convo

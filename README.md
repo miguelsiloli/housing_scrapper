@@ -1,4 +1,61 @@
-## Data Engineering Workflow:
+# Airflow DAGs for Web Scraping and Data Processing
+
+## Cloud Architecture
+
+![Cloud](assets\cloud_arch.png)
+
+## Overview
+
+This repository contains two Airflow DAGs for scraping real estate data from Idealista and Imovirtual, processing the data, and uploading it to an AWS S3 bucket.
+
+## Project Structure
+
+- `idealista_dag.py`: DAG for scraping and processing Idealista data.
+- `imovirtual_dag.py`: DAG for fetching and processing Imovirtual data.
+- more to be added
+
+## Prerequisites
+
+- Python 3.8+
+- Apache Airflow
+- AWS account with S3 access
+- Required Python packages (specified in your environment setup)
+
+## Setup
+
+1. **Clone the repository**:
+   ```bash
+   git clone url.git
+   cd directory
+
+2. **Set env variables on .env file**:
+  
+aws_access_key_id
+aws_secret_access_key
+region_name
+
+
+## Setup
+
+Idealista DAG (idealista_dag.py)
+
+    Description: Scrapes data from Idealista, processes the data, and uploads it to an S3 bucket.
+    Schedule: Runs daily at 12 PM.
+
+Tasks:
+
+    Scrape Idealista:
+        Uses a custom scraper to fetch data from provided URLs.
+        URLs are read from district_data_updated.csv.
+    Parse Data:
+        Parses the scraped HTML files and converts them to a DataFrame.
+        Uploads the parsed data to an S3 bucket.
+    Delete Raw Data:
+        Deletes the local folder containing raw HTML files after processing.
+
+## Notes
+
+### Data Engineering Workflow:
 
 - Create a scraper and store raw data
   - Output store it either locally or in s3 bucket
@@ -12,7 +69,7 @@
 - Wrap up with container
 - Deploy to cloud
 
-### Data schema
+#### Data schema
 
 1. Raw layer (datatype = source)
 2. Unnormalized Semi-structured format (data lake with parquet format)
