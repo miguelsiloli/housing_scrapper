@@ -33,19 +33,6 @@ This repository contains two Airflow DAGs for scraping real estate data from Ide
 - AWS account with S3 access
 - Required Python packages (specified in your environment setup)
 
-## Setup
-
-1. **Clone the repository**:
-   ```bash
-   git clone url.git
-   cd directory
-
-2. **Set env variables on .env file**:
-  
-aws_access_key_id
-aws_secret_access_key
-region_name
-
 
 ## Setup
 
