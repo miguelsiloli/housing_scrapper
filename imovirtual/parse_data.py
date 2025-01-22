@@ -5,6 +5,9 @@ from datetime import datetime
 from io import BytesIO
 from dotenv import load_dotenv
 import boto3
+import io
+import os
+from b2sdk.v2 import B2Api
 
 # Function to flatten the JSON data and add a location column
 def flatten_json(data, location):
@@ -21,6 +24,81 @@ def convert_timestamp_to_date(timestamp):
     # Format datetime as 'dd-mm-yyyy'
     formatted_date = date_object.strftime('%d-%m-%Y')
     return formatted_date
+
+# def upload_df_to_backblaze(df, file_name, folder_name):
+#     """
+#     Uploads a pandas DataFrame to Backblaze B2 storage within a specified folder.
+#     Creates the folder if it does not exist.
+
+#     Args:
+#         df (pandas.DataFrame): The DataFrame to upload
+#         file_name (str): Name to give the file in B2 (should end in .csv)
+#         folder_name (str): Name of the folder in B2 where the file should be stored
+    
+#     Returns:
+#         bool: True if upload was successful, False otherwise
+        
+#     Raises:
+#         Exception: If there's an error during upload
+#     """
+
+#     # Convert DataFrame to CSV in memory
+#     csv_buffer = io.StringIO()
+#     df.to_csv(csv_buffer, index=False)
+#     csv_data = csv_buffer.getvalue().encode('utf-8')
+    
+#     # Setup B2 client
+#     b2_api = B2Api()
+#     b2_api.authorize_account("production", os.getenv("B2_KEY_ID"), os.getenv("B2_APPLICATION_KEY"))
+    
+#     # Prepare upload path and metadata
+#     remote_path = f"{folder_name}/{file_name}"
+#     bucket = b2_api.get_bucket_by_name(os.getenv("B2_BUCKET"))
+#     file_info = {'Content-Type': 'text/csv'}
+    
+#     try:
+#         # Upload data directly from memory
+#         bucket.upload_bytes(
+#             data_bytes=csv_data,
+#             file_name=remote_path,
+#             file_info=file_info
+#         )
+#         return True
+#     except Exception as e:
+#         print(f"Error uploading to B2: {str(e)}")
+#         return False
+
+def process_and_upload_to_b2(source_path, **context):
+    """
+    Loads data from source path into a DataFrame and uploads to Backblaze B2.
+    
+    Args:
+        source_path (str): Path to source data
+        **context: Airflow context and additional parameters
+    """
+    import pandas as pd
+    import os
+    from glob import glob
+    
+    # Get all CSV files in the source directory
+    csv_files = glob(os.path.join(source_path, "*.csv"))
+    
+    for file_path in csv_files:
+        # Read the CSV into a DataFrame
+        df = pd.read_csv(file_path)
+        
+        # Get the original filename
+        file_name = os.path.basename(file_path)
+        
+        # Upload to Backblaze B2
+        success = upload_df_to_backblaze(
+            df=df,
+            file_name=file_name,
+            folder_name="housing_prices/raw/imovirtual"
+        )
+        
+        if not success:
+            raise Exception(f"Failed to upload {file_name} to Backblaze B2")
 
 def upload_df_to_s3_as_parquet(df, bucket, file_name, s3_client):
     """

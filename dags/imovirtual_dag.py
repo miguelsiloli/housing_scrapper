@@ -3,7 +3,7 @@ from airflow.operators.python_operator import PythonOperator
 from datetime import datetime, timedelta
 import os
 from ..imovirtual.graphql_main import fetch_imovirtual_data, get_buildid
-from ..imovirtual.parse_data import process_and_upload_data_to_s3
+from ..imovirtual.parse_data import process_and_upload_to_b2
 
 default_args = {
     'owner': 'airflow',
@@ -52,15 +52,10 @@ fetch_data = PythonOperator(
 )
 
 process_and_upload = PythonOperator(
-    task_id='process_and_upload_data_to_s3',
-    python_callable=process_and_upload_data_to_s3,
+    task_id='process_and_upload_data_to_b2',
+    python_callable=process_and_upload_to_b2,
     op_kwargs={
-        'source_path': "raw/imovirtual/",
-        'aws_access_key_id': os.getenv('aws_access_key_id'),
-        'aws_secret_access_key': os.getenv('aws_secret_access_key'),
-        'region_name': os.getenv('region_name'),
-        'bucket': "miguelsiloli-projects-s3",
-        's3_folder': "housing_prices/raw/imovirtual/"
+        'source_path': "raw/imovirtual/"
     },
     dag=dag,
 )
