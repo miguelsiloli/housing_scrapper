@@ -1,7 +1,7 @@
 from datetime import datetime
 import os
-from imovirtual.graphql_main import fetch_imovirtual_data, get_buildid
-from imovirtual.parse_data import process_and_upload_to_b2
+from .imovirtual.graphql_main import fetch_imovirtual_data, get_buildid
+from .imovirtual.parse_data import process_and_upload_to_b2
 
 def main():
     # Define the paths and headers
