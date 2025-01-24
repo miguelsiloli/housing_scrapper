@@ -29,4 +29,4 @@ jobs:
 
       - name: Run Imovirtual Data Pipeline
         run: |
-          python dags/imovirtual_dag.py
+          python imovirtual_main.py
