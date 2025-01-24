@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 import json
 import time
-from get_buildid import get_buildid
+from imovirtual.get_buildid import get_buildid
 import os
 
 def fetch_imovirtual_data(csv_file_path: str, output_dir: str, headers: dict, base_url_template: str, get_buildid) -> None:
