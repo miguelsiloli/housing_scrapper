@@ -1,78 +1,95 @@
+import logging
 import requests
 import pandas as pd
 import json
-import time
-from imovirtual.get_buildid import get_buildid
 import os
+import time
+from tqdm import tqdm
+from functools import wraps
+
+def retry_on_failure(retries=3, delay=60):
+    def decorator(func):
+        @wraps(func)
+        def wrapper(*args, **kwargs):
+            attempts = retries
+            while attempts > 0:
+                try:
+                    return func(*args, **kwargs)
+                except requests.RequestException as e:
+                    attempts -= 1
+                    print(
+                        f"Request failed: {e}. Retrying in {delay} seconds...")
+                    time.sleep(delay)
+            raise Exception(
+                f"Failed to complete {func.__name__} after {retries} retries.")
+
+        return wrapper
+
+    return decorator
+
+@retry_on_failure(retries=3, delay=60)
+def make_api_call(url: str, headers: dict) -> dict:
+   try:
+       response = requests.get(url, headers=headers)
+       response.raise_for_status()
+       data = response.json()
+       time.sleep(2)
+       return data
+   except Exception as e:
+       logging.error(f'Error in API call to {url}: {str(e)}')
+       raise
+
+def save_district_data(district: str, data: dict, output_dir: str) -> None:
+   output_path = os.path.join(output_dir, f'{district}.json')
+   os.makedirs(os.path.dirname(output_path), exist_ok=True)
+   
+   try:
+       with open(output_path, 'w', encoding='utf-8') as f:
+           json.dump(data, f, ensure_ascii=False, indent=4)
+       logging.info(f'Successfully saved data for district {district}')
+   except Exception as e:
+       logging.error(f'Error saving data for district {district}: {str(e)}')
+
+def process_district(district: str, id_list: list, base_url_template: str, headers: dict, buildid: str, output_dir: str) -> None:
+   all_data = {}
+   
+   for id in tqdm(id_list, desc=f'Processing IDs for {district}', leave=False):
+       url = base_url_template.format(buildid, id)
+       
+       try:
+           data = make_api_call(url, headers)
+           all_data[id] = data["pageProps"]['data']['searchAds']['items']
+           num_pages = data["pageProps"]['tracking']['listing']['page_count']
+           
+           if num_pages > 1:
+               for page in tqdm(range(2, num_pages + 1), desc='Fetching pages', leave=False):
+                   paged_url = f"{url}?page={page}"
+                   paged_data = make_api_call(paged_url, headers)
+                   all_data[id].extend(paged_data["pageProps"]['data']['searchAds']['items'])
+                   
+           logging.info(f'Successfully processed ID {id} with {num_pages} pages')
+           
+       except Exception as e:
+           logging.error(f'Error processing ID {id}: {str(e)}')
+           continue
+
+   save_district_data(district, all_data, output_dir)
 
 def fetch_imovirtual_data(csv_file_path: str, output_dir: str, headers: dict, base_url_template: str, get_buildid) -> None:
-    """
-    Fetch data from Imovirtual website and save to JSON files.
-
-    Parameters:
-    - csv_file_path (str): Path to the CSV file containing the list of districts and IDs.
-    - output_dir (str): Directory where the JSON files will be saved.
-    - headers (dict): Headers for the HTTP requests.
-    - base_url_template (str): Template for the base URL used in the requests.
-    - get_buildid (callable): Function to get the build ID.
-    """
-
-    # Read CSV to get the list of districts
-    df = pd.read_csv(csv_file_path)
-    districts = df.groupby("district")['id'].apply(list).to_dict()
-
-    # Get the build ID
-    buildid = get_buildid()
-
-    # Iterate over each district and fetch data
-    for district, id_list in districts.items():
-        all_data = {}  # Initialize an empty dictionary to store the data
-
-        for id in id_list:
-            url = base_url_template.format(buildid, id)
-            response = requests.get(url, headers=headers)
-            data = response.json()
-            all_data[id] = data["pageProps"]['data']['searchAds']['items']
-
-            num_pages = data["pageProps"]['tracking']['listing']['page_count']
-
-            # Fetch data from additional pages
-            for page in range(2, num_pages + 1):
-                paged_url = f"{url}?page={page}"
-                paged_response = requests.get(paged_url, headers=headers)
-                paged_data = paged_response.json()
-                all_data[id].extend(paged_data["pageProps"]['data']['searchAds']['items'])
-
-                # Prevent being blocked by the server for too many requests in a short time
-                time.sleep(12)
-
-        # Save the collected data to a JSON file
-        output_path = os.path.join(output_dir, f'{district}.json')
-        os.makedirs(os.path.dirname(output_path), exist_ok=True)
-        with open(output_path, 'w', encoding='utf-8') as f:
-            json.dump(all_data, f, ensure_ascii=False, indent=4)
-
-
-if __name__ == "__main__":
-    fetch_imovirtual_data(
-        csv_file_path='imovirtual_catalog.csv',
-        output_dir='raw/imovirtual/',
-        headers={
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
-            "Accept": "multipart/mixed, application/graphql-response+json, application/graphql+json, application/json",
-            "Accept-Language": "pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3",
-            "Accept-Encoding": "gzip, deflate, br, zstd",
-            "Content-Type": "application/json",
-            "baggage": "sentry-environment=imovirtualpt2-prd,sentry-release=frontend-platform%40v20240603T121501-imovirtualpt2,sentry-public_key=feffe528c390ea66992a4a05131c3c68,sentry-trace_id=cc8c6f78b99b4e959c670ca3a2b379bd,sentry-transaction=%2Fpt%2Fresultados%2F%5B%5B...searchingCriteria%5D%5D,sentry-sampled=false",
-            "Origin": "https://www.imovirtual.com",
-            "Alt-Used": "www.imovirtual.com",
-            "Connection": "keep-alive",
-            "Sec-Fetch-Dest": "empty",
-            "Sec-Fetch-Mode": "cors",
-            "Sec-Fetch-Site": "same-origin",
-            "Priority": "u=1",
-            "TE": "trailers"
-        },
-        base_url_template="https://www.imovirtual.com/_next/data/{}/pt/resultados/arrendar/apartamento/{}.json",
-        get_buildid=get_buildid 
-    )
+   logging.basicConfig(
+       level=logging.INFO,
+       format='%(asctime)s - %(levelname)s - %(message)s',
+       handlers=[
+           logging.FileHandler('imovirtual_scraping.log'),
+           logging.StreamHandler()
+       ]
+   )
+   df = pd.read_csv(csv_file_path)
+   districts = df.groupby("district")['id'].apply(list).to_dict()
+   buildid = get_buildid()
+   
+   logging.info(f'Starting data collection for {len(districts)} districts')
+   
+   for district, id_list in tqdm(districts.items(), desc='Processing districts'):
+       logging.info(f'Processing district: {district}')
+       process_district(district, id_list, base_url_template, headers, buildid, output_dir)

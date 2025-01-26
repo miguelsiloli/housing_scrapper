@@ -1,13 +1,25 @@
 import pandas as pd
-import os
+
 import json
 from datetime import datetime
 from io import BytesIO
 from dotenv import load_dotenv
 import boto3
 import io
+
+import logging
+import pandas as pd
 import os
-from b2sdk.v2 import B2Api
+from glob import glob
+from b2sdk.v2 import B2Api, InMemoryAccountInfo
+from datetime import date
+
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+
+handler = logging.StreamHandler()
+handler.setFormatter(logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s'))
+logger.addHandler(handler)
 
 # Function to flatten the JSON data and add a location column
 def flatten_json(data, location):
@@ -69,36 +81,45 @@ def convert_timestamp_to_date(timestamp):
 #         return False
 
 def process_and_upload_to_b2(source_path, **context):
-    """
-    Loads data from source path into a DataFrame and uploads to Backblaze B2.
+    # Load JSON files
+    json_files = glob(os.path.join(source_path, "*.json"))
     
-    Args:
-        source_path (str): Path to source data
-        **context: Airflow context and additional parameters
-    """
-    import pandas as pd
-    import os
-    from glob import glob
+    # Handle JSON loading with validation for empty files
+    dfs = []
+    for f in json_files:
+        try:
+            df = pd.read_json(f)
+            if not df.empty:
+                dfs.append(df)
+        except Exception as e:
+            logger.error(f"Error reading JSON file {f}: {str(e)}")
+            continue
     
-    # Get all CSV files in the source directory
-    csv_files = glob(os.path.join(source_path, "*.csv"))
-    
-    for file_path in csv_files:
-        # Read the CSV into a DataFrame
-        df = pd.read_csv(file_path)
+    if not dfs:
+        logger.error("No valid DataFrames to process")
+        return False
         
-        # Get the original filename
-        file_name = os.path.basename(file_path)
-        
-        # Upload to Backblaze B2
-        success = upload_df_to_backblaze(
-            df=df,
-            file_name=file_name,
-            folder_name="housing_prices/raw/imovirtual"
-        )
-        
-        if not success:
-            raise Exception(f"Failed to upload {file_name} to Backblaze B2")
+    combined_df = pd.concat(dfs, ignore_index=True)
+   
+    # Save as parquet
+    today = date.today().strftime("%Y%m%d")
+    parquet_name = f"imovirtual_{today}.parquet"
+    combined_df.to_parquet(parquet_name)
+   
+    # Upload to B2
+    info = InMemoryAccountInfo()
+    b2_api = B2Api(info)
+    b2_api.authorize_account("production", os.environ["B2_KEY_ID"], os.environ["B2_APPLICATION_KEY"])
+    bucket = b2_api.get_bucket_by_name(os.environ["B2_BUCKET_NAME"])
+   
+    bucket.upload_local_file(
+        local_file=parquet_name,
+        file_name=f"imovirtual/{parquet_name}",
+        file_info={'Content-Type': 'application/parquet'}
+    )
+    logger.info(f"Successfully uploaded {parquet_name} to B2")
+    os.remove(parquet_name)  # Clean up local file
+    return True
 
 def upload_df_to_s3_as_parquet(df, bucket, file_name, s3_client):
     """

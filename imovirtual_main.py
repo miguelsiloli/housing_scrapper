@@ -1,7 +1,8 @@
 from datetime import datetime
 import os
-from imovirtual.graphql_main import fetch_imovirtual_data, get_buildid
-from imovirtual.parse_data import process_and_upload_to_b2
+from imovirtual.graphql_main import fetch_imovirtual_data
+from imovirtual.get_buildid import get_buildid
+from imovirtual.b2_interface import upload_to_b2
 
 def main():
     # Define the paths and headers
@@ -37,7 +38,7 @@ def main():
 
     # Process and upload data to B2
     print("Processing and uploading data to B2...")
-    process_and_upload_to_b2(source_path=output_dir)
+    upload_to_b2(source_path='raw/imovirtual')
 
     print("Pipeline completed successfully.")
 
