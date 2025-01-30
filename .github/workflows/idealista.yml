@@ -37,11 +37,6 @@ jobs:
       - name: List files in the current directory
         run: ls -al
 
-      - name: Change directory to housing_scrapper
-        run: |
-          cd housing_scrapper
-          ls -al
-
       - name: Run Imovirtual Data Pipeline
         run: |
           python idealista_main.py
