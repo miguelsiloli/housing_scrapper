@@ -89,26 +89,21 @@ def upload_to_b2(source_path: str) -> bool:
     
     today = date.today().strftime("%Y%m%d")
     parquet_name = f"imovirtual_{today}.parquet"
-    # df.to_parquet(parquet_name)
+    df.to_parquet(parquet_name)
     
-    try:
-        info = InMemoryAccountInfo()
-        b2_api = B2Api(info)
-        b2_api.authorize_account("production", 
-                               os.environ["B2_KEY_ID"], 
-                               os.environ["B2_APPLICATION_KEY"])
-        
-        bucket = b2_api.get_bucket_by_name(os.environ["B2_BUCKET_NAME"])
-        bucket.upload_local_file(
-            local_file=parquet_name,
-            file_name=f"imovirtual/{parquet_name}",
-            file_info={'Content-Type': 'application/parquet'}
-        )
-        logger.info(f"Uploaded {parquet_name} to B2")
-        os.remove(parquet_name)
-        return True
-    except Exception as e:
-        logger.error(f"B2 upload failed: {str(e)}")
-        if os.path.exists(parquet_name):
-            os.remove(parquet_name)
-        return False
+
+    info = InMemoryAccountInfo()
+    b2_api = B2Api(info)
+    b2_api.authorize_account("production", 
+                           os.environ["B2_KEY_ID"], 
+                           os.environ["B2_APPLICATION_KEY"])
+    
+    bucket = b2_api.get_bucket_by_name(os.environ["B2_BUCKET_NAME"])
+    bucket.upload_local_file(
+        local_file=parquet_name,
+        file_name=f"imovirtual/{parquet_name}",
+        file_info={'Content-Type': 'application/parquet'}
+    )
+    logger.info(f"Uploaded {parquet_name} to B2")
+    os.remove(parquet_name)
+    return True
