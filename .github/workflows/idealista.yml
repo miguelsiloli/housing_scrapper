@@ -4,10 +4,6 @@ on:
   schedule:
     - cron: '0 0 * * *'  # Runs at 00:00 UTC every day
   workflow_dispatch:  # Allows manual triggering
-  push:
-    paths:
-      - 'dags/imovirtual_dag.py'
-      - 'dags/imovirtual/**'
 
 jobs:
   run-imovirtual-pipeline:
@@ -48,4 +44,4 @@ jobs:
 
       - name: Run Imovirtual Data Pipeline
         run: |
-          python dags/idealista_dag.py
+          python idealista_main.py
