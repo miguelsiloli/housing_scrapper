@@ -31,55 +31,25 @@ def delete_folder(folder_path):
     else:
         print(f"Folder '{folder_path}' does not exist.")
 
-s3 = boto3.client('s3',
-        aws_access_key_id=os.getenv('aws_access_key_id'),
-        aws_secret_access_key=os.getenv('aws_secret_access_key'),
-        region_name=os.getenv('region_name'))
+def run_pipeline():
+    try:
+        # Step 1: Scraping
+        scrape_idealista(urls=idealista_urls, 
+                        directory_path='raw/idealista')
+        
+        # Step 2: Parsing and uploading to S3
+        main_function(parsing_function=parse_html_files_to_dataframe,
+                     s3_object=s3,
+                     source_directory_path="./raw/idealista")
+        
+        # Step 3: Cleanup
+        delete_folder("./raw/idealista")
+        
+        print(f"Pipeline completed successfully at {datetime.now()}")
+        
+    except Exception as e:
+        print(f"Error in pipeline: {str(e)}")
+        # You could add email notification here
 
-# Define default arguments for the DAG
-default_args = {
-    'owner': 'airflow',
-    'depends_on_past': False,
-    'start_date': datetime(2024, 1, 1),
-    'email': ['miguel99silva@gmail.com'],
-    'email_on_failure': False,
-    'email_on_retry': False,
-    'retries': 1,
-    'retry_delay': timedelta(minutes=5),
-}
-
-# Define the DAG
-dag = DAG(
-    'idealista_scraping_dag',
-    default_args=default_args,
-    description='Daily Idealista Scraping at 12 PM',
-    schedule_interval='0 12 * * *',  # At 12:00 PM every day
-    catchup=False
-)
-
-# Define the task
-scrape_task = PythonOperator(
-    task_id='scrape_idealista',
-    python_callable=scrape_idealista,
-    op_kwargs={'urls': idealista_urls, 
-               'directory_path': 'raw/idealista'},
-    dag=dag
-)
-
-parse_task = PythonOperator(
-    task_id='parse_idealista',
-    python_callable=main_function,
-    op_kwargs={'parsing_function': parse_html_files_to_dataframe, 
-               's3_object': s3,
-               'source_directory_path': "./raw/idealista"},
-    dag=dag
-)
-
-delete_task = PythonOperator(
-    task_id='delete_idealista',
-    python_callable= delete_folder,
-    op_kwargs={'folder_path': "./raw/idealista"},
-    dag=dag
-)
-
-scrape_task >> parse_task >> delete_task
+if __name__ == "__main__":
+    run_pipeline()
