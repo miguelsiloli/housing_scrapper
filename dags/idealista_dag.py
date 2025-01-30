@@ -40,7 +40,8 @@ def run_pipeline():
         # Step 2: Parsing and uploading to S3
         main_function(parsing_function=parse_html_files_to_dataframe,
                      s3_object=s3,
-                     source_directory_path="./raw/idealista")
+                     source_directory_path="./raw/idealista",
+                     upload_to_s3 = False)
         
         # Step 3: Cleanup
         delete_folder("./raw/idealista")
