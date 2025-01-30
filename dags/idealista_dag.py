@@ -1,8 +1,6 @@
 from datetime import datetime, timedelta
-from airflow import DAG
-from airflow.operators.python_operator import PythonOperator
-from ..idealista.scraper_base import scraper_factory 
-from ..idealista.parser import main_function, parse_html_files_to_dataframe
+from idealista.scraper_base import scraper_factory 
+from idealista.parser import main_function, parse_html_files_to_dataframe
 import boto3
 import shutil
 import os
