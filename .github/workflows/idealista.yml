@@ -1,4 +1,4 @@
-name: Run Imovirtual Data Pipeline
+name: Run Idealista Data Pipeline
 
 on:
   schedule:
@@ -40,4 +40,4 @@ jobs:
 
       - name: Run Imovirtual Data Pipeline
         run: |
-          python imovirtual_main.py
+          python dags/idealista_dag.py
