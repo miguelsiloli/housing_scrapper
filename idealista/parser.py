@@ -6,7 +6,7 @@ import dask.dataframe as dd
 from dask.diagnostics import ProgressBar
 from datetime import datetime
 from typing import List, Generator, Dict, Optional
-from data_validation import schema
+from idealista.data_validation import schema
 import numpy as np
 import boto3
 from io import BytesIO
