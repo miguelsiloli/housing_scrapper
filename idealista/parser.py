@@ -14,6 +14,10 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 from lxml import html
+from b2sdk.v2 import B2Api, InMemoryAccountInfo
+from dotenv import load_dotenv
+
+load_dotenv()
 
 async def read_html_files_async(directory_path):
     """
@@ -218,10 +222,16 @@ def main_function(parsing_function: callable, s3_object:  object, source_directo
         # maybe it would be easier to pass args as list/dict
         # bucket name cannot contain underscores
         if upload_to_s3:
-            upload_df_to_s3_as_parquet(df = merged_df,
-                                    bucket = "miguelsiloli-projects-s3",
-                                    file_name = filename,
-                                    s3_client = s3_object)
+            upload_df_to_b2_as_parquet(df = merged_df,
+                                       bucket_name = "housing",
+                                       file_name = filename,
+                                       b2_key_id=os.environ["B2_KEY_ID"],
+                                       b2_application_key=os.environ["B2_APPLICATION_KEY"])
+            
+            # upload_df_to_s3_as_parquet(df = merged_df,
+            #                         bucket = "miguelsiloli-projects-s3",
+            #                         file_name = filename,
+            #                         s3_client = s3_object)
         
 def convert_timestamp_to_date(timestamp):
     # Convert timestamp to datetime
@@ -229,6 +239,51 @@ def convert_timestamp_to_date(timestamp):
     # Format datetime as 'dd-mm-yyyy'
     formatted_date = date_object.strftime('%d-%m-%Y')
     return formatted_date
+
+def upload_df_to_b2_as_parquet(df, bucket_name, file_name, b2_key_id, b2_application_key):
+    """
+    Uploads a DataFrame to a Backblaze B2 bucket as a Parquet file.
+
+    Parameters:
+    df (pd.DataFrame): DataFrame to upload
+    bucket_name (str): B2 bucket name
+    file_name (str): Desired name for the file in B2
+    b2_key_id (str): Backblaze B2 key ID
+    b2_application_key (str): Backblaze B2 application key
+
+    Returns:
+    bool: True if upload was successful
+
+    Raises:
+    Exception: If authorization or upload fails
+    """
+    try:
+        # Convert DataFrame to Parquet using BytesIO as an intermediate buffer
+        buffer = BytesIO()
+        df.to_parquet(buffer, index=False, engine='pyarrow')
+        buffer.seek(0)
+
+        # Initialize B2 API
+        info = InMemoryAccountInfo()
+        b2_api = B2Api(info)
+        b2_api.authorize_account("production", b2_key_id, b2_application_key)
+        
+        # Get bucket
+        bucket = b2_api.get_bucket_by_name(bucket_name)
+        
+        # Upload the file
+        bucket.upload_bytes(
+            data_bytes=buffer.getvalue(),
+            file_name=file_name,
+            file_info={'Content-Type': 'application/parquet'}
+        )
+        
+        print(f"File uploaded successfully to B2 bucket '{bucket_name}' as '{file_name}'")
+        return True
+        
+    except Exception as e:
+        print(f"Error uploading file to B2: {str(e)}")
+        raise
 
 def upload_df_to_s3_as_parquet(df, bucket, file_name, s3_client):
     """
